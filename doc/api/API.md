@@ -42,12 +42,12 @@ API ключ создается в веб-интерфейсе мастера т
 
 ## Привилегированный API
 
-- [get-submit](API:priv:get-submit.md)
-- [submit-run](API:priv:submit-run.md)
-- [submit-run-input](API:priv:submit-run-input.md)
-- [get-user](API:priv:get-user.md)
+- [get-submit](priv/get-submit.md)
+- [submit-run](priv/submit-run.md)
+- [submit-run-input](priv/submit-run-input.md)
+- [get-user](priv/get-user.md)
 
 ## Непривилегированный API
 
-- [get-submit](API:unpriv:get-submit.md)
-- [submit-run-input](API:unpriv:submit-run-input.md)
+- [get-submit](unpriv/get-submit.md)
+- [submit-run-input](unpriv/submit-run-input.md)
