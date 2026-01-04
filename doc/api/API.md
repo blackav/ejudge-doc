@@ -1,5 +1,4 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Использование](Использование "wikilink")/[API](API "wikilink")
+Навигация: [Главная страница](../Main_Page.md)/[Система ejudge](../Система_ejudge.md)/[Использование](../Использование.md)/[API](API.md)
 
 ## Аутентификация
 
@@ -43,12 +42,12 @@ API ключ создается в веб-интерфейсе мастера т
 
 ## Привилегированный API
 
-- [`get-submit`](API:priv:get-submit "wikilink")
-- [`submit-run`](API:priv:submit-run "wikilink")
-- [`submit-run-input`](API:priv:submit-run-input "wikilink")
-- [`get-user`](API:priv:get-user "wikilink")
+- [get-submit](API:priv:get-submit.md)
+- [submit-run](API:priv:submit-run.md)
+- [submit-run-input](API:priv:submit-run-input.md)
+- [get-user](API:priv:get-user.md)
 
 ## Непривилегированный API
 
-- [`get-submit`](API:unpriv:get-submit "wikilink")
-- [`submit-run-input`](API:unpriv:submit-run-input "wikilink")
+- [get-submit](API:unpriv:get-submit.md)
+- [submit-run-input](API:unpriv:submit-run-input.md)
