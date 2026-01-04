@@ -1,7 +1,7 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Разработка](Разработка "wikilink")/[Схема
-БД пользователей](Схема_БД_пользователей "wikilink")/[Таблица
-logins](userdb:logins "wikilink")
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Разработка](Разработка.md)/[Схема
+БД пользователей](Схема_БД_пользователей.md)/[Таблица
+logins](userdb:logins.md)
 
 `CREATE TABLE logins`  
 `       (user_id INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY, // идентификатор пользователя > 0`  

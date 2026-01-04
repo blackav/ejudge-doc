@@ -1,3 +1,3 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Использование](Использование "wikilink")/[API](API "wikilink")/[get-submit
-(непривилегированный)](API:unpriv:get-submit "wikilink")
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Использование](Использование.md)/[API](API.md)/[get-submit
+(непривилегированный)](API:unpriv:get-submit.md)

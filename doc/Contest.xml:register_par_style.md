@@ -1,11 +1,11 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Использование](Использование "wikilink")/[Конфигурационные
-файлы](Конфигурационные_файлы "wikilink")/[contest.xml](contest.xml "wikilink")/[register_par_style](contest.xml:register_par_style "wikilink")
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
+файлы](Конфигурационные_файлы.md)/[contest.xml](contest.xml.md)/[register_par_style](contest.xml:register_par_style.md)
 
 |                            |                                             |
 |----------------------------|---------------------------------------------|
 | **Имя элемента**:          | **`register_par_style`**                    |
-| **Содержится в:**          | [`contest`](contest.xml:contest "wikilink") |
+| **Содержится в:**          | [`contest`](contest.xml:contest.md) |
 | **Может содержать:**       | *нет*                                       |
 | **Атрибуты:**              | *нет*                                       |
 | **Тип содержимого:**       | строка                                      |
@@ -37,4 +37,4 @@ html-страницах, генерируемых программой `register
 атрибут `class` слились в одно слово `pclass`.
 
 Значение элемента игнорируется начиная с [версии
-3.0](Изменения_в_версии_3.0 "wikilink").
+3.0](Изменения_в_версии_3.0.md).

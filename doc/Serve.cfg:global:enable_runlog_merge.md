@@ -1,13 +1,13 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Использование](Использование "wikilink")/[Конфигурационные
-файлы](Конфигурационные_файлы "wikilink")/[serve.cfg](serve.cfg "wikilink")/[Глобальные
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
+файлы](Конфигурационные_файлы.md)/[serve.cfg](serve.cfg.md)/[Глобальные
 конфигурационные
-параметры](serve.cfg:global "wikilink")/[`enable_runlog_merge`](Serve.cfg:global:enable_runlog_merge "wikilink")
+параметры](serve.cfg:global.md)/[`enable_runlog_merge`](Serve.cfg:global:enable_runlog_merge.md)
 
 |                            |                                         |     |
 |----------------------------|-----------------------------------------|-----|
 | **Имя переменной**:        | **`enable_runlog_merge`**               |     |
-| **Содержится в:**          | [`global`](serve.cfg:global "wikilink") |     |
+| **Содержится в:**          | [`global`](serve.cfg:global.md) |     |
 | **Используется:**          | `serve`                                 |     |
 | **Тип содержимого:**       | *boolean*                               |     |
 | **Может отсутствовать:**   | *да*                                    |     |

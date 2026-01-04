@@ -1,8 +1,8 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Использование](Использование "wikilink")/[Конфигурационные
-файлы](Конфигурационные_файлы "wikilink")/[serve.cfg](serve.cfg "wikilink")/[Конфигурационные
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
+файлы](Конфигурационные_файлы.md)/[serve.cfg](serve.cfg.md)/[Конфигурационные
 параметры
-задач](serve.cfg:problem "wikilink")/[`test_pat`](serve.cfg:problem:test_pat "wikilink")
+задач](serve.cfg:problem.md)/[`test_pat`](serve.cfg:problem:test_pat.md)
 
 **Редактирование элемента:** страница *"Editing contest"*, вкладка
 *"Problems (serve.cfg)"*, блок *"Abstract problems"*, поле *"Pattern for
@@ -29,12 +29,12 @@ contest"*, вкладка *"Problems (serve.cfg)"*, блок *"Concrete problems
 ...
 
 Значение конфигурационной переменной
-[`test_pat`](serve.cfg:problem:test_pat "wikilink") может определяться в
+[`test_pat`](serve.cfg:problem:test_pat.md) может определяться в
 абстрактной задаче, в этом случае все конкретные задачи, относящиеся к
 этой абстрактной задаче, унаследуют значение.
 
 Если в конфигурации задачи определены и конфигурационная переменная
-[`test_pat`](serve.cfg:problem:test_pat "wikilink"), и конфигурационная
-переменная [`test_sfx`](serve.cfg:problem:test_sfx "wikilink"),
+[`test_pat`](serve.cfg:problem:test_pat.md), и конфигурационная
+переменная [`test_sfx`](serve.cfg:problem:test_sfx.md),
 используется значение переменной
-[`test_pat`](serve.cfg:problem:test_pat "wikilink").
+[`test_pat`](serve.cfg:problem:test_pat.md).

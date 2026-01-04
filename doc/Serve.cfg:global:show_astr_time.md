@@ -1,13 +1,13 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Использование](Использование "wikilink")/[Конфигурационные
-файлы](Конфигурационные_файлы "wikilink")/[serve.cfg](serve.cfg "wikilink")/[Глобальные
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
+файлы](Конфигурационные_файлы.md)/[serve.cfg](serve.cfg.md)/[Глобальные
 конфигурационные
-параметры](serve.cfg:global "wikilink")/[`show_astr_time`](Serve.cfg:global:show_astr_time "wikilink")
+параметры](serve.cfg:global.md)/[`show_astr_time`](Serve.cfg:global:show_astr_time.md)
 
 |                            |                                         |     |
 |----------------------------|-----------------------------------------|-----|
 | **Имя переменной**:        | **`show_astr_time`**                    |     |
-| **Содержится в:**          | [`global`](serve.cfg:global "wikilink") |     |
+| **Содержится в:**          | [`global`](serve.cfg:global.md) |     |
 | **Используется:**          | `serve`                                 |     |
 | **Тип содержимого:**       | *boolean*                               |     |
 | **Может отсутствовать:**   | *да*                                    |     |
@@ -25,7 +25,7 @@ astronomic time instead of relative time"*.
 конфигурационная переменная предназначена в первую очередь для
 использования в турнирах, продолжительность которых не ограничена (см.
 конфигурационную переменную
-[`contest_time`](serve.cfg:global:contest_time "wikilink")).
+[`contest_time`](serve.cfg:global:contest_time.md)).
 
 **Пример.**
 

@@ -1,13 +1,13 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Использование](Использование "wikilink")/[Конфигурационные
-файлы](Конфигурационные_файлы "wikilink")/[serve.cfg](serve.cfg "wikilink")/[Конфигурационные
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
+файлы](Конфигурационные_файлы.md)/[serve.cfg](serve.cfg.md)/[Конфигурационные
 параметры
-задач](serve.cfg:problem "wikilink")/[team_enable_rep_view](serve.cfg:problem:team_enable_rep_view "wikilink")
+задач](serve.cfg:problem.md)/[team_enable_rep_view](serve.cfg:problem:team_enable_rep_view.md)
 
 |                            |                                           |
 |----------------------------|-------------------------------------------|
 | **Имя переменной**:        | **`team_enable_rep_view`**                |
-| **Содержится в:**          | [`problem`](serve.cfg:problem "wikilink") |
+| **Содержится в:**          | [`problem`](serve.cfg:problem.md) |
 | **Используется:**          | `run`                                     |
 | **Тип содержимого:**       | *boolean*                                 |
 | **Может отсутствовать:**   | *да*                                      |
@@ -38,7 +38,7 @@ may view testing protocol"*.
 2.  Если после предыдущего шага значение данной переменной всё ещё не
     определено, используется значение глобальной конфигурационной
     переменной
-    [`team_enable_rep_view`](serve.cfg:global:team_enable_rep_view "wikilink"),
+    [`team_enable_rep_view`](serve.cfg:global:team_enable_rep_view.md),
     если оно определено.
 3.  Если после предыдущего шага значение данной переменной всё ещё не
     определено,используется значение по умолчанию *false*.

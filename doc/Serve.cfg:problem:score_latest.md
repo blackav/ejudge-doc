@@ -1,8 +1,8 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Использование](Использование "wikilink")/[Конфигурационные
-файлы](Конфигурационные_файлы "wikilink")/[serve.cfg](serve.cfg "wikilink")/[Конфигурационные
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
+файлы](Конфигурационные_файлы.md)/[serve.cfg](serve.cfg.md)/[Конфигурационные
 параметры
-задач](serve.cfg:problem "wikilink")/[`score_latest`](serve.cfg:problem:score_latest "wikilink")
+задач](serve.cfg:problem.md)/[`score_latest`](serve.cfg:problem:score_latest.md)
 
 Если данная переменная установлена в ненулевое значение, то в турнире по
 системе *KIROV* вклад в общий результат участника будет давать последняя

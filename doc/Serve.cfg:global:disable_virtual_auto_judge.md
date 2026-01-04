@@ -1,8 +1,8 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Использование](Использование "wikilink")/[Конфигурационные
-файлы](Конфигурационные_файлы "wikilink")/[serve.cfg](serve.cfg "wikilink")/[Глобальные
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
+файлы](Конфигурационные_файлы.md)/[serve.cfg](serve.cfg.md)/[Глобальные
 конфигурационные
-параметры](serve.cfg:global "wikilink")/[`disable_virtual_auto_judge`](Serve.cfg:global:disable_virtual_auto_judge "wikilink")
+параметры](serve.cfg:global.md)/[`disable_virtual_auto_judge`](Serve.cfg:global:disable_virtual_auto_judge.md)
 
 Переменная действует только для виртуальных турниров по системе
 *OLYMPIAD*. Если значение переменной не равно 0, то сразу после

@@ -1,7 +1,7 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Проверяющие
-программы](Проверяющие_программы "wikilink")/[libchecker](libchecker "wikilink")/[Глобальные
-пеменные](libchecker:Глобальные_переменные "wikilink")/[file_index](libchecker:file_index "wikilink")
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Проверяющие
+программы](Проверяющие_программы.md)/[libchecker](libchecker.md)/[Глобальные
+пеменные](libchecker:Глобальные_переменные.md)/[file_index](libchecker:file_index.md)
 
 Индекс файла — это целое значение от 0 до 2, которое является индексом в
 массив f_arr трех дескрипторов потока проверяющей программы.

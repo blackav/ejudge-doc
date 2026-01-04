@@ -1,7 +1,7 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Разработка](Разработка "wikilink")/[Схема
-БД пользователей](Схема_БД_пользователей "wikilink")/[Таблица
-groups](userdb:groups "wikilink")
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Разработка](Разработка.md)/[Схема
+БД пользователей](Схема_БД_пользователей.md)/[Таблица
+groups](userdb:groups.md)
 
 `` CREATE TABLE `groups` ``  
 ``  (`group_id` int(11) NOT NULL AUTO_INCREMENT,    //идентификатор группы ``  

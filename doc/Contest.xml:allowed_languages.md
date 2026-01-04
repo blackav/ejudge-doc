@@ -1,11 +1,11 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Использование](Использование "wikilink")/[Конфигурационные
-файлы](Конфигурационные_файлы "wikilink")/[contest.xml](contest.xml "wikilink")/[allowed_languages](contest.xml:allowed_languages "wikilink")
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
+файлы](Конфигурационные_файлы.md)/[contest.xml](contest.xml.md)/[allowed_languages](contest.xml:allowed_languages.md)
 
 |                          |                                              |     |
 |--------------------------|----------------------------------------------|-----|
 | **Имя элемента**:        | **`allowed_languages`**                      |     |
-| **Содержится в:**        | [`contest`](contest.xml:contest "wikilink")  |     |
+| **Содержится в:**        | [`contest`](contest.xml:contest.md)  |     |
 | **Может содержать:**     | *нет*                                        |     |
 | **Атрибуты:**            | *нет*                                        |     |
 | **Тип содержимого:**     | Список поддерживаемых языков/сред разработки |     |
@@ -19,9 +19,9 @@ CGI-programs"*, поле *"Allowed programming languages"*.
 **Описание.** Значение элемента позволяет ограничить языки и среды
 программирования, которые пользователи могут указывать при регистрации
 на турнир. Элемент `allowed_languages` используется, только если поле
-[`languages`](contest.xml:languages "wikilink") указано среди
+[`languages`](contest.xml:languages.md) указано среди
 разрешенных полей глобальной информации об участнике, задаваемых
-элементом [`field`](contest.xml:field "wikilink").
+элементом [`field`](contest.xml:field.md).
 
 Если элемент `allowed_languages` не задан, поле ‘Programming languages’
 регистрационной формы по будет обычной строкой ввода, в которой

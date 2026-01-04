@@ -1,8 +1,8 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Использование](Использование "wikilink")/[Конфигурационные
-файлы](Конфигурационные_файлы "wikilink")/[serve.cfg](serve.cfg "wikilink")/[Конфигурационные
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
+файлы](Конфигурационные_файлы.md)/[serve.cfg](serve.cfg.md)/[Конфигурационные
 параметры
-языков](serve.cfg:language "wikilink")/[`enable_network`](Serve.cfg:language:enable_network "wikilink")
+языков](serve.cfg:language.md)/[`enable_network`](Serve.cfg:language:enable_network.md)
 
 Поддерживается начиная с версии
-[3.13.0](изменения_в_версии_3.13.0 "wikilink").
+[3.13.0](изменения_в_версии_3.13.0.md).

@@ -1,7 +1,7 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Использование](Использование "wikilink")/[Бот
-для telegram](Бот_для_telegram "wikilink")/[Настройка файла
-ejudge.xml](Telegram_bot:_настройка_файла_ejudge.xml "wikilink")
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Бот
+для telegram](Бот_для_telegram.md)/[Настройка файла
+ejudge.xml](Telegram_bot:_настройка_файла_ejudge.xml.md)
 
 Бот для telegram реализован в виде плагина для ejudge и использует базу
 MongoDB для хранения своего состояния.
@@ -37,7 +37,7 @@ MongoDB. Доустановите библиотеки и перекомпили
 `  `</plugins>
 
 Cюда вписывается токен, полученный при [создании
-бота](создание_бота_для_telegram "wikilink").
+бота](создание_бота_для_telegram.md).
 
 Убедитесь, что плагин для telegram был успешно скомпилирован. В каталоге
 `/opt/ejudge/libexec/ejudge/plugins` должен находиться файл

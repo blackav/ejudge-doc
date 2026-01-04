@@ -1,22 +1,22 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Использование](Использование "wikilink")/[Конфигурационные
-файлы](Конфигурационные_файлы "wikilink")/[serve.cfg](serve.cfg "wikilink")/[Глобальные
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
+файлы](Конфигурационные_файлы.md)/[serve.cfg](serve.cfg.md)/[Глобальные
 конфигурационные
-параметры](serve.cfg:global "wikilink")/[`load_user_group`](Serve.cfg:global:load_user_group "wikilink")
+параметры](serve.cfg:global.md)/[`load_user_group`](Serve.cfg:global:load_user_group.md)
 
 **Редактирование элемента:** страница *"Editing contest"*, вкладка
 *"Global settings (serve.cfg)"*, блок *"Advanced settings"*, поле *"User
 groups to load"*.
 
 С помощью данной конфигурационной переменной указываются [группы
-пользователей](группа_пользователей "wikilink"), информацию о которых
+пользователей](группа_пользователей.md), информацию о которых
 необходимо загрузить в данном турнире. Только загруженные группы могут
 использоваться в предикате `inusergroup` выражения фильтра для
 фильтрации посылок или отображения таблицы текущих результатов, а также
 в групповых ограничениях времени на сдачу задач, задаваемых с помощью
 конфигурационных переменных
-[`group_start_date`](Serve.cfg:problem:group_start_date "wikilink") и
-[`group_deadline`](Serve.cfg:problem:group_deadline "wikilink").
+[`group_start_date`](Serve.cfg:problem:group_start_date.md) и
+[`group_deadline`](Serve.cfg:problem:group_deadline.md).
 
 Информация о группах загружается в момент загрузки турнира и не
 обновляется автоматически. Если, например, изменился состав группы

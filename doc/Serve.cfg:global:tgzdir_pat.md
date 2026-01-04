@@ -1,21 +1,21 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Использование](Использование "wikilink")/[Конфигурационные
-файлы](Конфигурационные_файлы "wikilink")/[serve.cfg](serve.cfg "wikilink")/[Глобальные
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
+файлы](Конфигурационные_файлы.md)/[serve.cfg](serve.cfg.md)/[Глобальные
 конфигурационные
-параметры](serve.cfg:global "wikilink")/[`tgzdir_pat`](Serve.cfg:global:tgzdir_pat "wikilink")
+параметры](serve.cfg:global.md)/[`tgzdir_pat`](Serve.cfg:global:tgzdir_pat.md)
 
 Данная глобальная конфигурационная переменная задает шаблон имен
 эталонных рабочих каталогов для тестируемых программ. Шаблон
 используется, если ни в абстрактной, ни в конкретной задаче не
 определена конфигурационная переменная задачи
-[`tgzdir_pat`](Serve.cfg:problem:tgzdir_pat "wikilink").
+[`tgzdir_pat`](Serve.cfg:problem:tgzdir_pat.md).
 
 Если ни глобальная конфигурационная переменная
-[`tgzdir_pat`](Serve.cfg:global:tgzdir_pat "wikilink"), ни
+[`tgzdir_pat`](Serve.cfg:global:tgzdir_pat.md), ни
 конфигурационные переменные задачи
-[`tgzdir_pat`](Serve.cfg:problem:tgzdir_pat "wikilink") не определены,
+[`tgzdir_pat`](Serve.cfg:problem:tgzdir_pat.md) не определены,
 то используются конфигурационные переменные, задающие суффикс имен
 эталонных рабочих каталогов
-[`tgzdir_sfx`](Serve.cfg:problem:tgzdir_sfx "wikilink").
+[`tgzdir_sfx`](Serve.cfg:problem:tgzdir_sfx.md).
 
 Поддерживается с версии 2.3.20.

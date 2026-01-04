@@ -1,1 +1,1 @@
-1.  REDIRECT [Ejudge-contests-cmd](Ejudge-contests-cmd "wikilink")
+1.  REDIRECT [Ejudge-contests-cmd](Ejudge-contests-cmd.md)

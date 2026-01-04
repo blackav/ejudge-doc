@@ -1,7 +1,7 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Разработка](Разработка "wikilink")/[Схема
-БД пользователей](Схема_БД_пользователей "wikilink")/[Таблица
-users](userdb:users "wikilink")
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Разработка](Разработка.md)/[Схема
+БД пользователей](Схема_БД_пользователей.md)/[Таблица
+users](userdb:users.md)
 
 `CREATE TABLE users`  
 `       (user_id INT UNSIGNED NOT NULL,                 // идентификатор пользователя`  
@@ -50,5 +50,5 @@ users](userdb:users "wikilink")
 `       field8 VARCHAR(512),`  
 `       field9 VARCHAR(512),`  
 `       PRIMARY KEY (user_id, contest_id),`  
-`       FOREIGN KEY (user_id) REFERENCES `[`logins`](userdb:logins "wikilink")` (user_id)`  
+`       FOREIGN KEY (user_id) REFERENCES `[`logins`](userdb:logins.md)` (user_id)`  
 `       );`

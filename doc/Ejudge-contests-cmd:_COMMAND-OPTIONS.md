@@ -1,7 +1,7 @@
-Навигация: [Система ejudge](Система_ejudge "wikilink") /
-[Использование](Использование "wikilink") / [Использование из командной
-строки](Использование_из_командной_строки "wikilink") /
-[ejudge-contests-cmd](ejudge-contests-cmd "wikilink")/[COMMAND-OPTIONS](Ejudge-contests-cmd:_COMMAND-OPTIONS "wikilink")
+Навигация: [Система ejudge](Система_ejudge.md) /
+[Использование](Использование.md) / [Использование из командной
+строки](Использование_из_командной_строки.md) /
+[ejudge-contests-cmd](ejudge-contests-cmd.md)/[COMMAND-OPTIONS](Ejudge-contests-cmd:_COMMAND-OPTIONS.md)
 
 Опции команд позволяют изменить некоторые второстепенные параметры
 выполнения команд. Опции команд общие для всех поддерживаемых команд.

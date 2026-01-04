@@ -1,13 +1,13 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Использование](Использование "wikilink")/[Конфигурационные
-файлы](Конфигурационные_файлы "wikilink")/[serve.cfg](serve.cfg "wikilink")/[Конфигурационные
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
+файлы](Конфигурационные_файлы.md)/[serve.cfg](serve.cfg.md)/[Конфигурационные
 параметры
-языков](serve.cfg:language "wikilink")/[disabled](Serve.cfg:language:disabled "wikilink")
+языков](serve.cfg:language.md)/[disabled](Serve.cfg:language:disabled.md)
 
 |                            |                                             |
 |----------------------------|---------------------------------------------|
 | **Имя переменной**:        | **`disabled`**                              |
-| **Содержится в:**          | [`language`](serve.cfg:language "wikilink") |
+| **Содержится в:**          | [`language`](serve.cfg:language.md) |
 | **Используется:**          | `serve`                                     |
 | **Тип содержимого:**       | *boolean*                                   |
 | **Может отсутствовать:**   | *да*                                        |

@@ -1,11 +1,11 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Проверяющие
-программы](Проверяющие_программы "wikilink")/[libchecker](libchecker "wikilink")/[Функции](Libchecker:Функции "wikilink")/[Чтение
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Проверяющие
+программы](Проверяющие_программы.md)/[libchecker](libchecker.md)/[Функции](Libchecker:Функции.md)/[Чтение
 файла как
-текста](Libchecker:Чтение_файла_как_текста "wikilink")/[checker_read_file_by_line_f](Libchecker:checker_read_file_by_line_f "wikilink")
+текста](Libchecker:Чтение_файла_как_текста.md)/[checker_read_file_by_line_f](Libchecker:checker_read_file_by_line_f.md)
 
 Функция `checker_read_file_by_line` — построчное чтение [текстового
-файла](текстовый_файл "wikilink") в память.
+файла](текстовый_файл.md) в память.
 
 `void checker_read_file_by_line(FILE *f, char ***out_lines, size_t *out_lines_num);`
 
@@ -23,10 +23,10 @@ ejudge](Система_ejudge "wikilink")/[Проверяющие
 Функция не предназначена для работы с бинарными файлами.
 
 Память для содержимого файла выделяется на куче с помощью функций
-[xmalloc](libchecker:xmalloc "wikilink"),
-[xcalloc](libchecker:xcalloc "wikilink") и
-[xrealloc](libchecker:xrealloc "wikilink").
+[xmalloc](libchecker:xmalloc.md),
+[xcalloc](libchecker:xcalloc.md) и
+[xrealloc](libchecker:xrealloc.md).
 
 Функция не возвращает никакого значения. Если при чтении произошла
 ошибка ввода, программа завершается, и диагностируется [внутренняя
-ошибка проверки](внутренняя_ошибка_проверки "wikilink").
+ошибка проверки](внутренняя_ошибка_проверки.md).

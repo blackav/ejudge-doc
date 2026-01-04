@@ -1,29 +1,29 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Использование](Использование "wikilink")/[Конфигурационные
-файлы](Конфигурационные_файлы "wikilink")/[ejudge.xml](ejudge.xml "wikilink")/[`super_serve_socket`](ejudge.xml:super_serve_socket "wikilink")
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
+файлы](Конфигурационные_файлы.md)/[ejudge.xml](ejudge.xml.md)/[`super_serve_socket`](ejudge.xml:super_serve_socket.md)
 
 |                            |                                                                                      |     |
 |----------------------------|--------------------------------------------------------------------------------------|-----|
 | **Имя элемента**:          | **`super_serve_socket`**                                                             |     |
-| **Содержится в:**          | [`config`](ejudge.xml:config "wikilink")                                             |     |
+| **Содержится в:**          | [`config`](ejudge.xml:config.md)                                             |     |
 | **Может содержать:**       | *нет*                                                                                |     |
 | **Атрибуты:**              | *нет*                                                                                |     |
 | **Тип содержимого:**       | путь к UNIX-сокету                                                                   |     |
-| **Значение по умолчанию:** | задается скриптом [`configure`](configure "wikilink")                                |     |
+| **Значение по умолчанию:** | задается скриптом [`configure`](configure.md)                                |     |
 | **Может отсутствовать:**   | *да*                                                                                 |     |
 | **Может повторяться:**     | *нет*                                                                                |     |
-| **Используется в:**        | [`serve-control`](serve-control "wikilink"), [`super-serve`](super-serve "wikilink") |     |
+| **Используется в:**        | [`serve-control`](serve-control.md), [`super-serve`](super-serve.md) |     |
 | **Примечание:**            | явное использование не рекомендуется                                                 |     |
 
 **Описание.** Данный элемент задаёт путь к UNIX-сокету, который
 используется для управ- ления программой
-[`super-serve`](super-serve "wikilink"). Этот сокет используется
-CGI-программой [`serve-control`](serve-control "wikilink") для пересылки
+[`super-serve`](super-serve.md). Этот сокет используется
+CGI-программой [`serve-control`](serve-control.md) для пересылки
 команд и получения сгенерированных HTML-страниц.
 
 Путь к управляющему сокету рекомендуется указывать при компиляции
 системы ejudge с помощью опции `--enable-super-serve-socket` скрипта
-[`configure`](configure "wikilink"). Таким образом указанный путь станет
+[`configure`](configure.md). Таким образом указанный путь станет
 путём по умолчанию и может не указываться явно в конфигурационных
 файлах. Поэтому явное использование тега `super_serve_socket` не
 рекомендуется.

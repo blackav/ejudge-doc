@@ -1,6 +1,6 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Использование](Использование "wikilink")/[Конфигурационные
-файлы](Конфигурационные_файлы "wikilink")/[ejudge.xml](ejudge.xml "wikilink")/[`caps_file`](ejudge.xml:caps_file "wikilink")
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
+файлы](Конфигурационные_файлы.md)/[ejudge.xml](ejudge.xml.md)/[`caps_file`](ejudge.xml:caps_file.md)
 
 Данный элемент позволяет задать имя XML-файла, содержащего информацию о
 глобальных полномочиях пользователей. Если этот файл изменился, то его
@@ -17,15 +17,15 @@ ejudge](Система_ejudge "wikilink")/[Использование](Испо�
 
 Файл capabilities.xml должен содержать корневой элемент `<config>`, в
 который вложены элементы
-`<`[`user_map`](ejudge.xml:user_map "wikilink")`>` и
-`<`[`caps`](ejudge.xml:caps "wikilink")`>`.
+`<`[`user_map`](ejudge.xml:user_map.md)`>` и
+`<`[`caps`](ejudge.xml:caps.md)`>`.
 
 `<config>`  
-`  <`[`user_map`](ejudge.xml:user_map "wikilink")`>`  
-`    <`[`map`](ejudge.xml:map "wikilink")` system_user="user1" local_user="user1" />`  
+`  <`[`user_map`](ejudge.xml:user_map.md)`>`  
+`    <`[`map`](ejudge.xml:map.md)` system_user="user1" local_user="user1" />`  
 `  </user_map>`  
-`  <`[`caps`](ejudge.xml:caps "wikilink")`>`  
-`    <`[`cap`](ejudge.xml:cap "wikilink")` login="user1">`  
+`  <`[`caps`](ejudge.xml:caps.md)`>`  
+`    <`[`cap`](ejudge.xml:cap.md)` login="user1">`  
 `      MASTER_LOGIN,JUDGE_LOGIN,LIST_USERS,CREATE_USER,GET_USER,`  
 `      EDIT_USER,DELETE_USER,PRIV_EDIT_USER,PRIV_DELETE_USER,`  
 `      EDIT_CONTEST,DUMP_USERS,EDIT_PASSWD,PRIV_EDIT_PASSWD,`  

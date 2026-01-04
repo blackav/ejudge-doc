@@ -1,2 +1,2 @@
 1.  REDIRECT [Ejudge-contests-cmd:
-    unload](Ejudge-contests-cmd:_unload "wikilink")
+    unload](Ejudge-contests-cmd:_unload.md)

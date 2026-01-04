@@ -1,8 +1,8 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Проверяющие
-программы](Проверяющие_программы "wikilink")/[libchecker](libchecker "wikilink")/[Функции](Libchecker:Функции "wikilink")/[Перекодирование
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Проверяющие
+программы](Проверяющие_программы.md)/[libchecker](libchecker.md)/[Функции](Libchecker:Функции.md)/[Перекодирование
 текстовых
-данных](Libchecker:Перекодирование_текстовых_данных "wikilink")/[`checker_strcmp_ucs4`](Libchecker:checker_strcmp_ucs4 "wikilink")
+данных](Libchecker:Перекодирование_текстовых_данных.md)/[`checker_strcmp_ucs4`](Libchecker:checker_strcmp_ucs4.md)
 
 Функция сравнивает две UCS-4 строки.
 
@@ -21,4 +21,4 @@ ejudge](Система_ejudge "wikilink")/[Проверяющие
   второй.
 
 См. также:
-[`checker_strcmp_ucs4_nocase`](libchecker:checker_strcmp_ucs4_nocase "wikilink").
+[`checker_strcmp_ucs4_nocase`](libchecker:checker_strcmp_ucs4_nocase.md).

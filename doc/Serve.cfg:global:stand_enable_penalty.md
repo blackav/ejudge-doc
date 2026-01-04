@@ -1,8 +1,8 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Использование](Использование "wikilink")/[Конфигурационные
-файлы](Конфигурационные_файлы "wikilink")/[serve.cfg](serve.cfg "wikilink")/[Глобальные
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
+файлы](Конфигурационные_файлы.md)/[serve.cfg](serve.cfg.md)/[Глобальные
 конфигурационные
-параметры](serve.cfg:global "wikilink")/[`stand_enable_penalty`](Serve.cfg:global:stand_enable_penalty "wikilink")
+параметры](serve.cfg:global.md)/[`stand_enable_penalty`](Serve.cfg:global:stand_enable_penalty.md)
 
 Переменная работает в турнирах типа *OLYMPIAD*. В этом случае при
 отображении таблицы текущих результатов будт учитываться штрафное время

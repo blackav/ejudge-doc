@@ -1,8 +1,8 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Использование](Использование "wikilink")/[Конфигурационные
-файлы](Конфигурационные_файлы "wikilink")/[serve.cfg](serve.cfg "wikilink")/[Конфигурационные
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
+файлы](Конфигурационные_файлы.md)/[serve.cfg](serve.cfg.md)/[Конфигурационные
 параметры
-задач](serve.cfg:problem "wikilink")/[valuer_env](serve.cfg:problem:valuer_env "wikilink")
+задач](serve.cfg:problem.md)/[valuer_env](serve.cfg:problem:valuer_env.md)
 
 **Редактирование элемента:** страница *"Editing contest"*, вкладка
 *"Problems (serve.cfg)"*, блок *"Concrete problems"*, поле *"Valuer
@@ -10,6 +10,6 @@ environment"*.
 
 Эта переменная позволяет задать значения переменных окружения для
 программы оценивания, заданной переменной
-[`valuer_cmd`](serve.cfg:problem:valuer_cmd "wikilink"). Формат задания
+[`valuer_cmd`](serve.cfg:problem:valuer_cmd.md). Формат задания
 переменных окружения аналогичен переменной
-[`checker_env`](serve.cfg:problem:checker_env "wikilink").
+[`checker_env`](serve.cfg:problem:checker_env.md).

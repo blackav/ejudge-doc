@@ -1,11 +1,11 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Проверяющие
-программы](Проверяющие_программы "wikilink")/[libchecker](libchecker "wikilink")/[Функции](Libchecker:Функции "wikilink")/[Работа
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Проверяющие
+программы](Проверяющие_программы.md)/[libchecker](libchecker.md)/[Функции](Libchecker:Функции.md)/[Работа
 с
-памятью](Libchecker:Работа_с_памятью "wikilink")/[XREALLOC](Libchecker:XREALLOC "wikilink")
+памятью](Libchecker:Работа_с_памятью.md)/[XREALLOC](Libchecker:XREALLOC.md)
 
 Данный макрос — это обертка над функцией выделения памяти
-[xrealloc](Libchecker:xrealloc "wikilink"). Например, если необходимо
+[xrealloc](Libchecker:xrealloc.md). Например, если необходимо
 расширить массив a типа double до n элементов, с использованием xrealloc
 фрагмент кода будет следующим:
 

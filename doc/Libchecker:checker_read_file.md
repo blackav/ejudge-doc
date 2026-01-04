@@ -1,24 +1,24 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Проверяющие
-программы](Проверяющие_программы "wikilink")/[libchecker](libchecker "wikilink")/[Функции](Libchecker:Функции "wikilink")/[Чтение
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Проверяющие
+программы](Проверяющие_программы.md)/[libchecker](libchecker.md)/[Функции](Libchecker:Функции.md)/[Чтение
 файла как
-текста](Libchecker:Чтение_файла_как_текста "wikilink")/[checker_read_file](Libchecker:checker_read_file "wikilink")
+текста](Libchecker:Чтение_файла_как_текста.md)/[checker_read_file](Libchecker:checker_read_file.md)
 
 Функция checker_read_file — считать файл в память целиком.
 
 `void checker_read_file(int ind, char **out, size_t *out_len);`
 
 Функция считывает содержимое файла, задаваемого своим
-[индексом](libchecker:file_index "wikilink") ind в память. В переменную,
+[индексом](libchecker:file_index.md) ind в память. В переменную,
 на которую указывает параметр out_len, будет записан размер считанного
 файла в байтах. В переменную, на которую указывает out, будет записано
 содержимое файла. После содержимого файла всегда дописывается нулевой
-байт, поэтому, если файл [текстовый](текстовый_файл "wikilink"), то с
+байт, поэтому, если файл [текстовый](текстовый_файл.md), то с
 переменной, в которую возвращено его содержимое, можно работать как со
 строкой. Память для содержимого файла выделяется на куче с помощью
-функций [xmalloc](libchecker:xmalloc "wikilink") и
-[xrealloc](libchecker:xrealloc "wikilink").
+функций [xmalloc](libchecker:xmalloc.md) и
+[xrealloc](libchecker:xrealloc.md).
 
 Функция не возвращает никакого значения. Если при чтении произошла
 ошибка ввода, программа завершается, и диагностируется [внутренняя
-ошибка проверки](внутренняя_ошибка_проверки "wikilink").
+ошибка проверки](внутренняя_ошибка_проверки.md).

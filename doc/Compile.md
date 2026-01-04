@@ -1,1 +1,1 @@
-1.  REDIRECT [Ej-compile](Ej-compile "wikilink")
+1.  REDIRECT [Ej-compile](Ej-compile.md)

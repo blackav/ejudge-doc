@@ -1,13 +1,13 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Использование](Использование "wikilink")/[Конфигурационные
-файлы](Конфигурационные_файлы "wikilink")/[serve.cfg](serve.cfg "wikilink")/[Конфигурационные
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
+файлы](Конфигурационные_файлы.md)/[serve.cfg](serve.cfg.md)/[Конфигурационные
 параметры
-задач](serve.cfg:problem "wikilink")/[disable_auto_testing](serve.cfg:problem:disable_auto_testing "wikilink")
+задач](serve.cfg:problem.md)/[disable_auto_testing](serve.cfg:problem:disable_auto_testing.md)
 
 |                          |                                           |
 |--------------------------|-------------------------------------------|
 | **Имя переменной**:      | **`disable_auto_testing`**                |
-| **Содержится в:**        | [`problem`](serve.cfg:problem "wikilink") |
+| **Содержится в:**        | [`problem`](serve.cfg:problem.md) |
 | **Используется:**        | `serve`                                   |
 | **Тип содержимого:**     | *boolean*                                 |
 | **Может отсутствовать:** | *да*                                      |
@@ -33,7 +33,7 @@ automatic testing of submissions"*, либо страница *"Editing contest"
 из описания абстрактной задачи. Если после этого значение данной
 переменной всё равно не определено, используется значение глобальной
 конфигурационной переменной
-[`disable_auto_testing`](serve.cfg:global:disable_auto_testing "wikilink").
+[`disable_auto_testing`](serve.cfg:global:disable_auto_testing.md).
 
 **Пример.**
 

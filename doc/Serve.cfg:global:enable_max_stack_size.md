@@ -1,8 +1,8 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Использование](Использование "wikilink")/[Конфигурационные
-файлы](Конфигурационные_файлы "wikilink")/[serve.cfg](serve.cfg "wikilink")/[Глобальные
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
+файлы](Конфигурационные_файлы.md)/[serve.cfg](serve.cfg.md)/[Глобальные
 конфигурационные
-параметры](serve.cfg:global "wikilink")/[`enable_max_stack_size`](Serve.cfg:global:enable_max_stack_size "wikilink")
+параметры](serve.cfg:global.md)/[`enable_max_stack_size`](Serve.cfg:global:enable_max_stack_size.md)
 
 **Редактирование элемента:** страница *"Editing contest"*, вкладка
 *"Global settings (serve.cfg)"*, поле *"Assume max_stack_size ==
@@ -11,10 +11,10 @@ max_vm_size"*.
 Если данная глобальная конфигурационная переменная установлена в
 положительное значение, и если в конфигурации задачи не установлено
 явное ограничение на размер стека с помощью
-[`max_stack_size`](serve.cfg:problem:max_stack_size "wikilink"), то
+[`max_stack_size`](serve.cfg:problem:max_stack_size.md), то
 ограничение размера стека полагается равным ограничению размера
 виртуальной памяти, установленному с помощью
-[`max_vm_size`](serve.cfg:problem:max_vm_size "wikilink").
+[`max_vm_size`](serve.cfg:problem:max_vm_size.md).
 
 Если данная глобальная конфигурационная переменная не установлена, то
 ограничение размера стека должно устанавливаться явно, так как в
@@ -22,4 +22,4 @@ max_vm_size"*.
 стека (по умолчанию 8 MiB).
 
 Данная конфигурационная переменная поддерживается, начиная с версии
-[2.3.23](изменения_в_версии_2.3.23 "wikilink").
+[2.3.23](изменения_в_версии_2.3.23.md).

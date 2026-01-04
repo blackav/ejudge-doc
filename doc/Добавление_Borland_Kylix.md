@@ -1,6 +1,6 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Инсталляция](Инсталляция "wikilink")/[Добавление
-Borland Kylix](Добавление_Borland_Kylix "wikilink")
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Инсталляция](Инсталляция.md)/[Добавление
+Borland Kylix](Добавление_Borland_Kylix.md)
 
 Использование Borland Kylix не рекомендуется, так как этот продукт не
 развивается и не поддерживается. Вместо него используйте Free Pascal,

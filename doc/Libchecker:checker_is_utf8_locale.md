@@ -1,8 +1,8 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Проверяющие
-программы](Проверяющие_программы "wikilink")/[libchecker](libchecker "wikilink")/[Функции](Libchecker:Функции "wikilink")/[Перекодирование
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Проверяющие
+программы](Проверяющие_программы.md)/[libchecker](libchecker.md)/[Функции](Libchecker:Функции.md)/[Перекодирование
 текстовых
-данных](Libchecker:Перекодирование_текстовых_данных "wikilink")/[`checker_is_utf8_locale`](libchecker:checker_is_utf8_locale "wikilink")
+данных](Libchecker:Перекодирование_текстовых_данных.md)/[`checker_is_utf8_locale`](libchecker:checker_is_utf8_locale.md)
 
 Проверить, что проверяющая программа работает в системной локали с
 кодировкой UTF-8.

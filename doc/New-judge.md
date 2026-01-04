@@ -1,1 +1,1 @@
-1.  REDIRECT [new-client](new-client "wikilink")
+1.  REDIRECT [new-client](new-client.md)

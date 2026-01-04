@@ -1,7 +1,7 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Разработка](Разработка "wikilink")/[Схема
-БД пользователей](Схема_БД_пользователей "wikilink")/[Таблица
-groupmembers](userdb:groupmembers "wikilink")
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Разработка](Разработка.md)/[Схема
+БД пользователей](Схема_БД_пользователей.md)/[Таблица
+groupmembers](userdb:groupmembers.md)
 
 CREATE TABLE \`groupmembers\`
 

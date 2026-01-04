@@ -1,16 +1,16 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Проверяющие
-программы](Проверяющие_программы "wikilink")/[libchecker](libchecker "wikilink")/[Функции](Libchecker:Функции "wikilink")/[Чтение
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Проверяющие
+программы](Проверяющие_программы.md)/[libchecker](libchecker.md)/[Функции](Libchecker:Функции.md)/[Чтение
 файла как
-текста](Libchecker:Чтение_файла_как_текста "wikilink")/[checker_normalize_spaces_in_file](Libchecker:checker_normalize_spaces_in_file "wikilink")
+текста](Libchecker:Чтение_файла_как_текста.md)/[checker_normalize_spaces_in_file](Libchecker:checker_normalize_spaces_in_file.md)
 
 Функция `checker_normalize_file` — удалить повторяющиеся пробельные
 символы из считанного в память [текстового
-файла](текстовый_файл "wikilink").
+файла](текстовый_файл.md).
 
 `void checker_normalize_spaces_in_file(char **lines, size_t *lines_num);`
 
-Функция удаляет [пробельные символы](пробельный_символ "wikilink"),
+Функция удаляет [пробельные символы](пробельный_символ.md),
 находящиеся в началах и на концах строк. Последовательность из
 нескольких пробельных символов в середине строки заменяется на один
 символ пробела. Затем удаляются пустые строки. Параметр `lines` — это
@@ -21,5 +21,5 @@ ejudge](Система_ejudge "wikilink")/[Проверяющие
 этой переменной может измениться.
 
 См. также:
-[checker_normalize_file](libchecker:checker_normalize_file "wikilink"),[checker_read_file_by_line](libchecker:checker_read_file_by_line "wikilink"),
-[checker_read_file_by_line_f](libchecker:checker_read_file_by_line_f "wikilink").
+[checker_normalize_file](libchecker:checker_normalize_file.md),[checker_read_file_by_line](libchecker:checker_read_file_by_line.md),
+[checker_read_file_by_line_f](libchecker:checker_read_file_by_line_f.md).

@@ -1,8 +1,8 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Использование](Использование "wikilink")/[Конфигурационные
-файлы](Конфигурационные_файлы "wikilink")/[serve.cfg](serve.cfg "wikilink")/[Конфигурационные
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
+файлы](Конфигурационные_файлы.md)/[serve.cfg](serve.cfg.md)/[Конфигурационные
 параметры
-языков](serve.cfg:language "wikilink")/[disable_security](Serve.cfg:language:disable_security "wikilink")
+языков](serve.cfg:language.md)/[disable_security](Serve.cfg:language:disable_security.md)
 
 Если данная переменная установлена в 1, то для посылок на этом языке
 программирования отключаются ограничения безопасности.

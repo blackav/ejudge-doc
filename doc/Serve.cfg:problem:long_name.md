@@ -1,13 +1,13 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Использование](Использование "wikilink")/[Конфигурационные
-файлы](Конфигурационные_файлы "wikilink")/[serve.cfg](serve.cfg "wikilink")/[Конфигурационные
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
+файлы](Конфигурационные_файлы.md)/[serve.cfg](serve.cfg.md)/[Конфигурационные
 параметры
-задач](serve.cfg:problem "wikilink")/[long_name](serve.cfg:problem:long_name "wikilink")
+задач](serve.cfg:problem.md)/[long_name](serve.cfg:problem:long_name.md)
 
 |                          |                                           |     |
 |--------------------------|-------------------------------------------|-----|
 | **Имя переменной**:      | **`long_name`**                           |     |
-| **Содержится в:**        | [`problem`](serve.cfg:problem "wikilink") |     |
+| **Содержится в:**        | [`problem`](serve.cfg:problem.md) |     |
 | **Используется:**        | `serve, run`                              |     |
 | **Тип содержимого:**     | *string*                                  |     |
 | **Может отсутствовать:** | *да*                                      |     |

@@ -1,13 +1,13 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Использование](Использование "wikilink")/[Конфигурационные
-файлы](Конфигурационные_файлы "wikilink")/[serve.cfg](serve.cfg "wikilink")/[Конфигурационные
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
+файлы](Конфигурационные_файлы.md)/[serve.cfg](serve.cfg.md)/[Конфигурационные
 параметры
-задач](serve.cfg:problem "wikilink")/[`require_any`](serve.cfg:problem:require_any "wikilink")
+задач](serve.cfg:problem.md)/[`require_any`](serve.cfg:problem:require_any.md)
 
 Если эта конфигурационная переменная установлена в 1, то для того чтобы
 сделать эту задачу доступной для решения участник должен решить хотя бы
 одну из задач, перечисленных в списке
-[`require`](serve.cfg:problem:require "wikilink").
+[`require`](serve.cfg:problem:require.md).
 
 Переменная может задаваться в абстрактной задаче и будет унаследована.
 

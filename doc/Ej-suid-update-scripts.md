@@ -1,10 +1,10 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Использование](Использование "wikilink")/[Общая
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Общая
 архитектура
-системы](Общая_архитектура_системы "wikilink")/[ej-suid-update-scripts](ej-suid-update-scripts "wikilink")
+системы](Общая_архитектура_системы.md)/[ej-suid-update-scripts](ej-suid-update-scripts.md)
 
 Программа доступна с версии
-[3.9.0](Изменения_в_версии_3.9.0 "wikilink").
+[3.9.0](Изменения_в_версии_3.9.0.md).
 
 Для запуска программ на языках, требующих виртуальной машины, такой как
 jvm, mono, dotnet или valgrind, в ejudge использовались вспомогательные
@@ -36,11 +36,11 @@ jvm, mono, dotnet или valgrind, в ejudge использовались всп
 ejudge может не иметь доступа на запись в каталог
 `EJUDGE_SCRIPT_DIR/lang`.
 
-Программа [ej-suid-update-scripts](ej-suid-update-scripts "wikilink")
+Программа [ej-suid-update-scripts](ej-suid-update-scripts.md)
 копирует скрипты запуска виртуальных машин в каталог
 `EJUDGE_SCRIPT_DIR/lang` и устанавливает им правильные права доступа.
 Программа запускается автоматически программой
-[ejudge-configure-compilers](ejudge-configure-compilers "wikilink") при
+[ejudge-configure-compilers](ejudge-configure-compilers.md) при
 сохранении скриптов.
 
 Использование:

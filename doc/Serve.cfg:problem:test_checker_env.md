@@ -1,8 +1,8 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Использование](Использование "wikilink")/[Конфигурационные
-файлы](Конфигурационные_файлы "wikilink")/[serve.cfg](serve.cfg "wikilink")/[Конфигурационные
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
+файлы](Конфигурационные_файлы.md)/[serve.cfg](serve.cfg.md)/[Конфигурационные
 параметры
-задач](serve.cfg:problem "wikilink")/[test_checker_env](Serve.cfg:problem:test_checker_env "wikilink")
+задач](serve.cfg:problem.md)/[test_checker_env](Serve.cfg:problem:test_checker_env.md)
 
 **Редактирование элемента:** страница *"Editing contest"*, вкладка
 *"Problems (serve.cfg)"*, блок *"Concrete problems"*, поле *"Test
@@ -10,9 +10,9 @@ checker environment"*.
 
 Данная конфигурационная переменная позволяет задавать переменные
 окружения, передаваемые [программе проверки
-тестов](test_checkers "wikilink"). Если для данной задачи указана
+тестов](test_checkers.md). Если для данной задачи указана
 переменная
-[test_checker_cmd](Serve.cfg:problem:test_checker_cmd "wikilink"), то
+[test_checker_cmd](Serve.cfg:problem:test_checker_cmd.md), то
 переменные окружения будут передаваться этой программе.
 
 Данная конфигурационная переменная может быть указана в разделе описания

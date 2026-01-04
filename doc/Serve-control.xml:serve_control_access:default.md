@@ -1,11 +1,11 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Использование](Использование "wikilink")/[Конфигурационные
-файлы](Конфигурационные_файлы "wikilink")/[serve-control.xml](serve-control.xml "wikilink")/[`serve_control_access`](serve-control.xml:serve_control_access "wikilink")/[`default`](serve-control.xml:serve_control_access:default "wikilink")
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
+файлы](Конфигурационные_файлы.md)/[serve-control.xml](serve-control.xml.md)/[`serve_control_access`](serve-control.xml:serve_control_access.md)/[`default`](serve-control.xml:serve_control_access:default.md)
 
 |                            |                                                                             |
 |----------------------------|-----------------------------------------------------------------------------|
 | **Имя атрибута**:          | **`default`**                                                               |
-| **Содержится в:**          | [`serve_control_access`](serve-control.xml:serve_control_access "wikilink") |
+| **Содержится в:**          | [`serve_control_access`](serve-control.xml:serve_control_access.md) |
 |                            |                                                                             |
 | **Тип значения:**          | *allow* или *deny*                                                          |
 | **Значение по умолчанию:** | *deny*                                                                      |
@@ -16,4 +16,4 @@ IP-адрес клиента не перечислен в списке IP-адр
 установлен в *allow*, такие IP-адреса считаются допустимыми, а если
 атрибут установлен в *deny*, доступ с таких IP-адресов запрещается. См.
 подробное описание ограничений IP-адреса в разделе [Ограничение доступа
-по IP-адресам](Ограничение_доступа_по_IP-адресам "wikilink").
+по IP-адресам](Ограничение_доступа_по_IP-адресам.md).

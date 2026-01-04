@@ -1,21 +1,21 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Использование](Использование "wikilink")/[Конфигурационные
-файлы](Конфигурационные_файлы "wikilink")/[contest.xml](contest.xml "wikilink")/[`oauth_rules`](contest.xml:oauth_rules "wikilink")
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
+файлы](Конфигурационные_файлы.md)/[contest.xml](contest.xml.md)/[`oauth_rules`](contest.xml:oauth_rules.md)
 
 |                          |                                                   |     |
 |--------------------------|---------------------------------------------------|-----|
 | **Имя элемента**:        | **`oauth_rules`**                                 |     |
-| **Содержится в:**        | [`contest`](contest.xml:contest "wikilink")       |     |
-| **Может содержать:**     | [`oauth_rule`](contest.xml:oauth_rule "wikilink") |     |
+| **Содержится в:**        | [`contest`](contest.xml:contest.md)       |     |
+| **Может содержать:**     | [`oauth_rule`](contest.xml:oauth_rule.md) |     |
 | **Атрибуты:**            | нет                                               |     |
 | **Тип содержимого:**     | нет                                               |     |
 | **Может отсутствовать:** | *да*                                              |     |
 | **Может повторяться:**   | *нет*                                             |     |
 
 **Описание.** Данный элемент является контейнером для элементов
-[`oauth_rule`](contest.xml:oauth_rule "wikilink").
+[`oauth_rule`](contest.xml:oauth_rule.md).
 
 [Аутентификация с помощью
-OAUTH2](Аутентификация_с_помощью_OAUTH2 "wikilink")
+OAUTH2](Аутентификация_с_помощью_OAUTH2.md)
 
-Поддерживается с версии [3.9.0](изменения_в_версии_3.9.0 "wikilink").
+Поддерживается с версии [3.9.0](изменения_в_версии_3.9.0.md).

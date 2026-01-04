@@ -1,1 +1,1 @@
-1.  REDIRECT [Ej-jobs](Ej-jobs "wikilink")
+1.  REDIRECT [Ej-jobs](Ej-jobs.md)

@@ -1,3 +1,3 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Использование](Использование "wikilink")/[Виды
-задач](Виды_задач "wikilink")/[Задача:STANDARD](Задача:STANDARD "wikilink")
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Виды
+задач](Виды_задач.md)/[Задача:STANDARD](Задача:STANDARD.md)

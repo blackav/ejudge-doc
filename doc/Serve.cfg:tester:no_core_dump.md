@@ -1,13 +1,13 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Использование](Использование "wikilink")/[Конфигурационные
-файлы](Конфигурационные_файлы "wikilink")/[serve.cfg](serve.cfg "wikilink")/[Конфигурационные
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
+файлы](Конфигурационные_файлы.md)/[serve.cfg](serve.cfg.md)/[Конфигурационные
 параметры
-тестирования](serve.cfg:tester "wikilink")/[no_core_dump](Serve.cfg:tester:no_core_dump "wikilink")
+тестирования](serve.cfg:tester.md)/[no_core_dump](Serve.cfg:tester:no_core_dump.md)
 
 |                            |                                         |
 |----------------------------|-----------------------------------------|
 | **Имя переменной**:        | **`no_core_dump`**                      |
-| **Содержится в:**          | [`tester`](serve.cfg:tester "wikilink") |
+| **Содержится в:**          | [`tester`](serve.cfg:tester.md) |
 | **Используется:**          | `run`                                   |
 | **Тип содержимого:**       | *boolean*                               |
 | **Может отсутствовать:**   | *да*                                    |

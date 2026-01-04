@@ -1,8 +1,8 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Проверяющие
-программы](Проверяющие_программы "wikilink")/[libchecker](libchecker "wikilink")/[Функции](Libchecker:Функции "wikilink")/[Перекодирование
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Проверяющие
+программы](Проверяющие_программы.md)/[libchecker](libchecker.md)/[Функции](Libchecker:Функции.md)/[Перекодирование
 текстовых
-данных](Libchecker:Перекодирование_текстовых_данных "wikilink")/[checker_ucs4_to_utf8_str](Libchecker:checker_ucs4_to_utf8_str "wikilink")
+данных](Libchecker:Перекодирование_текстовых_данных.md)/[checker_ucs4_to_utf8_str](Libchecker:checker_ucs4_to_utf8_str.md)
 
 Функция перекодирует строку из кодировки UCS-4 в кодировку UTF-8 с
 сохранением результата в заданном буфере.
@@ -26,4 +26,4 @@ ejudge](Система_ejudge "wikilink")/[Проверяющие
 Функция возвращает значение параметра `buf`.
 
 См. также:
-[`checker_ucs4_to_utf8_size`](libchecker:checker_ucs4_to_utf8_size "wikilink").
+[`checker_ucs4_to_utf8_size`](libchecker:checker_ucs4_to_utf8_size.md).

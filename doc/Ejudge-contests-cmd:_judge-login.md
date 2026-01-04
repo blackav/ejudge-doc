@@ -1,8 +1,8 @@
-Навигация: [Система ejudge](Система_ejudge "wikilink") /
-[Использование](Использование "wikilink") / [Использование из командной
-строки](Использование_из_командной_строки "wikilink") /
-[ejudge-contests-cmd](ejudge-contests-cmd "wikilink") /
-[Команды](ejudge-contests-cmd:_COMMAND "wikilink")
+Навигация: [Система ejudge](Система_ejudge.md) /
+[Использование](Использование.md) / [Использование из командной
+строки](Использование_из_командной_строки.md) /
+[ejudge-contests-cmd](ejudge-contests-cmd.md) /
+[Команды](ejudge-contests-cmd:_COMMAND.md)
 
 Команда judge-login создаёт сессионный ключ для доступа к турниру с
 правами судьи.
@@ -12,7 +12,7 @@
 `ejudge-contests-cmd CONTEST-ID judge-login [OPTIONS] SESSION-FILE LOGIN [PASSWORD]`
 
 В добавление к [стандартным опциям
-команд](ejudge-contests-cmd:_COMMAND-OPTIONS "wikilink") поддерживаются
+команд](ejudge-contests-cmd:_COMMAND-OPTIONS.md) поддерживаются
 следующие опции:
 
 |     |                                                                                                             |

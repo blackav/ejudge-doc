@@ -1,11 +1,11 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Проверяющие
-программы](Проверяющие_программы "wikilink")/[libchecker](libchecker "wikilink")/[Функции](Libchecker:Функции "wikilink")/[Работа
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Проверяющие
+программы](Проверяющие_программы.md)/[libchecker](libchecker.md)/[Функции](Libchecker:Функции.md)/[Работа
 с
-памятью](Libchecker:Работа_с_памятью "wikilink")/[XCALLOC](Libchecker:XCALLOC "wikilink")
+памятью](Libchecker:Работа_с_памятью.md)/[XCALLOC](Libchecker:XCALLOC.md)
 
 Данный макрос — это обертка над функцией выделения памяти
-[xcalloc](Libchecker:xcalloc "wikilink"). Например, если необходимо
+[xcalloc](Libchecker:xcalloc.md). Например, если необходимо
 выделить память под массив a типа double из n элементов, с
 использованием xcalloc фрагмент кода будет следующим:
 

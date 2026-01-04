@@ -1,4 +1,4 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Использование](Использование "wikilink")/[Виды
-турниров](Виды_турниров "wikilink")/[Virtual
-KIROV](Virtual_KIROV "wikilink")
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Виды
+турниров](Виды_турниров.md)/[Virtual
+KIROV](Virtual_KIROV.md)

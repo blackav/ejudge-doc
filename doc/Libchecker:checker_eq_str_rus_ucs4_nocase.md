@@ -1,8 +1,8 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Проверяющие
-программы](Проверяющие_программы "wikilink")/[libchecker](libchecker "wikilink")/[Функции](Libchecker:Функции "wikilink")/[Перекодирование
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Проверяющие
+программы](Проверяющие_программы.md)/[libchecker](libchecker.md)/[Функции](Libchecker:Функции.md)/[Перекодирование
 текстовых
-данных](Libchecker:Перекодирование_текстовых_данных "wikilink")/[checker_eq_str_rus_ucs4_nocase](Libchecker:checker_eq_str_rus_ucs4_nocase "wikilink")
+данных](Libchecker:Перекодирование_текстовых_данных.md)/[checker_eq_str_rus_ucs4_nocase](Libchecker:checker_eq_str_rus_ucs4_nocase.md)
 
 Функция сравнивает заданную строку в кодировке UCS-4 со строкой в
 некоторой поддерживаемой однобайтовой кириллической кодировке без учета
@@ -36,5 +36,5 @@ ejudge](Система_ejudge "wikilink")/[Проверяющие
 правильный ответ, известна при подготовке задачи.
 
 См. также:
-[checker_eq_str_rus_ucs4](libchecker:checker_eq_str_rus_ucs4 "wikilink"),
-[checker_ucs4_tolower](libchecker:checker_ucs4_tolower "wikilink").
+[checker_eq_str_rus_ucs4](libchecker:checker_eq_str_rus_ucs4.md),
+[checker_ucs4_tolower](libchecker:checker_ucs4_tolower.md).

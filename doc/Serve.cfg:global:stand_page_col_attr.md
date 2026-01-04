@@ -1,8 +1,8 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Использование](Использование "wikilink")/[Конфигурационные
-файлы](Конфигурационные_файлы "wikilink")/[serve.cfg](serve.cfg "wikilink")/[Глобальные
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
+файлы](Конфигурационные_файлы.md)/[serve.cfg](serve.cfg.md)/[Глобальные
 конфигурационные
-параметры](serve.cfg:global "wikilink")/[`stand_page_col_attr`](Serve.cfg:global:stand_page_col_attr "wikilink")
+параметры](serve.cfg:global.md)/[`stand_page_col_attr`](Serve.cfg:global:stand_page_col_attr.md)
 
 Позволяет задавать атрибуты столбцов таблицы ссылок на страницы таблицы
 текущих результатов, если включено разбиение таблицы текущих результатов

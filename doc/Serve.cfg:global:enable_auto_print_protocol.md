@@ -1,8 +1,8 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Использование](Использование "wikilink")/[Конфигурационные
-файлы](Конфигурационные_файлы "wikilink")/[serve.cfg](serve.cfg "wikilink")/[Глобальные
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
+файлы](Конфигурационные_файлы.md)/[serve.cfg](serve.cfg.md)/[Глобальные
 конфигурационные
-параметры](serve.cfg:global "wikilink")/[`enable_auto_print_protocol`](Serve.cfg:global:enable_auto_print_protocol "wikilink")
+параметры](serve.cfg:global.md)/[`enable_auto_print_protocol`](Serve.cfg:global:enable_auto_print_protocol.md)
 
 Переменная действует только для турниров по системе *OLYMPIAD* (в том
 числе и виртуальных). Если значение переменной не равно 0, то сразу

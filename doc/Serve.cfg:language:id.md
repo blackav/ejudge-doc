@@ -1,13 +1,13 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Использование](Использование "wikilink")/[Конфигурационные
-файлы](Конфигурационные_файлы "wikilink")/[serve.cfg](serve.cfg "wikilink")/[Конфигурационные
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
+файлы](Конфигурационные_файлы.md)/[serve.cfg](serve.cfg.md)/[Конфигурационные
 параметры
-языков](serve.cfg:language "wikilink")/[id](Serve.cfg:language:id "wikilink")
+языков](serve.cfg:language.md)/[id](Serve.cfg:language:id.md)
 
 |                          |                                             |
 |--------------------------|---------------------------------------------|
 | **Имя переменной**:      | **`id`**                                    |
-| **Содержится в:**        | [`language`](serve.cfg:language "wikilink") |
+| **Содержится в:**        | [`language`](serve.cfg:language.md) |
 | **Используется:**        | `serve, compile`                            |
 | **Тип содержимого:**     | *integer*                                   |
 | **Может отсутствовать:** | *да*                                        |

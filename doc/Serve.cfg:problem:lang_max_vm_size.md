@@ -1,8 +1,8 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Использование](Использование "wikilink")/[Конфигурационные
-файлы](Конфигурационные_файлы "wikilink")/[serve.cfg](serve.cfg "wikilink")/[Конфигурационные
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
+файлы](Конфигурационные_файлы.md)/[serve.cfg](serve.cfg.md)/[Конфигурационные
 параметры
-задач](serve.cfg:problem "wikilink")/[`lang_max_vm_size`](serve.cfg:problem:lang_max_vm_size "wikilink")
+задач](serve.cfg:problem.md)/[`lang_max_vm_size`](serve.cfg:problem:lang_max_vm_size.md)
 
 Данная конфигурационная переменная позволяет установить ограничение
 размера виртуального адресного пространства специально для решений на

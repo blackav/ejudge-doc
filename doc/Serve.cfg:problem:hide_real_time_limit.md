@@ -1,17 +1,17 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Использование](Использование "wikilink")/[Конфигурационные
-файлы](Конфигурационные_файлы "wikilink")/[serve.cfg](serve.cfg "wikilink")/[Конфигурационные
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
+файлы](Конфигурационные_файлы.md)/[serve.cfg](serve.cfg.md)/[Конфигурационные
 параметры
-задач](serve.cfg:problem "wikilink")/[`hide_real_time_limit`](Serve.cfg:problem:hide_real_time_limit "wikilink")
+задач](serve.cfg:problem.md)/[`hide_real_time_limit`](Serve.cfg:problem:hide_real_time_limit.md)
 
 Если данная переменная установлена в положительное значение, участнику
 турнира на странице сдачи программы на проверку не будет показываться
 ограничение реального времени
-([`real_time_limit`](serve.cfg:problem:real_time_limit "wikilink")) по
+([`real_time_limit`](serve.cfg:problem:real_time_limit.md)) по
 данной задаче.
 
 Конфигурационная переменная может быть определена в абстрактной задаче и
 будет наследоваться конкретными задачами.
 
 Конфигурационная переменная поддерживается, начиная с версии
-[3.3.0](изменения_в_версии_3.3.0 "wikilink").
+[3.3.0](изменения_в_версии_3.3.0.md).

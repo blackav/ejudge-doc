@@ -1,8 +1,8 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Использование](Использование "wikilink")/[Конфигурационные
-файлы](Конфигурационные_файлы "wikilink")/[serve.cfg](serve.cfg "wikilink")/[Конфигурационные
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
+файлы](Конфигурационные_файлы.md)/[serve.cfg](serve.cfg.md)/[Конфигурационные
 параметры
-задач](serve.cfg:problem "wikilink")/[source_footer](serve.cfg:problem:source_footer "wikilink")
+задач](serve.cfg:problem.md)/[source_footer](serve.cfg:problem:source_footer.md)
 
 **Редактирование элемента:** страница *"Editing contest"*, вкладка
 *"Problems (serve.cfg)"*, блок *"Abstract problems"*, поле *"Source
@@ -10,7 +10,7 @@ footer file"*, либо страница *"Editing contest"*, вкладка *"P
 (serve.cfg)"*, блок *"Concrete problems"*, поле *"Source footer file"*.
 
 Данная переменная вместе с переменной
-[`source_header`](serve.cfg:problem:source_header "wikilink") позволяет
+[`source_header`](serve.cfg:problem:source_header.md) позволяет
 задавать имя файла с текстом, который будет использоваться в начале и
 конце сданных решений при компиляции программы. Например, условие задачи
 может требовать написания одной функции или класса, а не целой

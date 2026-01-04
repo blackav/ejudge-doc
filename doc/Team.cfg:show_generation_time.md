@@ -1,6 +1,6 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Использование](Использование "wikilink")/[Конфигурационные
-файлы](Конфигурационные_файлы "wikilink")/[team.cfg](team.cfg "wikilink")/[show_generation_time](team.cfg:show_generation_time "wikilink")
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
+файлы](Конфигурационные_файлы.md)/[team.cfg](team.cfg.md)/[show_generation_time](team.cfg:show_generation_time.md)
 
 |                            |                                |
 |----------------------------|--------------------------------|

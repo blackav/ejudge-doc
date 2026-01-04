@@ -1,15 +1,15 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Использование](Использование "wikilink")/[Конфигурационные
-файлы](Конфигурационные_файлы "wikilink")/[contest.xml](contest.xml "wikilink")/[contestants,
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
+файлы](Конфигурационные_файлы.md)/[contest.xml](contest.xml.md)/[contestants,
 reserves, coaches, advisors,
-guests](contest.xml:contestants_reserves_coaches_advisors_guests "wikilink")
+guests](contest.xml:contestants_reserves_coaches_advisors_guests.md)
 
 |                          |                                                                                                                                                                                                                                                             |     |
 |--------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----|
 | **Имя элемента**:        | **`contestants, reserves, coaches, advisors, guests`**                                                                                                                                                                                                      |     |
-| **Содержится в:**        | [`contest`](contest.xml:contest "wikilink")                                                                                                                                                                                                                 |     |
-| **Может содержать:**     | [`field`](contest.xml:field "wikilink")                                                                                                                                                                                                                     |     |
-| **Атрибуты:**            | [`min`](contest.xml:contestants_reserves_coaches_advisors_guests:min "wikilink"), [`max`](contest.xml:contestants_reserves_coaches_advisors_guests:max "wikilink"),[`initial`](contest.xml:contestants_reserves_coaches_advisors_guests:initial "wikilink") |     |
+| **Содержится в:**        | [`contest`](contest.xml:contest.md)                                                                                                                                                                                                                 |     |
+| **Может содержать:**     | [`field`](contest.xml:field.md)                                                                                                                                                                                                                     |     |
+| **Атрибуты:**            | [`min`](contest.xml:contestants_reserves_coaches_advisors_guests:min.md), [`max`](contest.xml:contestants_reserves_coaches_advisors_guests:max.md),[`initial`](contest.xml:contestants_reserves_coaches_advisors_guests:initial.md) |     |
 | **Тип содержимого:**     | игнорируется                                                                                                                                                                                                                                                |     |
 | **Может отсутствовать:** | *да*                                                                                                                                                                                                                                                        |     |
 | **Может повторяться:**   | *нет*                                                                                                                                                                                                                                                       |     |
@@ -24,17 +24,17 @@ guests](contest.xml:contestants_reserves_coaches_advisors_guests "wikilink")
 `advisors` — категории руководителей, и элемент `guests` — прочим.
 
 Атрибут
-[`min`](contest.xml:contestants_reserves_coaches_advisors_guests:min "wikilink")
+[`min`](contest.xml:contestants_reserves_coaches_advisors_guests:min.md)
 позволяет задать минимальное число лиц в данной категории. Например,
 минимальное количество игроков одной команды (contestants) в командном
 турнире может быть установлено в 2 или 3, а в личном турнире — в 1. Если
 у каждого участника должен быть тренер, минимальное число лиц этой
 категории (coaches) должно быть установлено в 1. Атрибут
-[`max`](contest.xml:contestants_reserves_coaches_advisors_guests:max "wikilink")
+[`max`](contest.xml:contestants_reserves_coaches_advisors_guests:max.md)
 позволяет задать максимальное число лиц в данной категории. Например,
 максимальное количество игроков одной команды в командном турнире равно
 3, а в личном турнире — 1. Атрибут
-[initial](contest.xml:contestants_reserves_coaches_advisors_guests:initial "wikilink")
+[initial](contest.xml:contestants_reserves_coaches_advisors_guests:initial.md)
 позволяет задать, формы ввода для скольких лиц в данной категории будут
 выведены при регистрации на турнир, когда формы печатаются для данного
 пользователя первый раз.

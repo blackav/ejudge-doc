@@ -1,4 +1,4 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Использование](Использование "wikilink")/[Общая
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Общая
 архитектура
-системы](Общая_архитектура_системы "wikilink")/[ej-convert-clars](ej-convert-clars "wikilink")
+системы](Общая_архитектура_системы.md)/[ej-convert-clars](ej-convert-clars.md)

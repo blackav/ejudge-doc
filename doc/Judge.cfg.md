@@ -1,12 +1,12 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Использование](Использование "wikilink")/[Конфигурационные
-файлы](Конфигурационные_файлы "wikilink")/[judge.cfg](judge.cfg "wikilink")
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
+файлы](Конфигурационные_файлы.md)/[judge.cfg](judge.cfg.md)
 
 Данный конфигурационный файл используется CGI-программой
-[`judge`](judge "wikilink"). Содержимое файла прочитывается один раз при
+[`judge`](judge.md). Содержимое файла прочитывается один раз при
 старте CGI-программы, то есть каждый раз, когда кто-либо посылает
 HTTP/HTTPS-запрос к серверу, приводящий к запуску программы `judge`.
-[Подробнее...](judge.cfg:info "wikilink")
+[Подробнее...](judge.cfg:info.md)
 
 Конфигурационный файл `judge.cfg` имеет текстовый формат, напоминающий
 формат `.ini`-файлов. Каждый конфигурационный параметр задаётся в виде
@@ -24,11 +24,11 @@ HTTP/HTTPS-запрос к серверу, приводящий к запуск�
 
 Параметры конфигурационного файла:
 
-- [allow_deny](judge.cfg:allow_deny "wikilink")
-- [allow_from](judge.cfg:allow_from "wikilink")
-- [deny_from](judge.cfg:deny_from "wikilink")
-- [charset](judge.cfg:charset "wikilink")
-- [enable_l10n](judge.cfg:enable_l10n "wikilink")
-- [l10n_dir](judge.cfg:l10n_dir "wikilink")
-- [socket_path](judge.cfg:socket_path "wikilink")
-- [contests_dir](judge.cfg:contests_dir "wikilink")
+- [allow_deny](judge.cfg:allow_deny.md)
+- [allow_from](judge.cfg:allow_from.md)
+- [deny_from](judge.cfg:deny_from.md)
+- [charset](judge.cfg:charset.md)
+- [enable_l10n](judge.cfg:enable_l10n.md)
+- [l10n_dir](judge.cfg:l10n_dir.md)
+- [socket_path](judge.cfg:socket_path.md)
+- [contests_dir](judge.cfg:contests_dir.md)

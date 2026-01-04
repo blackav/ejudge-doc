@@ -1,6 +1,6 @@
-Навигация: [Система ejudge](Система_ejudge "wikilink")/[Проверяющие
-программы](Проверяющие_программы "wikilink")/[libchecker](libchecker "wikilink")/[Функции](Libchecker:Функции "wikilink")/[Завершение
-работы](Libchecker:Завершение_работы "wikilink")/[checker_OK](Libchecker:checker_OK "wikilink")
+Навигация: [Система ejudge](Система_ejudge.md)/[Проверяющие
+программы](Проверяющие_программы.md)/[libchecker](libchecker.md)/[Функции](Libchecker:Функции.md)/[Завершение
+работы](Libchecker:Завершение_работы.md)/[checker_OK](Libchecker:checker_OK.md)
 
 `void checker_OK(void);`
 

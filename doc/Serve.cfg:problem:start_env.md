@@ -1,8 +1,8 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Использование](Использование "wikilink")/[Конфигурационные
-файлы](Конфигурационные_файлы "wikilink")/[serve.cfg](serve.cfg "wikilink")/[Конфигурационные
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
+файлы](Конфигурационные_файлы.md)/[serve.cfg](serve.cfg.md)/[Конфигурационные
 параметры
-задач](serve.cfg:problem "wikilink")/[`start_env`](serve.cfg:problem:start_env "wikilink")
+задач](serve.cfg:problem.md)/[`start_env`](serve.cfg:problem:start_env.md)
 
 **Редактирование элемента:** страница *"Editing contest"*, вкладка
 *"Problems (serve.cfg)"*, блок *"Concrete problems"*, поле *"Start
@@ -27,4 +27,4 @@ environment"*.
 переменной.
 
 Поддерживается, начиная с версии
-[2.3.25](Изменения_в_версии_2.3.25 "wikilink").
+[2.3.25](Изменения_в_версии_2.3.25.md).

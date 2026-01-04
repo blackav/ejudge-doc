@@ -1,18 +1,18 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Использование](Использование "wikilink")/[Конфигурационные
-файлы](Конфигурационные_файлы "wikilink")/[serve.cfg](serve.cfg "wikilink")/[Конфигурационные
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
+файлы](Конфигурационные_файлы.md)/[serve.cfg](serve.cfg.md)/[Конфигурационные
 параметры
-задач](serve.cfg:problem "wikilink")/[`unrestricted_statement`](Serve.cfg:problem:unrestricted_statement "wikilink")
+задач](serve.cfg:problem.md)/[`unrestricted_statement`](Serve.cfg:problem:unrestricted_statement.md)
 
 Если данная конфигурационная переменная установлена, то условия задач не
 закрываются после истечения крайнего срока сдачи. Пользователь может
 посмотреть условие, но не может послать решение.
 
-Начиная с версии [3.1.0](изменения_в_версии_3.1.0 "wikilink") значение
+Начиная с версии [3.1.0](изменения_в_версии_3.1.0.md) значение
 конфигурационной переменной
-[restricted_statement](Serve.cfg:problem:restricted_statement "wikilink")
+[restricted_statement](Serve.cfg:problem:restricted_statement.md)
 игнорируется. Эта конфигурационная переменная никогда не работала
 правильно.
 
 Конфигурационная переменная поддерживается, начиная с версии
-[3.1.0](изменения_в_версии_3.1.0 "wikilink").
+[3.1.0](изменения_в_версии_3.1.0.md).

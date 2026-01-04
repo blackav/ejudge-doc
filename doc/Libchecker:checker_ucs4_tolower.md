@@ -1,8 +1,8 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Проверяющие
-программы](Проверяющие_программы "wikilink")/[libchecker](libchecker "wikilink")/[Функции](Libchecker:Функции "wikilink")/[Перекодирование
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Проверяющие
+программы](Проверяющие_программы.md)/[libchecker](libchecker.md)/[Функции](Libchecker:Функции.md)/[Перекодирование
 текстовых
-данных](Libchecker:Перекодирование_текстовых_данных "wikilink")\|[checker_ucs4_tolower](Libchecker:checker_ucs4_tolower "wikilink")
+данных](Libchecker:Перекодирование_текстовых_данных.md)\|[checker_ucs4_tolower](Libchecker:checker_ucs4_tolower.md)
 
 Функция возвращает код символа в нижнем регистре, соответствующий
 заданному UCS-4 коду.

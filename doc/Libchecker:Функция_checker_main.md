@@ -1,7 +1,7 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Проверяющие
-программы](Проверяющие_программы "wikilink")/[libchecker](libchecker "wikilink")/[Функция
-checker_main](Libchecker:Функция_checker_main "wikilink")
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Проверяющие
+программы](Проверяющие_программы.md)/[libchecker](libchecker.md)/[Функция
+checker_main](Libchecker:Функция_checker_main.md)
 
 Функция checker_main в проверяющей программе играет роль функции main в
 обычной программе на C. После инициализации проверяющей программы
@@ -14,10 +14,10 @@ checker_main](Libchecker:Функция_checker_main "wikilink")
 Параметры argc и argv содержат количество аргументов командной строки и
 сами аргументы (точно так же, как и для функции main). Возвращаемое
 значение функции checker_main — это [код завершения проверяющей
-программы](коды_завершения_проверяющей_программы "wikilink").
+программы](коды_завершения_проверяющей_программы.md).
 
 Разбор [аргументов командной
-строки](параметры_командной_строки_проверяющей_программы "wikilink")
+строки](параметры_командной_строки_проверяющей_программы.md)
 проверяющей программы выполняется при инициализации проверяющей
 программы ещё до запуска checker_main, поэтому проверяющая программа
 может сразу же пользоваться глобальными переменными и функциями
@@ -25,12 +25,12 @@ checker_main](Libchecker:Функция_checker_main "wikilink")
 
 Для завершения работы проверяющей программы рекомендуется использовать
 функции библиотеки libchecker
-[checker_OK](libchecker:checker_OK "wikilink"),
-[fatal](libchecker:fatal "wikilink"),
-[fatal_CF](libchecker:fatal_CF "wikilink"),
-[fatal_PE](libchecker:fatal_PE "wikilink"),
-[fatal_WA](libchecker:fatal_WA "wikilink"),
-[fatal_read](libchecker:fatal_read "wikilink"). Все эти функции вызывают
+[checker_OK](libchecker:checker_OK.md),
+[fatal](libchecker:fatal.md),
+[fatal_CF](libchecker:fatal_CF.md),
+[fatal_PE](libchecker:fatal_PE.md),
+[fatal_WA](libchecker:fatal_WA.md),
+[fatal_read](libchecker:fatal_read.md). Все эти функции вызывают
 стандартную функцию exit с соответствующим кодом завершения, то есть
 после их вызова управление никогда не возвращается в проверяющую
 программу.

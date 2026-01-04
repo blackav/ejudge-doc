@@ -1,8 +1,8 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Инсталляция](Инсталляция "wikilink")/[Инсталляция
-на ALT Linux](Инсталляция_на_ALT_Linux "wikilink")/[Создание и запуск
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Инсталляция](Инсталляция.md)/[Инсталляция
+на ALT Linux](Инсталляция_на_ALT_Linux.md)/[Создание и запуск
 скрипта
-ejudge-install.sh](Инсталляция_на_ALT_Linux:Создание_и_запуск_скрипта_ejudge-install.sh "wikilink")
+ejudge-install.sh](Инсталляция_на_ALT_Linux:Создание_и_запуск_скрипта_ejudge-install.sh.md)
 
 Дальнейшая настройка ejudge выполняется при помощи программы
 ejudge-setup. Эту программу необходимо запусить от имени пользователя

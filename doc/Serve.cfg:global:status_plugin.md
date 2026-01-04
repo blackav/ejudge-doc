@@ -1,7 +1,7 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Использование](Использование "wikilink")/[Конфигурационные
-файлы](Конфигурационные_файлы "wikilink")/[serve.cfg](serve.cfg "wikilink")/[Глобальные
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
+файлы](Конфигурационные_файлы.md)/[serve.cfg](serve.cfg.md)/[Глобальные
 конфигурационные
-параметры](serve.cfg:global "wikilink")/[`status_plugin`](Serve.cfg:global:status_plugin "wikilink")
+параметры](serve.cfg:global.md)/[`status_plugin`](Serve.cfg:global:status_plugin.md)
 
-Поддерживается с версии [3.8.0](изменения_в_версии_3.8.0 "wikilink").
+Поддерживается с версии [3.8.0](изменения_в_версии_3.8.0.md).

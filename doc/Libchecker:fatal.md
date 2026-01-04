@@ -1,6 +1,6 @@
-Навигация: [Система ejudge](Система_ejudge "wikilink")/[Проверяющие
-программы](Проверяющие_программы "wikilink")/[libchecker](libchecker "wikilink")/[Функции](Libchecker:Функции "wikilink")/[Завершение
-работы](Libchecker:Завершение_работы "wikilink")/[fatal](Libchecker:fatal "wikilink")
+Навигация: [Система ejudge](Система_ejudge.md)/[Проверяющие
+программы](Проверяющие_программы.md)/[libchecker](libchecker.md)/[Функции](Libchecker:Функции.md)/[Завершение
+работы](Libchecker:Завершение_работы.md)/[fatal](Libchecker:fatal.md)
 
 `void fatal(int code, char const *format, ...);`
 
@@ -15,7 +15,7 @@ RUN_WRONG_ANSWER_ERR или RUN_CHECK_FAILED.
 
 Для завершения проверяющей программы с соответствующим кодом ошибки
 рекомендуется применять функции
-[fatal_CF](libchecker:fatal_CF "wikilink"),
-[fatal_PE](libchecker:fatal_PE "wikilink"),
-[fatal_WA](libchecker:fatal_WA "wikilink"),
-[fatal_read](libchecker:fatal_read "wikilink").
+[fatal_CF](libchecker:fatal_CF.md),
+[fatal_PE](libchecker:fatal_PE.md),
+[fatal_WA](libchecker:fatal_WA.md),
+[fatal_read](libchecker:fatal_read.md).

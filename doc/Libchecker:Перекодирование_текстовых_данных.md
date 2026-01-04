@@ -1,8 +1,8 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Проверяющие
-программы](Проверяющие_программы "wikilink")/[libchecker](libchecker "wikilink")/[Функции](Libchecker:Функции "wikilink")/[Перекодирование
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Проверяющие
+программы](Проверяющие_программы.md)/[libchecker](libchecker.md)/[Функции](Libchecker:Функции.md)/[Перекодирование
 текстовых
-данных](Libchecker:Перекодирование_текстовых_данных "wikilink")
+данных](Libchecker:Перекодирование_текстовых_данных.md)
 
 Если в задаче требуется вывести текст на русском языке, при проверке
 вывода возникает проблема множественности кириллических кодировок. В
@@ -24,25 +24,25 @@ ejudge](Система_ejudge "wikilink")/[Проверяющие
 
 |                                                                                          |                                                                                                                                    |
 |------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|
-| [`checker_koi8r_to_ucs4`](Libchecker:checker_CHARSET_to_ucs4 "wikilink")                 | перекодировать один символ из кодировки KOI8-R в кодировку UCS-4                                                                   |
-| [`checker_cp866_to_ucs4`](Libchecker:checker_CHARSET_to_ucs4 "wikilink")                 | перекодировать один символ из кодировки CP866 в кодировку UCS-4                                                                    |
-| [`checker_cp1251_to_ucs4`](Libchecker:checker_CHARSET_to_ucs4 "wikilink")                | перекодировать один символ из кодировки CP1251 в кодировку UCS-4                                                                   |
-| [`checker_koi8r_to_ucs4_buf`](Libchecker:checker_CHARSET_to_ucs4_buf "wikilink")         | перекодировать буфер заданного размера из кодировки KOI8-R в кодировку UCS-4                                                       |
-| [`checker_cp866_to_ucs4_buf`](Libchecker:checker_CHARSET_to_ucs4_buf "wikilink")         | перекодировать буфер заданного размера из кодировки CP866 в кодировку UCS-4                                                        |
-| [`checker_cp1251_to_ucs4_buf`](Libchecker:checker_CHARSET_to_ucs4_buf "wikilink")        | перекодировать буфер заданного размера из кодировки CP1251 в кодировку UCS-4                                                       |
-| [`checker_koi8r_to_ucs4_str`](Libchecker:checker_CHARSET_to_ucs4_str "wikilink")         | перекодировать строку из кодировки KOI8-R в кодировку UCS-4                                                                        |
-| [`checker_cp866_to_ucs4_str`](Libchecker:checker_CHARSET_to_ucs4_str "wikilink")         | перекодировать строку из кодировки CP866 в кодировку UCS-4                                                                         |
-| [`checker_cp1251_to_ucs4_str`](Libchecker:checker_CHARSET_to_ucs4_str "wikilink")        | перекодировать строку из кодировки CP1251 в кодировку UCS-4                                                                        |
-| [`checker_utf8_to_ucs4_buf`](Libchecker:checker_utf8_to_ucs4_buf "wikilink")             | перекодировать буфер заданного размера из кодировки UTF-8 в кодировку UCS-4                                                        |
-| [`checker_utf8_to_ucs4_str`](Libchecker:checker_utf8_to_ucs4_str "wikilink")             | перекодировать строку из кодировки UTF-8 в кодировку UCS-4                                                                         |
-| [`checker_ucs4_to_koi8r`](Libchecker:checker_ucs4_to_CHARSET "wikilink")                 | перекодировать один символ из кодировки UCS-4 в кодировку KOI8-R                                                                   |
-| [`checker_ucs4_to_koi8r_str`](Libchecker:checker_ucs4_to_CHARSET_str "wikilink")         | перекодировать строку из кодировки UCS-4 в кодировку KOI8-R                                                                        |
-| [`checker_ucs4_to_utf8_size`](Libchecker:checker_ucs4_to_utf8_size "wikilink")           | рассчитать число байт необходимых для кодирования заданной UCS-4 строки в кодировку UTF-8                                          |
-| [`checker_ucs4_to_utf8_str`](Libchecker:checker_ucs4_to_utf8_str "wikilink")             | перекодировать строку из кодировки UCS-4 в кодировку UTF-8                                                                         |
-| [`checker_ucs4_tolower`](Libchecker:checker_ucs4_tolower "wikilink")                     | перевести символ в кодировке UCS-4 в нижний регистр                                                                                |
-| [`checker_ucs4_tolower_buf`](Libchecker:checker_ucs4_tolower_buf "wikilink")             | перевести буфер заданного размера в кодировке UCS-4 в нижний регистр                                                               |
-| [`checker_ucs4_tolower_str`](Libchecker:checker_ucs4_tolower_str "wikilink")             | перевести строку в кодировке UCS-4 в нижний регистр                                                                                |
-| [`checker_strcmp_ucs4`](Libchecker:checker_strcmp_ucs4 "wikilink")                       | сравнить две UCS-4 строки                                                                                                          |
-| [`checker_eq_str_rus_ucs4`](Libchecker:checker_eq_str_rus_ucs4 "wikilink")               | проверить совпадение строки в одной из поддерживаемых кириллических кодировок со строкой в кодировке UCS-4                         |
-| [`checker_eq_str_rus_ucs4_nocase`](Libchecker:checker_eq_str_rus_ucs4_nocase "wikilink") | проверить совпадение строки в одной из поддерживаемых кириллических кодировок со строкой в кодировке UCS-4 без учета регистра букв |
-| [`checker_is_utf8_locale`](Libchecker:checker_is_utf8_locale "wikilink")                 | проверить, что проверяющая программа работает в UTF-8 локали                                                                       |
+| [`checker_koi8r_to_ucs4`](Libchecker:checker_CHARSET_to_ucs4.md)                 | перекодировать один символ из кодировки KOI8-R в кодировку UCS-4                                                                   |
+| [`checker_cp866_to_ucs4`](Libchecker:checker_CHARSET_to_ucs4.md)                 | перекодировать один символ из кодировки CP866 в кодировку UCS-4                                                                    |
+| [`checker_cp1251_to_ucs4`](Libchecker:checker_CHARSET_to_ucs4.md)                | перекодировать один символ из кодировки CP1251 в кодировку UCS-4                                                                   |
+| [`checker_koi8r_to_ucs4_buf`](Libchecker:checker_CHARSET_to_ucs4_buf.md)         | перекодировать буфер заданного размера из кодировки KOI8-R в кодировку UCS-4                                                       |
+| [`checker_cp866_to_ucs4_buf`](Libchecker:checker_CHARSET_to_ucs4_buf.md)         | перекодировать буфер заданного размера из кодировки CP866 в кодировку UCS-4                                                        |
+| [`checker_cp1251_to_ucs4_buf`](Libchecker:checker_CHARSET_to_ucs4_buf.md)        | перекодировать буфер заданного размера из кодировки CP1251 в кодировку UCS-4                                                       |
+| [`checker_koi8r_to_ucs4_str`](Libchecker:checker_CHARSET_to_ucs4_str.md)         | перекодировать строку из кодировки KOI8-R в кодировку UCS-4                                                                        |
+| [`checker_cp866_to_ucs4_str`](Libchecker:checker_CHARSET_to_ucs4_str.md)         | перекодировать строку из кодировки CP866 в кодировку UCS-4                                                                         |
+| [`checker_cp1251_to_ucs4_str`](Libchecker:checker_CHARSET_to_ucs4_str.md)        | перекодировать строку из кодировки CP1251 в кодировку UCS-4                                                                        |
+| [`checker_utf8_to_ucs4_buf`](Libchecker:checker_utf8_to_ucs4_buf.md)             | перекодировать буфер заданного размера из кодировки UTF-8 в кодировку UCS-4                                                        |
+| [`checker_utf8_to_ucs4_str`](Libchecker:checker_utf8_to_ucs4_str.md)             | перекодировать строку из кодировки UTF-8 в кодировку UCS-4                                                                         |
+| [`checker_ucs4_to_koi8r`](Libchecker:checker_ucs4_to_CHARSET.md)                 | перекодировать один символ из кодировки UCS-4 в кодировку KOI8-R                                                                   |
+| [`checker_ucs4_to_koi8r_str`](Libchecker:checker_ucs4_to_CHARSET_str.md)         | перекодировать строку из кодировки UCS-4 в кодировку KOI8-R                                                                        |
+| [`checker_ucs4_to_utf8_size`](Libchecker:checker_ucs4_to_utf8_size.md)           | рассчитать число байт необходимых для кодирования заданной UCS-4 строки в кодировку UTF-8                                          |
+| [`checker_ucs4_to_utf8_str`](Libchecker:checker_ucs4_to_utf8_str.md)             | перекодировать строку из кодировки UCS-4 в кодировку UTF-8                                                                         |
+| [`checker_ucs4_tolower`](Libchecker:checker_ucs4_tolower.md)                     | перевести символ в кодировке UCS-4 в нижний регистр                                                                                |
+| [`checker_ucs4_tolower_buf`](Libchecker:checker_ucs4_tolower_buf.md)             | перевести буфер заданного размера в кодировке UCS-4 в нижний регистр                                                               |
+| [`checker_ucs4_tolower_str`](Libchecker:checker_ucs4_tolower_str.md)             | перевести строку в кодировке UCS-4 в нижний регистр                                                                                |
+| [`checker_strcmp_ucs4`](Libchecker:checker_strcmp_ucs4.md)                       | сравнить две UCS-4 строки                                                                                                          |
+| [`checker_eq_str_rus_ucs4`](Libchecker:checker_eq_str_rus_ucs4.md)               | проверить совпадение строки в одной из поддерживаемых кириллических кодировок со строкой в кодировке UCS-4                         |
+| [`checker_eq_str_rus_ucs4_nocase`](Libchecker:checker_eq_str_rus_ucs4_nocase.md) | проверить совпадение строки в одной из поддерживаемых кириллических кодировок со строкой в кодировке UCS-4 без учета регистра букв |
+| [`checker_is_utf8_locale`](Libchecker:checker_is_utf8_locale.md)                 | проверить, что проверяющая программа работает в UTF-8 локали                                                                       |

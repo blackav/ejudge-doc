@@ -1,12 +1,12 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Использование](Использование "wikilink")/[Конфигурационные
-файлы](Конфигурационные_файлы "wikilink")/[serve.cfg](serve.cfg "wikilink")/[Глобальные
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
+файлы](Конфигурационные_файлы.md)/[serve.cfg](serve.cfg.md)/[Глобальные
 конфигурационные
-параметры](serve.cfg:global "wikilink")/[`super_run_dir`](serve.cfg:global:super_run_dir "wikilink")
+параметры](serve.cfg:global.md)/[`super_run_dir`](serve.cfg:global:super_run_dir.md)
 
 Данная конфигурационная переменная позволяет задать корневой каталог для
 каталогов обмена данными с программой
-[ej-super-run](ej-super-run "wikilink"). Если переменная не задана,
+[ej-super-run](ej-super-run.md). Если переменная не задана,
 используется значение по умолчанию \${CONTESTS_HOME_DIR}/super-run/var.
 
 Конфигурационная переменная предназначена для ситуаций, когда турнир

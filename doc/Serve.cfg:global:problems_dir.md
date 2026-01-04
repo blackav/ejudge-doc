@@ -1,13 +1,13 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Использование](Использование "wikilink")/[Конфигурационные
-файлы](Конфигурационные_файлы "wikilink")/[serve.cfg](serve.cfg "wikilink")/[Глобальные
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
+файлы](Конфигурационные_файлы.md)/[serve.cfg](serve.cfg.md)/[Глобальные
 конфигурационные
-параметры](serve.cfg:global "wikilink")/[`problems_dir`](Serve.cfg:global:problems_dir "wikilink")
+параметры](serve.cfg:global.md)/[`problems_dir`](Serve.cfg:global:problems_dir.md)
 
 Данная конфигурационная переменная используется только в [альтернативной
-раскладке файлов](альтернативная_раскладка_файлов "wikilink"), то есть
+раскладке файлов](альтернативная_раскладка_файлов.md), то есть
 когда глобальная конфигурационная переменная
-[`advanced_layout`](Serve.cfg:global:advanced_layout "wikilink")
+[`advanced_layout`](Serve.cfg:global:advanced_layout.md)
 установлена в 1.
 
 В этом случае значение данной конфигурационной переменной — это имя

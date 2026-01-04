@@ -1,8 +1,8 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Проверяющие
-программы](Проверяющие_программы "wikilink")/[libchecker](libchecker "wikilink")/[Функции](Libchecker:Функции "wikilink")/[Работа
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Проверяющие
+программы](Проверяющие_программы.md)/[libchecker](libchecker.md)/[Функции](Libchecker:Функции.md)/[Работа
 с
-памятью](Libchecker:Работа_с_памятью "wikilink")/[`XMEMZERO`](Libchecker:XMEMZERO "wikilink")
+памятью](Libchecker:Работа_с_памятью.md)/[`XMEMZERO`](Libchecker:XMEMZERO.md)
 
 Данный макрос является оберткой над функцией `memset` и позволяет
 обнулить заданное число элементов массива.

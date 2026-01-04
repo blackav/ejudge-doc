@@ -1,8 +1,8 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Проверяющие
-программы](Проверяющие_программы "wikilink")/[libchecker](libchecker "wikilink")/[Функции](Libchecker:Функции "wikilink")/[Чтение
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Проверяющие
+программы](Проверяющие_программы.md)/[libchecker](libchecker.md)/[Функции](Libchecker:Функции.md)/[Чтение
 файла как
-текста](Libchecker:Чтение_файла_как_текста "wikilink")/[checker_normalize_line](Libchecker:checker_normalize_line "wikilink")
+текста](Libchecker:Чтение_файла_как_текста.md)/[checker_normalize_line](Libchecker:checker_normalize_line.md)
 
 Функция `checker_normalize_line` — удалить пробельные символы из конца
 строки.

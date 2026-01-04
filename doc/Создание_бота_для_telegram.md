@@ -1,7 +1,7 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Использование](Использование "wikilink")/[Бот
-для telegram](Бот_для_telegram "wikilink")/[Создание бота для
-telegram](Создание_бота_для_telegram "wikilink")
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Бот
+для telegram](Бот_для_telegram.md)/[Создание бота для
+telegram](Создание_бота_для_telegram.md)
 
 Для создания бота для telegram можно следовать [инструкциям на сайте
 telegram](https://core.telegram.org/bots).

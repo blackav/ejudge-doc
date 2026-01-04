@@ -1,8 +1,8 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Использование](Использование "wikilink")/[Конфигурационные
-файлы](Конфигурационные_файлы "wikilink")/[serve.cfg](serve.cfg "wikilink")/[Конфигурационные
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
+файлы](Конфигурационные_файлы.md)/[serve.cfg](serve.cfg.md)/[Конфигурационные
 параметры
-задач](serve.cfg:problem "wikilink")/[`corr_pat`](serve.cfg:problem:corr_pat "wikilink")
+задач](serve.cfg:problem.md)/[`corr_pat`](serve.cfg:problem:corr_pat.md)
 
 **Редактирование элемента:** страница *"Editing contest"*, вкладка
 *"Problems (serve.cfg)"*, блок *"Abstract problems"*, поле *"Pattern for
@@ -30,12 +30,12 @@ corr_suffix)"*.
 ...
 
 Значение конфигурационной переменной
-[`corr_pat`](serve.cfg:problem:corr_pat "wikilink") может определяться в
+[`corr_pat`](serve.cfg:problem:corr_pat.md) может определяться в
 абстрактной задаче, в этом случае все конкретные задачи, относящиеся к
 этой абстрактной задаче, унаследуют значение.
 
 Если в конфигурации задачи определены и конфигурационная переменная
-[`corr_pat`](serve.cfg:problem:corr_pat "wikilink"), и конфигурационная
-переменная [`corr_sfx`](serve.cfg:problem:corr_sfx "wikilink"),
+[`corr_pat`](serve.cfg:problem:corr_pat.md), и конфигурационная
+переменная [`corr_sfx`](serve.cfg:problem:corr_sfx.md),
 используется значение переменной
-[`corr_pat`](serve.cfg:problem:corr_pat "wikilink").
+[`corr_pat`](serve.cfg:problem:corr_pat.md).

@@ -1,11 +1,11 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Использование](Использование "wikilink")/[Конфигурационные
-файлы](Конфигурационные_файлы "wikilink")/[contest.xml](contest.xml "wikilink")/[user_name_comment](contest.xml:user_name_comment "wikilink")
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
+файлы](Конфигурационные_файлы.md)/[contest.xml](contest.xml.md)/[user_name_comment](contest.xml:user_name_comment.md)
 
 |                          |                                                                       |     |
 |--------------------------|-----------------------------------------------------------------------|-----|
 | **Имя элемента**:        | **`user_name_comment`**                                               |     |
-| **Содержится в:**        | [`contest`](contest.xml:contest "wikilink")                           |     |
+| **Содержится в:**        | [`contest`](contest.xml:contest.md)                           |     |
 | **Может содержать:**     | *нет*                                                                 |     |
 | **Атрибуты:**            | *нет*                                                                 |     |
 | **Тип содержимого:**     | Дополнительный комментарий для поля User Name регистрационной анкеты. |     |

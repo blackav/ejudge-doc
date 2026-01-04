@@ -1,17 +1,17 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Проверяющие
-программы](Проверяющие_программы "wikilink")/[libchecker](libchecker "wikilink")/[Функции](Libchecker:Функции "wikilink")/[Чтение
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Проверяющие
+программы](Проверяющие_программы.md)/[libchecker](libchecker.md)/[Функции](Libchecker:Функции.md)/[Чтение
 файла как
-текста](Libchecker:Чтение_файла_как_текста "wikilink")/[`checker_read_buf_ex`](Libchecker:checker_read_buf_ex "wikilink")
+текста](Libchecker:Чтение_файла_как_текста.md)/[`checker_read_buf_ex`](Libchecker:checker_read_buf_ex.md)
 
 Функция `checker_read_buf_ex` — чтение одного [элемента
-ввода](элемент_ввода "wikilink") из [текстового
-файла](текстовый_файл "wikilink").
+ввода](элемент_ввода.md) из [текстового
+файла](текстовый_файл.md).
 
 `char *`  
 `checker_read_buf_ex(`  
 `        FILE *f,`  
-`        `[`checker_error_func_t`](libchecker:checker_error_func_t "wikilink")` error_func,`  
+`        `[`checker_error_func_t`](libchecker:checker_error_func_t.md)` error_func,`  
 `        const char *name,`  
 `        int eof_error_flag,`  
 `        char *sbuf,`  
@@ -19,8 +19,8 @@ ejudge](Система_ejudge "wikilink")/[Проверяющие
 `        char **pdbuf,`  
 `        size_t *pdsz);`
 
-Функция считывает один [элемент ввода](элемент_ввода "wikilink") из
-[текстового файла](текстовый_файл "wikilink") `f` в память. Пробельные
+Функция считывает один [элемент ввода](элемент_ввода.md) из
+[текстового файла](текстовый_файл.md) `f` в память. Пробельные
 символы, возможно находящиеся во входном файле перед элементом ввода,
 игнорируются.
 
@@ -52,8 +52,8 @@ ejudge](Система_ejudge "wikilink")/[Проверяющие
 на которую указывает параметр `pdsz`, длину считанного элемента ввода
 (без учета завершающего нулевого байта). В конец считанного элемента
 ввода добавляется нулевой байт. Память для содержимого строки выделяется
-на куче с помощью функций [`xmalloc`](libchecker:xmalloc "wikilink") и
-[`xrealloc`](libchecker:xrealloc "wikilink"). Функция возвращает адрес
+на куче с помощью функций [`xmalloc`](libchecker:xmalloc.md) и
+[`xrealloc`](libchecker:xrealloc.md). Функция возвращает адрес
 начала считанной строки, либо NULL при попытке чтения после конца файла
 при значении параметра `eof_error_flag` равном 0.
 
@@ -72,5 +72,5 @@ ejudge](Система_ejudge "wikilink")/[Проверяющие
 
 Если при чтении произошла ошибка ввода, программа завершается, и
 диагностируется [внутренняя ошибка
-проверки](внутренняя_ошибка_проверки "wikilink"). Для этого используется
-функция [`fatal_CF`](libchecker:fatal_CF "wikilink").
+проверки](внутренняя_ошибка_проверки.md). Для этого используется
+функция [`fatal_CF`](libchecker:fatal_CF.md).

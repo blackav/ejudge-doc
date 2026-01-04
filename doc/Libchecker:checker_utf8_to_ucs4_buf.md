@@ -1,8 +1,8 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Проверяющие
-программы](Проверяющие_программы "wikilink")/[libchecker](libchecker "wikilink")/[Функции](Libchecker:Функции "wikilink")/[Перекодирование
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Проверяющие
+программы](Проверяющие_программы.md)/[libchecker](libchecker.md)/[Функции](Libchecker:Функции.md)/[Перекодирование
 текстовых
-данных](Libchecker:Перекодирование_текстовых_данных "wikilink")/[checker_utf8_to_ucs4_buf](Libchecker:checker_utf8_to_ucs4_buf "wikilink")
+данных](Libchecker:Перекодирование_текстовых_данных.md)/[checker_utf8_to_ucs4_buf](Libchecker:checker_utf8_to_ucs4_buf.md)
 
 Функция позволяет перекодировать буфер заданного размера из кодировки
 UTF-8 в кодировку UCS-4.

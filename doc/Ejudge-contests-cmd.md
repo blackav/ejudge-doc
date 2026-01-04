@@ -1,7 +1,7 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Использование](Использование "wikilink")/[Использование
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Использование
 из командной
-строки](Использование_из_командной_строки "wikilink")/[ejudge-contests-cmd](ejudge-contests-cmd "wikilink")
+строки](Использование_из_командной_строки.md)/[ejudge-contests-cmd](ejudge-contests-cmd.md)
 
 Программа ejudge-contests-cmd позволяет формировать запросы к серверу
 турниров из командной строки.
@@ -18,12 +18,12 @@ ejudge](Система_ejudge "wikilink")/[Использование](Испо�
 
 `ejudge-contests-cmd [GLOBAL-OPTIONS] CONTEST-ID COMMAND [COMMAND-OPTIONS] [COMMAND-ARGS]`
 
-Здесь [GLOBAL-OPTIONS](ejudge-contests-cmd:_GLOBAL-OPTIONS "wikilink") —
+Здесь [GLOBAL-OPTIONS](ejudge-contests-cmd:_GLOBAL-OPTIONS.md) —
 это опции, позволяющие задать, например, путь к конфигурационному файлу
 ejudge, CONTEST-ID — это номер турнира,
-[COMMAND](ejudge-contests-cmd:_COMMAND "wikilink") — команда для
+[COMMAND](ejudge-contests-cmd:_COMMAND.md) — команда для
 выполнения на сервере,
-[COMMAND-OPTIONS](ejudge-contests-cmd:_COMMAND-OPTIONS "wikilink") —
+[COMMAND-OPTIONS](ejudge-contests-cmd:_COMMAND-OPTIONS.md) —
 дополнительные опции команды,
-[COMMAND-ARGS](ejudge-contests-cmd:_COMMAND-ARGS "wikilink") — аргументы
+[COMMAND-ARGS](ejudge-contests-cmd:_COMMAND-ARGS.md) — аргументы
 команды.

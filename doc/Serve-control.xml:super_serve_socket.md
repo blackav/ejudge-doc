@@ -1,28 +1,28 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Использование](Использование "wikilink")/[Конфигурационные
-файлы](Конфигурационные_файлы "wikilink")/[serve-control.xml](serve-control.xml "wikilink")/[super_serve_socket](serve-control.xml:super_serve_socket "wikilink")
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
+файлы](Конфигурационные_файлы.md)/[serve-control.xml](serve-control.xml.md)/[super_serve_socket](serve-control.xml:super_serve_socket.md)
 
 |                            |                                                                             |
 |----------------------------|-----------------------------------------------------------------------------|
 | **Имя элемента**:          | **`super_serve_socket`**                                                    |
-| **Содержится в:**          | [`serve_control_config`](serve-control.xml:serve_control_config "wikilink") |
+| **Содержится в:**          | [`serve_control_config`](serve-control.xml:serve_control_config.md) |
 | **Может содержать:**       | *нет*                                                                       |
 | **Атрибуты:**              | *нет*                                                                       |
 | **Тип содержимого:**       | путь к UNIX-сокету                                                          |
-| **Значение по умолчанию:** | устанавливается [configure](configure "wikilink")                           |
+| **Значение по умолчанию:** | устанавливается [configure](configure.md)                           |
 | **Может отсутствовать:**   | *да*                                                                        |
 | **Может повторяться:**     | *нет*                                                                       |
 | **Примечание:**            | явное использование не рекомендуется                                        |
 
 **Описание.** Данный элемент задаёт путь к UNIX-сокету, который
 используется для связи с сервером управления турнирами
-[super-serve](super-serve "wikilink"). Когда программа
-[serve-control](serve-control "wikilink") стартует, UNIX-сокет должен
+[super-serve](super-serve.md). Когда программа
+[serve-control](serve-control.md) стартует, UNIX-сокет должен
 существовать и быть доступным для пользователя, от имени которого
 запускается программа. Как правило, это пользователь, от имени которого
 работает WEB-сервер.
 
 Правильное значение по умолчанию пути к сокету автоматически
-устанавливается программой [configure](configure "wikilink") при
+устанавливается программой [configure](configure.md) при
 компиляции системы, если задана опция `--enable-super-serve-socket`.
 Поэтому явное задание данной опции не рекомендуется.

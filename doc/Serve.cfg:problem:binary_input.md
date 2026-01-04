@@ -1,8 +1,8 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Использование](Использование "wikilink")/[Конфигурационные
-файлы](Конфигурационные_файлы "wikilink")/[serve.cfg](serve.cfg "wikilink")/[Конфигурационные
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
+файлы](Конфигурационные_файлы.md)/[serve.cfg](serve.cfg.md)/[Конфигурационные
 параметры
-задач](serve.cfg:problem "wikilink")/[binary_input](serve.cfg:problem:binary_input "wikilink")
+задач](serve.cfg:problem.md)/[binary_input](serve.cfg:problem:binary_input.md)
 
 **Редактирование элемента:** страница *"Editing contest"*, вкладка
 *"Problems (serve.cfg)"*, блок *"Abstract problems"*, поле *"Input data
@@ -16,7 +16,7 @@ binary"*.
 
 1.  при копировании входного файла в рабочий каталог программы, если для
     соответствующего тестировщика установлена конфигурационная
-    переменная [`is_dos`](serve.cfg:tester:is_dos "wikilink"). В этом
+    переменная [`is_dos`](serve.cfg:tester:is_dos.md). В этом
     случае `unix`-концы строк `\n` заменяются на `dos`-концы строк
     `\r\n`.
 2.  при выполнении команды "Check contest settings" в разделе просмотра

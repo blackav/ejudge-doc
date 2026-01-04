@@ -1,7 +1,7 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Использование](Использование "wikilink")/[Использование
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Использование
 из командной
-строки](Использование_из_командной_строки "wikilink")/[Ejudge-contests-cmd](Ejudge-contests-cmd "wikilink")/[GLOBAL-OPTIONS](ejudge-contests-cmd:_GLOBAL-OPTIONS "wikilink")
+строки](Использование_из_командной_строки.md)/[Ejudge-contests-cmd](Ejudge-contests-cmd.md)/[GLOBAL-OPTIONS](ejudge-contests-cmd:_GLOBAL-OPTIONS.md)
 
 Глобальные опции позволяют изменять глобальные параметры настройки,
 относящиеся ко всей системе ejudge. Эти параметры имеют корректные

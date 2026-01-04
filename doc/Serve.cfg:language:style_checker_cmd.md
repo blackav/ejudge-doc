@@ -1,8 +1,8 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Использование](Использование "wikilink")/[Конфигурационные
-файлы](Конфигурационные_файлы "wikilink")/[serve.cfg](serve.cfg "wikilink")/[Конфигурационные
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
+файлы](Конфигурационные_файлы.md)/[serve.cfg](serve.cfg.md)/[Конфигурационные
 параметры
-языков](serve.cfg:language "wikilink")/[`style_checker_cmd`](Serve.cfg:language:style_checker_cmd "wikilink")
+языков](serve.cfg:language.md)/[`style_checker_cmd`](Serve.cfg:language:style_checker_cmd.md)
 
 В данной переменной можно указать имя программы, которая выполняет
 проверку стиля оформления программ. Проверка стиля оформления программы

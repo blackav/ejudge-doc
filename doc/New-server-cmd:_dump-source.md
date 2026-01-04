@@ -1,2 +1,2 @@
 1.  REDIRECT [Ejudge-contests-cmd:
-    dump-source](Ejudge-contests-cmd:_dump-source "wikilink")
+    dump-source](Ejudge-contests-cmd:_dump-source.md)

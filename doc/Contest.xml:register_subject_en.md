@@ -1,6 +1,6 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Использование](Использование "wikilink")/[Конфигурационные
-файлы](Конфигурационные_файлы "wikilink")/[contest.xml](contest.xml "wikilink")/[`register_subject_en`](contest.xml:register_subject_en "wikilink")
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
+файлы](Конфигурационные_файлы.md)/[contest.xml](contest.xml.md)/[`register_subject_en`](contest.xml:register_subject_en.md)
 
 Данный элемент позволяет задавать тему для писем, высылаемых при
 регистрации новых пользователей.

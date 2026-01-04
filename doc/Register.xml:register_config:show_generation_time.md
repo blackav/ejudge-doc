@@ -1,12 +1,12 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Использование](Использование "wikilink")/[Конфигурационные
-файлы](Конфигурационные_файлы "wikilink")/[register.xml](register.xml "wikilink")/[`register_config`](register.xml:register_config "wikilink")/
-[`show_generation_time`](register.xml:register_config:show_generation_time "wikilink")
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
+файлы](Конфигурационные_файлы.md)/[register.xml](register.xml.md)/[`register_config`](register.xml:register_config.md)/
+[`show_generation_time`](register.xml:register_config:show_generation_time.md)
 
 |                            |                                                              |
 |----------------------------|--------------------------------------------------------------|
 | **Имя атрибута**:          | **`show_generation_time`**                                   |
-| **Содержится в:**          | [`register_config`](register.xml:register_config "wikilink") |
+| **Содержится в:**          | [`register_config`](register.xml:register_config.md) |
 |                            |                                                              |
 | **Тип значения:**          | *boolean*                                                    |
 | **Значение по умолчанию:** | `false`                                                      |

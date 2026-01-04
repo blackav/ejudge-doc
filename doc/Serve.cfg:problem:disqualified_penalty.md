@@ -1,14 +1,14 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Использование](Использование "wikilink")/[Конфигурационные
-файлы](Конфигурационные_файлы "wikilink")/[serve.cfg](serve.cfg "wikilink")/[Конфигурационные
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
+файлы](Конфигурационные_файлы.md)/[serve.cfg](serve.cfg.md)/[Конфигурационные
 параметры
-задач](serve.cfg:problem "wikilink")/[disqualified_penalty](serve.cfg:problem:disqualified_penalty "wikilink")
+задач](serve.cfg:problem.md)/[disqualified_penalty](serve.cfg:problem:disqualified_penalty.md)
 
 Эта переменная позволяет задать штраф за дисквалифицированную посылку. В
 данной версии системы `ejudge` дисквалифицированные посылки учитываются
 отдельно от обычных посылок и штрафуются отдельно. По умолчанию значение
 переменной `disqualified_penalty` равно значению переменной
-[`run_penalty`](serve.cfg:problem:run_penalty "wikilink").
+[`run_penalty`](serve.cfg:problem:run_penalty.md).
 
 Таким образом, в текущей версии системы балл за посылку в системе
 *KIROV* или *OLYMPIAD* вычисляется по следующей формуле:

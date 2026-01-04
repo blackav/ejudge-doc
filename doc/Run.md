@@ -1,1 +1,1 @@
-1.  REDIRECT [Ej-run](Ej-run "wikilink")
+1.  REDIRECT [Ej-run](Ej-run.md)

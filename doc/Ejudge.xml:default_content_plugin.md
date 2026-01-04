@@ -1,13 +1,13 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Использование](Использование "wikilink")/[Конфигурационные
-файлы](Конфигурационные_файлы "wikilink")/[ejudge.xml](ejudge.xml "wikilink")/[`default_content_plugin`](ejudge.xml:default_content_plugin "wikilink")
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
+файлы](Конфигурационные_файлы.md)/[ejudge.xml](ejudge.xml.md)/[`default_content_plugin`](ejudge.xml:default_content_plugin.md)
 
 Данный элемент позволяет задать имя плагина для [статического контента
-для аватаров](поддержка_аватаров "wikilink") по умолчанию для всех
+для аватаров](поддержка_аватаров.md) по умолчанию для всех
 турниров.
 
 Пример:
 
 <default_content_plugin>`file`</default_content_plugin>
 
-Поддерживается с версии [3.7.0](изменения_в_версии_3.7.0 "wikilink").
+Поддерживается с версии [3.7.0](изменения_в_версии_3.7.0.md).

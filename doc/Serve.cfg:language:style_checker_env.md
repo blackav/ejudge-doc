@@ -1,14 +1,14 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Использование](Использование "wikilink")/[Конфигурационные
-файлы](Конфигурационные_файлы "wikilink")/[serve.cfg](serve.cfg "wikilink")/[Конфигурационные
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
+файлы](Конфигурационные_файлы.md)/[serve.cfg](serve.cfg.md)/[Конфигурационные
 параметры
-языков](serve.cfg:language "wikilink")/[style_checker_env](Serve.cfg:language:style_checker_env "wikilink")
+языков](serve.cfg:language.md)/[style_checker_env](Serve.cfg:language:style_checker_env.md)
 
 Данная конфигурационная переменная позволяет задавать переменные
 окружения, передаваемые [программе проверки
-стиля](style_checkers "wikilink"). Если у соответствующего языка
+стиля](style_checkers.md). Если у соответствующего языка
 программирования указана переменная
-[`style_checker_cmd`](Serve.cfg:language:style_checker_cmd "wikilink"),
+[`style_checker_cmd`](Serve.cfg:language:style_checker_cmd.md),
 то переменные окружения будут переданы в эту программу.
 
 Данная конфигурационная переменная может быть указана в разделе описания

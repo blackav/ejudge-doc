@@ -1,8 +1,8 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Использование](Использование "wikilink")/[Общая
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Общая
 архитектура
-системы](Общая_архитектура_системы "wikilink")/[ejudge-jobs-cmd](ejudge-jobs-cmd "wikilink")
+системы](Общая_архитектура_системы.md)/[ejudge-jobs-cmd](ejudge-jobs-cmd.md)
 
 Программа `ejudge-jobs-cmd` предоставляет интерфейс командной строки для
 формирования запросов к серверу низкоприоритетных задач
-[`ej-jobs`](ej-jobs "wikilink").
+[`ej-jobs`](ej-jobs.md).

@@ -1,1 +1,1 @@
-1.  REDIRECT [Ej-users](Ej-users "wikilink")
+1.  REDIRECT [Ej-users](Ej-users.md)

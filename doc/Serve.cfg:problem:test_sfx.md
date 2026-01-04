@@ -1,13 +1,13 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Использование](Использование "wikilink")/[Конфигурационные
-файлы](Конфигурационные_файлы "wikilink")/[serve.cfg](serve.cfg "wikilink")/[Конфигурационные
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
+файлы](Конфигурационные_файлы.md)/[serve.cfg](serve.cfg.md)/[Конфигурационные
 параметры
-задач](serve.cfg:problem "wikilink")/[test_sfx](serve.cfg:problem:test_sfx "wikilink")
+задач](serve.cfg:problem.md)/[test_sfx](serve.cfg:problem:test_sfx.md)
 
 |                          |                                           |
 |--------------------------|-------------------------------------------|
 | **Имя переменной**:      | **`test_sfx`**                            |
-| **Содержится в:**        | [`problem`](serve.cfg:problem "wikilink") |
+| **Содержится в:**        | [`problem`](serve.cfg:problem.md) |
 | **Используется:**        | `serve, run`                              |
 | **Тип содержимого:**     | *string*                                  |
 | **Может отсутствовать:** | *да*                                      |
@@ -27,7 +27,7 @@ files"*.
 `path=${test_dir}/${test_num}${test_sfx}`
 
 Здесь `${test_dir}` — значение конфигурационной переменной
-[`test_dir`](serve.cfg:global:test_dir "wikilink"), `${test_num}` —
+[`test_dir`](serve.cfg:global:test_dir.md), `${test_num}` —
 номер теста, записанный с тремя цифрами, включая незначащие нули,
 `${test_sfx}` — значение данной конфигурационной переменной.
 
@@ -39,7 +39,7 @@ files"*.
     установленное в описании абстрактной задачи *A*.
 2.  Если после предыдущего шага значение переменной всё ещё не
     определено, используется значение глобальной конфигурационной
-    переменной [`test_sfx`](serve.cfg:global:test_sfx "wikilink").
+    переменной [`test_sfx`](serve.cfg:global:test_sfx.md).
 3.  Если после предыдущего шага значение переменной всё ещё не
     определено, значение полагается равным пустой строке .
 
@@ -48,7 +48,7 @@ files"*.
 `test_sfx = ".dat"`
 
 Если в конфигурации задачи определены и конфигурационная переменная
-[`test_pat`](serve.cfg:problem:test_pat "wikilink"), и конфигурационная
-переменная [`test_sfx`](serve.cfg:problem:test_sfx "wikilink"),
+[`test_pat`](serve.cfg:problem:test_pat.md), и конфигурационная
+переменная [`test_sfx`](serve.cfg:problem:test_sfx.md),
 используется значение переменной
-[`test_pat`](serve.cfg:problem:test_pat "wikilink").
+[`test_pat`](serve.cfg:problem:test_pat.md).

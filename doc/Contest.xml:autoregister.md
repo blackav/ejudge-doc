@@ -1,11 +1,11 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Использование](Использование "wikilink")/[Конфигурационные
-файлы](Конфигурационные_файлы "wikilink")/[contest.xml](contest.xml "wikilink")/[autoregister](contest.xml:autoregister "wikilink")
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
+файлы](Конфигурационные_файлы.md)/[contest.xml](contest.xml.md)/[autoregister](contest.xml:autoregister.md)
 
 |                            |                                             |     |
 |----------------------------|---------------------------------------------|-----|
 | **Имя атрибута**:          | **`autoregister`**                          |     |
-| **Содержится в:**          | [`contest`](contest.xml:contest "wikilink") |     |
+| **Содержится в:**          | [`contest`](contest.xml:contest.md) |     |
 | **Тип значения:**          | *boolean*                                   |     |
 | **Может отсутствовать:**   | *да*                                        |     |
 | **Значение по умолчанию:** | false                                       |     |

@@ -1,13 +1,13 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Использование](Использование "wikilink")/[Конфигурационные
-файлы](Конфигурационные_файлы "wikilink")/[serve.cfg](serve.cfg "wikilink")/[Глобальные
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
+файлы](Конфигурационные_файлы.md)/[serve.cfg](serve.cfg.md)/[Глобальные
 конфигурационные
-параметры](serve.cfg:global "wikilink")/[`ignore_compile_errors`](Serve.cfg:global:ignore_compile_errors "wikilink")
+параметры](serve.cfg:global.md)/[`ignore_compile_errors`](Serve.cfg:global:ignore_compile_errors.md)
 
 |                            |                                         |     |
 |----------------------------|-----------------------------------------|-----|
 | **Имя переменной**:        | **`ignore_compile_errors`**             |     |
-| **Содержится в:**          | [`global`](serve.cfg:global "wikilink") |     |
+| **Содержится в:**          | [`global`](serve.cfg:global.md) |     |
 | **Используется:**          | `serve`                                 |     |
 | **Тип содержимого:**       | *boolean*                               |     |
 | **Может отсутствовать:**   | *да*                                    |     |
@@ -28,4 +28,4 @@ ejudge](Система_ejudge "wikilink")/[Использование](Испо�
 `ignore_compile_errors`
 
 Смотри также
-[`compile_error_penalty`](serve.cfg:problem:compile_error_penalty "wikilink").
+[`compile_error_penalty`](serve.cfg:problem:compile_error_penalty.md).

@@ -3,4 +3,4 @@
 CGI-programs"*, поле *"HTML header file for privileged CGI-programs"*.
 
 Значение элемента игнорируется начиная с [версии
-3.0](Изменения_в_версии_3.0 "wikilink").
+3.0](Изменения_в_версии_3.0.md).

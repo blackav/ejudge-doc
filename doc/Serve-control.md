@@ -1,14 +1,14 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Использование](Использование "wikilink")/[Общая
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Общая
 архитектура
-системы](Общая_архитектура_системы "wikilink")/[serve-control](serve-control "wikilink")
+системы](Общая_архитектура_системы.md)/[serve-control](serve-control.md)
 
 CGI-программа `serve-control` предоставляет административный интерфейс
 для управления всеми турнирами и создания и изменения настроек турниров.
 Только пользователи, у которых установлена глобальная привилегия
 `MASTER_LOGIN` или `JUDGE_LOGIN` могут использовать программу
-[`serve-control`](serve-control "wikilink"). Аутентификация
+[`serve-control`](serve-control.md). Аутентификация
 пользователей выполняется с помощью запроса к программе
-[`userlist-server`](userlist-server "wikilink"), а основные запросы
+[`userlist-server`](userlist-server.md), а основные запросы
 пользователей перенаправляются на обработку в программу
-[`super-serve`](super-serve "wikilink").
+[`super-serve`](super-serve.md).

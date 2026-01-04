@@ -1,8 +1,8 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Проверяющие
-программы](Проверяющие_программы "wikilink")/[libchecker](libchecker "wikilink")/[Функции](Libchecker:Функции "wikilink")/[Перекодирование
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Проверяющие
+программы](Проверяющие_программы.md)/[libchecker](libchecker.md)/[Функции](Libchecker:Функции.md)/[Перекодирование
 текстовых
-данных](Libchecker:Перекодирование_текстовых_данных "wikilink")/[checker_ucs4_to_utf8_size](Libchecker:checker_ucs4_to_utf8_size "wikilink")
+данных](Libchecker:Перекодирование_текстовых_данных.md)/[checker_ucs4_to_utf8_size](Libchecker:checker_ucs4_to_utf8_size.md)
 
 Функция вычисляет число байт, необходимых для перекодирования заданной
 строки в кодировке UCS-4 в кодировку UTF-8.

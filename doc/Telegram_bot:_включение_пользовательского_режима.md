@@ -1,12 +1,12 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Использование](Использование "wikilink")/[Бот
-для telegram](Бот_для_telegram "wikilink")/[Включение пользовательского
-режима](Telegram_bot:_включение_пользовательского_режима "wikilink")
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Бот
+для telegram](Бот_для_telegram.md)/[Включение пользовательского
+режима](Telegram_bot:_включение_пользовательского_режима.md)
 
 Для включения поддержки пользовательского режима бота в конфигурационном
-файле [contest.xml](contest.xml "wikilink") у элемента
-[contest](contest.xml:contest "wikilink") нужно установить атрибут
-[enable_user_telegram](contest.xml:enable_user_telegram "wikilink") в
+файле [contest.xml](contest.xml.md) у элемента
+[contest](contest.xml:contest.md) нужно установить атрибут
+[enable_user_telegram](contest.xml:enable_user_telegram.md) в
 значение `yes`.
 
 Участники турнира могут подписываться на уведомления о следующих

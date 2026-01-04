@@ -1,10 +1,10 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Проверяющие
-программы](Проверяющие_программы "wikilink")/[libchecker](libchecker "wikilink")/[Функции](Libchecker:Функции "wikilink")/[Перекодирование
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Проверяющие
+программы](Проверяющие_программы.md)/[libchecker](libchecker.md)/[Функции](Libchecker:Функции.md)/[Перекодирование
 текстовых
-данных](Libchecker:Перекодирование_текстовых_данных "wikilink")/[Перекодирование
+данных](Libchecker:Перекодирование_текстовых_данных.md)/[Перекодирование
 строки из кодировки
-UCS-4](Libchecker:checker_ucs4_to_CHARSET_str "wikilink")
+UCS-4](Libchecker:checker_ucs4_to_CHARSET_str.md)
 
 Данные функции позволяют перекодировать строку в кодировке UCS-4 в одну
 из поддерживаемых однобайтных кириллических кодировок.

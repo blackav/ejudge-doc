@@ -1,8 +1,8 @@
-Навигация: [Система ejudge](Система_ejudge "wikilink") /
-[Использование](Использование "wikilink") / [Использование из командной
-строки](Использование_из_командной_строки "wikilink") /
-[ejudge-contests-cmd](ejudge-contests-cmd "wikilink") /
-[Команды](ejudge-contests-cmd:_COMMAND "wikilink")
+Навигация: [Система ejudge](Система_ejudge.md) /
+[Использование](Использование.md) / [Использование из командной
+строки](Использование_из_командной_строки.md) /
+[ejudge-contests-cmd](ejudge-contests-cmd.md) /
+[Команды](ejudge-contests-cmd:_COMMAND.md)
 
 Команда import-xml-runs выполняет слияние базы посылок в XML-формате из
 указанного файла и базы посылок турнира. При слиянии учитываются и не
@@ -23,7 +23,7 @@
 `ejudge-contests-cmd CONTEST-ID import-xml-runs [OPTIONS] SESSION-FILE XML-FILE`
 
 Поддерживаются все [стандартные опции
-команд](ejudge-contests-cmd:_COMMAND-OPTIONS "wikilink"). В частности,
+команд](ejudge-contests-cmd:_COMMAND-OPTIONS.md). В частности,
 если указана опция `--session`, то аргумент `SESSION-FILE` — это не
 файл, в котором записан сессионный ключ, а сам сессионный ключ.
 
@@ -37,7 +37,7 @@
 случае возникновения какой-либо другой ошибки код завершения равен 1.
 
 См. также команды:
-[write-xml-runs](ejudge-contests-cmd:_write-xml-runs "wikilink"),
-[export-xml-runs](ejudge-contests-cmd:_export-xml-runs "wikilink"),
-[has-transient-runs](ejudge-contests-cmd:_has-transient-runs "wikilink"),
-[full-import-xml-runs](ejudge-contests-cmd:_full-import-xml-runs "wikilink").
+[write-xml-runs](ejudge-contests-cmd:_write-xml-runs.md),
+[export-xml-runs](ejudge-contests-cmd:_export-xml-runs.md),
+[has-transient-runs](ejudge-contests-cmd:_has-transient-runs.md),
+[full-import-xml-runs](ejudge-contests-cmd:_full-import-xml-runs.md).

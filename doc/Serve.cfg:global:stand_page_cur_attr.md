@@ -1,8 +1,8 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Использование](Использование "wikilink")/[Конфигурационные
-файлы](Конфигурационные_файлы "wikilink")/[serve.cfg](serve.cfg "wikilink")/[Глобальные
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
+файлы](Конфигурационные_файлы.md)/[serve.cfg](serve.cfg.md)/[Глобальные
 конфигурационные
-параметры](serve.cfg:global "wikilink")/[`stand_page_cur_attr`](Serve.cfg:global:stand_page_cur_attr "wikilink")
+параметры](serve.cfg:global.md)/[`stand_page_cur_attr`](Serve.cfg:global:stand_page_cur_attr.md)
 
 Позволяет задавать атрибуты текста "Page N of M.", выводимого, когда
 включено разбиение таблицы текущих результатов на страницы.

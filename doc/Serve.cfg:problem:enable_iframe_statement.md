@@ -1,8 +1,8 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Использование](Использование "wikilink")/[Конфигурационные
-файлы](Конфигурационные_файлы "wikilink")/[serve.cfg](serve.cfg "wikilink")/[Конфигурационные
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
+файлы](Конфигурационные_файлы.md)/[serve.cfg](serve.cfg.md)/[Конфигурационные
 параметры
-задач](serve.cfg:problem "wikilink")/[`enable_iframe_statement`](serve.cfg:problem:enable_iframe_statement "wikilink")
+задач](serve.cfg:problem.md)/[`enable_iframe_statement`](serve.cfg:problem:enable_iframe_statement.md)
 
 Если у задачи установлен данный конфигурационный параметр, меняется
 алгоритм генерации ссылок для ссылок в условии задачи, раскрываемых по
@@ -18,4 +18,4 @@ URL, а не в GET-параметры. Это необходимо, чтобы 
 `enable_iframe_statement`
 
 Поддерживается начиная с версии
-[3.10.2](изменения_в_версии_3.10.2 "wikilink").
+[3.10.2](изменения_в_версии_3.10.2.md).

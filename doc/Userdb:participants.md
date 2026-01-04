@@ -1,7 +1,7 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Разработка](Разработка "wikilink")/[Схема
-БД пользователей](Схема_БД_пользователей "wikilink")/[Таблица
-participants](userdb:participants "wikilink")
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Разработка](Разработка.md)/[Схема
+БД пользователей](Схема_БД_пользователей.md)/[Таблица
+participants](userdb:participants.md)
 
 `CREATE TABLE participants`  
 `       (serial INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY, // идентификатор члена команды, больше 0`  

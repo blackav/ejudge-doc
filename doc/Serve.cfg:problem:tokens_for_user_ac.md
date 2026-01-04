@@ -1,21 +1,21 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Использование](Использование "wikilink")/[Конфигурационные
-файлы](Конфигурационные_файлы "wikilink")/[serve.cfg](serve.cfg "wikilink")/[Конфигурационные
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
+файлы](Конфигурационные_файлы.md)/[serve.cfg](serve.cfg.md)/[Конфигурационные
 параметры
-задач](serve.cfg:problem "wikilink")/[`tokens_for_user_ac`](Serve.cfg:problem:tokens_for_user_ac "wikilink")
+задач](serve.cfg:problem.md)/[`tokens_for_user_ac`](Serve.cfg:problem:tokens_for_user_ac.md)
 
 Данная переменная применима только в [турнирах с
-токенами](турниры_с_токенами "wikilink") и в режиме
-[`separate_user_score`](serve.cfg:global:separate_user_score "wikilink").
+токенами](турниры_с_токенами.md) и в режиме
+[`separate_user_score`](serve.cfg:global:separate_user_score.md).
 Если переменная установлена в положительное значение, то участник
 турнира имеет возможность использовать токен на посылке только в случае,
 когда пользовательский статус посылки равен [Accepted for
-Testing](Accepted_for_Testing "wikilink") (AC) (принято на проверку).
+Testing](Accepted_for_Testing.md) (AC) (принято на проверку).
 Данный режим предназначен для использования совместно с флагом
-`user_status AC;` программы оценивания [gvaluer](gvaluer "wikilink").
+`user_status AC;` программы оценивания [gvaluer](gvaluer.md).
 
 Конфигурационная переменная может быть определена в абстрактной задаче и
 будет наследоваться конкретными задачами.
 
 Конфигурационная переменная поддерживается, начиная с версии
-[3.3.0](изменения_в_версии_3.3.0 "wikilink").
+[3.3.0](изменения_в_версии_3.3.0.md).

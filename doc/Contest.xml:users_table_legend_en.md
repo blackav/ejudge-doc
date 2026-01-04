@@ -1,11 +1,11 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Использование](Использование "wikilink")/[Конфигурационные
-файлы](Конфигурационные_файлы "wikilink")/[contest.xml](contest.xml "wikilink")/[users_table_legend_en](contest.xml:users_table_legend_en "wikilink")
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
+файлы](Конфигурационные_файлы.md)/[contest.xml](contest.xml.md)/[users_table_legend_en](contest.xml:users_table_legend_en.md)
 
 |                          |                                                    |     |
 |--------------------------|----------------------------------------------------|-----|
 | **Имя элемента**:        | **`users_table_legend_en`**                        |     |
-| **Содержится в:**        | [`contest`](contest.xml:contest "wikilink")        |     |
+| **Содержится в:**        | [`contest`](contest.xml:contest.md)        |     |
 | **Может содержать:**     | *нет*                                              |     |
 | **Атрибуты:**            | *нет*                                              |     |
 | **Тип содержимого:**     | заголовок таблицы зарегистрированных пользователей |     |
@@ -34,5 +34,5 @@ CGI-programs"*, поле *"Legend specification for users table (En)"*.
 
 Если значение данного элемента задано, обязательно должно быть задано
 значение элемента
-[`users_table_format_en`](contest.xml:users_table_format_en "wikilink"),
+[`users_table_format_en`](contest.xml:users_table_format_en.md),
 при этом оба элемента должны определять равное число стобцов.

@@ -1,19 +1,19 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Проверяющие
-программы](Проверяющие_программы "wikilink")/[libchecker](libchecker "wikilink")/[Функции](Libchecker:Функции "wikilink")/[Чтение
-целых значений](Libchecker:Чтение_целых_значений "wikilink")/[Чтение
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Проверяющие
+программы](Проверяющие_программы.md)/[libchecker](libchecker.md)/[Функции](Libchecker:Функции.md)/[Чтение
+целых значений](Libchecker:Чтение_целых_значений.md)/[Чтение
 целого значения из заданного
-файла](Libchecker:checker_read_TYPE_ex "wikilink")
+файла](Libchecker:checker_read_TYPE_ex.md)
 
 Данные функции позволяют считывать целое значение из файла.
 
-`int checker_read_int_ex(FILE *f, `[`checker_error_func_t`](libchecker:checker_error_func_t "wikilink")` error_func, const char *name,`  
+`int checker_read_int_ex(FILE *f, `[`checker_error_func_t`](libchecker:checker_error_func_t.md)` error_func, const char *name,`  
 `                        int eof_error_flag, int *p_val);`  
-`int checker_read_unsigned_int_ex(FILE *f, `[`checker_error_func_t`](libchecker:checker_error_func_t "wikilink")` error_func, const char *name,`  
+`int checker_read_unsigned_int_ex(FILE *f, `[`checker_error_func_t`](libchecker:checker_error_func_t.md)` error_func, const char *name,`  
 `                        int eof_error_flag, unsigned int *p_val);`  
-`int checker_read_long_long_ex(FILE *f, `[`checker_error_func_t`](libchecker:checker_error_func_t "wikilink")` error_func, const char *name,`  
+`int checker_read_long_long_ex(FILE *f, `[`checker_error_func_t`](libchecker:checker_error_func_t.md)` error_func, const char *name,`  
 `                        int eof_error_flag, long long *p_val);`  
-`int checker_read_unsigned_long_long_ex(FILE *f, `[`checker_error_func_t`](libchecker:checker_error_func_t "wikilink")` error_func, const char *name,`  
+`int checker_read_unsigned_long_long_ex(FILE *f, `[`checker_error_func_t`](libchecker:checker_error_func_t.md)` error_func, const char *name,`  
 `                        int eof_error_flag, unsigned long long *p_val);`
 
 Число считывается из файла `f`. Параметр `name` — это строка или текст,
@@ -28,18 +28,18 @@ ejudge](Система_ejudge "wikilink")/[Проверяющие
 которую должно быть помещено считанное значение.
 
 Каждое число в файле должно быть отдельным [элементом
-ввода](элемент_ввода "wikilink"), то есть при чтении числа сначала из
+ввода](элемент_ввода.md), то есть при чтении числа сначала из
 файла считывается элемент ввода, после чего он конвертируется в число.
 Число должно быть записано в десятичном виде с необязательным знаком `+`
 или `-` перед ним. При чтении беззнаковых чисел знак `-` не допускается.
 
 Если при чтении элемента ввода возникла ошибка ввода, программа
 завершается, и диагностируется [внутренняя ошибка
-проверки](внутренняя_ошибка_проверки "wikilink"). Для этого используется
-функция [`fatal_CF`](libchecker:fatal_CF "wikilink").
+проверки](внутренняя_ошибка_проверки.md). Для этого используется
+функция [`fatal_CF`](libchecker:fatal_CF.md).
 
 Функция предназначена для работы с [текстовыми
-файлами](текстовый_файл "wikilink"). Если при чтении элемента ввода
+файлами](текстовый_файл.md). Если при чтении элемента ввода
 встречается символ, который недопустим в текстовом файле, вызывается
 функция `error_func` для выдачи сообщения об ошибке и завершения работы.
 

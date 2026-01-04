@@ -1,12 +1,12 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Использование](Использование "wikilink")/[Конфигурационные
-файлы](Конфигурационные_файлы "wikilink")/[serve.cfg](serve.cfg "wikilink")/[Глобальные
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
+файлы](Конфигурационные_файлы.md)/[serve.cfg](serve.cfg.md)/[Глобальные
 конфигурационные
-параметры](serve.cfg:global "wikilink")/[`score_n_best_problems`](serve.cfg:global:score_n_best_problems "wikilink")
+параметры](serve.cfg:global.md)/[`score_n_best_problems`](serve.cfg:global:score_n_best_problems.md)
 
 Данная конфигурационная переменная модифицирует правила вычисления
-суммарного балла в турнирах [OLYMPIAD](OLYMPIAD "wikilink") или
-[KIROV](KIROV "wikilink").
+суммарного балла в турнирах [OLYMPIAD](OLYMPIAD.md) или
+[KIROV](KIROV.md).
 
 Например,
 

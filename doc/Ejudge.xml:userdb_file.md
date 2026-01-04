@@ -1,26 +1,26 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Использование](Использование "wikilink")/[Конфигурационные
-файлы](Конфигурационные_файлы "wikilink")/[ejudge.xml](ejudge.xml "wikilink")/[`userdb_file`](ejudge.xml:userdb_file "wikilink")
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
+файлы](Конфигурационные_файлы.md)/[ejudge.xml](ejudge.xml.md)/[`userdb_file`](ejudge.xml:userdb_file.md)
 
 |                          |                                                                                                                                                                                        |     |
 |--------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----|
 | **Имя элемента**:        | **`userdb_file`**                                                                                                                                                                      |     |
-| **Содержится в:**        | [`config`](ejudge.xml:config "wikilink")                                                                                                                                               |     |
+| **Содержится в:**        | [`config`](ejudge.xml:config.md)                                                                                                                                               |     |
 | **Может содержать:**     | *нет*                                                                                                                                                                                  |     |
 | **Атрибуты:**            | *нет*                                                                                                                                                                                  |     |
 | **Тип содержимого:**     | путь к файлу                                                                                                                                                                           |     |
 | **Может отсутствовать:** | *нет*                                                                                                                                                                                  |     |
 | **Может повторяться:**   | *нет*                                                                                                                                                                                  |     |
-| **Используется в:**      | [`clean-users`](clean-users "wikilink"), [`collect-emails`](collect-emails "wikilink"), [`slice-userlist`](slice-userlist "wikilink"), [`userlist-server`](userlist-server "wikilink") |     |
+| **Используется в:**      | [`clean-users`](clean-users.md), [`collect-emails`](collect-emails.md), [`slice-userlist`](slice-userlist.md), [`userlist-server`](userlist-server.md) |     |
 | **Примечание:**          | изменение не рекомендуется                                                                                                                                                             |     |
 
 **Описание.** Текст в данном элементе задаёт путь к файлу, хранящему
 информацию о пользователях системы
-[`userlist.xml`](userlist.xml "wikilink").
+[`userlist.xml`](userlist.xml.md).
 
 Корректное значение данного элемента устанавливается на этапе начальной
 настройки системы с помощью программы
-[`ejudge-setup`](ejudge-setup "wikilink"). В дальнейшем при работе
+[`ejudge-setup`](ejudge-setup.md). В дальнейшем при работе
 системы значение этого элемента изменять не рекомендуется.
 
 **Пример.**

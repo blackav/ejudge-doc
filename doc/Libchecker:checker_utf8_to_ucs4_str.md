@@ -1,8 +1,8 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Проверяющие
-программы](Проверяющие_программы "wikilink")/[libchecker](libchecker "wikilink")/[Функции](Libchecker:Функции "wikilink")/[Перекодирование
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Проверяющие
+программы](Проверяющие_программы.md)/[libchecker](libchecker.md)/[Функции](Libchecker:Функции.md)/[Перекодирование
 текстовых
-данных](Libchecker:Перекодирование_текстовых_данных "wikilink")/[checker_utf8_to_ucs4_str](Libchecker:checker_utf8_to_ucs4_str "wikilink")
+данных](Libchecker:Перекодирование_текстовых_данных.md)/[checker_utf8_to_ucs4_str](Libchecker:checker_utf8_to_ucs4_str.md)
 
 Функция позволяет перекодировать строку из кодировки UTF-8 в кодировку
 UCS-4.
@@ -23,4 +23,4 @@ UCS-4.
 функция возвращает значение -1, и перекодирование не производится.
 
 См. также:
-[`checker_utf8_to_ucs4_buf`](libchecker:checker_utf8_to_ucs4_buf "wikilink").
+[`checker_utf8_to_ucs4_buf`](libchecker:checker_utf8_to_ucs4_buf.md).

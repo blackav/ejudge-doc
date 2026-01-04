@@ -1,13 +1,13 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Использование](Использование "wikilink")/[Конфигурационные
-файлы](Конфигурационные_файлы "wikilink")/[serve.cfg](serve.cfg "wikilink")/[Глобальные
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
+файлы](Конфигурационные_файлы.md)/[serve.cfg](serve.cfg.md)/[Глобальные
 конфигурационные
-параметры](serve.cfg:global "wikilink")/[`team_download_time`](Serve.cfg:global:team_download_time "wikilink")
+параметры](serve.cfg:global.md)/[`team_download_time`](Serve.cfg:global:team_download_time.md)
 
 |                            |                                         |     |
 |----------------------------|-----------------------------------------|-----|
 | **Имя переменной**:        | **`team_download_time`**                |     |
-| **Содержится в:**          | [`global`](serve.cfg:global "wikilink") |     |
+| **Содержится в:**          | [`global`](serve.cfg:global.md) |     |
 | **Используется:**          | `serve`                                 |     |
 | **Тип содержимого:**       | *integer*                               |     |
 | **Может отсутствовать:**   | *да*                                    |     |

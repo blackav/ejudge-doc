@@ -1,8 +1,8 @@
-Навигация: [Главная страница](Main_Page "wikilink")/[Система
-ejudge](Система_ejudge "wikilink")/[Использование](Использование "wikilink")/[Конфигурационные
-файлы](Конфигурационные_файлы "wikilink")/[serve.cfg](serve.cfg "wikilink")/[Конфигурационные
+Навигация: [Главная страница](Main_Page.md)/[Система
+ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
+файлы](Конфигурационные_файлы.md)/[serve.cfg](serve.cfg.md)/[Конфигурационные
 параметры
-задач](serve.cfg:problem "wikilink")/[open_tests](Serve.cfg:problem:open_tests "wikilink")
+задач](serve.cfg:problem.md)/[open_tests](Serve.cfg:problem:open_tests.md)
 
 **Редактирование элемента:** страница *"Editing contest"*, вкладка
 *"Problems (serve.cfg)"*, блок *"Concrete problems"*, поле *"Tests open
@@ -14,10 +14,10 @@ for participants"*.
 протоколов проверки в режим отображения окончательных протоколов
 проверки. В режиме отображения предварительных протоколов проверки
 действует конфигурационная переменная
-[`open_tests`](Serve.cfg:problem:open_tests "wikilink"), а в режиме
+[`open_tests`](Serve.cfg:problem:open_tests.md), а в режиме
 отображения окончательных протоколов проверки действует конфигурационная
 переменная
-[`final_open_tests`](Serve.cfg:problem:final_open_tests "wikilink").
+[`final_open_tests`](Serve.cfg:problem:final_open_tests.md).
 
 Если конфигурационная переменная `final_open_tests` для задачи не
 задана, то в режиме отображения окончательных протоколов проверки будет
