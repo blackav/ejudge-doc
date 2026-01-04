@@ -1,0 +1,25 @@
+Навигация: [Главная страница](Main_Page "wikilink")/[Система
+ejudge](Система_ejudge "wikilink")/[Использование](Использование "wikilink")/[Конфигурационные
+файлы](Конфигурационные_файлы "wikilink")/[serve.cfg](serve.cfg "wikilink")/[Глобальные
+конфигурационные
+параметры](serve.cfg:global "wikilink")/[`stand_page_row_attr`](Serve.cfg:global:stand_page_row_attr "wikilink")
+
+Переменная позволяет задавать атрибуты строк таблицы ссылок на страницы
+текущих результатов, если включено разбиение таблицы текущих результатов
+на страницы. Эта переменная должна быть определена 4 раза, формируя
+массив атрибутов из 4 элементов. Массив используется следующим образом:
+
+- `stand_page_row_attr[0]` - атрибут первой строки таблицы: номера
+  страниц,
+- `stand_page_row_attr[1]` - атрибут второй строки таблицы: места
+- `stand_page_row_attr[2]` - атрибут третьей строки таблицы: число
+  решенных задач (набранный балл для *Moscow*),
+- `stand_page_row_attr[3]` - атрибут четвертой строк таблицы: набранные
+  баллы (штрафной балл для *Moscow*, *ACM*).
+
+**Пример.**
+
+`stand_page_row_attr = " bgcolor=\"#ccddcc\" valign=\"top\" align=\"center\""`  
+`stand_page_row_attr = " bgcolor=\"#ccddcc\" valign=\"top\""`  
+`stand_page_row_attr = " bgcolor=\"#ccddcc\" valign=\"top\""`  
+`stand_page_row_attr = " bgcolor=\"#ccddcc\" valign=\"top\""`

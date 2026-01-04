@@ -1,0 +1,20 @@
+Навигация: [Главная страница](Main_Page "wikilink")/[Система
+ejudge](Система_ejudge "wikilink")/[Использование](Использование "wikilink")/[Конфигурационные
+файлы](Конфигурационные_файлы "wikilink")/[serve.cfg](serve.cfg "wikilink")/[Конфигурационные
+параметры
+задач](serve.cfg:problem "wikilink")/[plugin_file](serve.cfg:problem:plugin_file "wikilink")
+
+**Редактирование элемента:** страница *"Editing contest"*, вкладка
+*"Problems (serve.cfg)"*, блок *"Abstract problems"*, поле *"Problem
+handling plugin file"*, либо страница *"Editing contest"*, вкладка
+*"Problems (serve.cfg)"*, блок *"Concrete problems"*, поле *"Problem
+handling plugin file"*.
+
+Данная переменная позволяет задать имя подгружаемого модуля (плагина)
+задачи. В текущей версии системы ejudge плагин задачи используется
+только для задач типа custom и отвечает за обработку данных формы,
+поступающих при сдаче задачи. По умолчанию плагины задач находятся в
+каталоге, задаваемом глобальной конфигурационной переменной
+[`plugin_dir`](serve.cfg:global:plugin_dir "wikilink"). Значение
+переменной наследуется от абстрактной задачи, при этом выполняются
+форматные подстановки.

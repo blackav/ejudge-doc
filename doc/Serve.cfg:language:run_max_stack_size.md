@@ -1,0 +1,36 @@
+Навигация: [Главная страница](Main_Page "wikilink")/[Система
+ejudge](Система_ejudge "wikilink")/[Использование](Использование "wikilink")/[Конфигурационные
+файлы](Конфигурационные_файлы "wikilink")/[serve.cfg](serve.cfg "wikilink")/[Конфигурационные
+параметры
+языков](serve.cfg:language "wikilink")/[`run_max_stack_size`](Serve.cfg:language:run_max_stack_size "wikilink")
+
+Конфигурационная переменная `run_max_stack_size` задает ограничение на
+размер стека программ на данном языке программирования при запуске из на
+тестирование. Например,
+
+`run_max_stack_size=8M`
+
+ограничивает размер системного стека 8MiB.
+
+Эта переменная предназначена для языков программирования, программы на
+которых не работают корректно при большом ограничении на размер стека,
+установленном конфигурационной переменной задачи
+[`max_stack_size`](Serve.cfg:problem:max_stack_size "wikilink").
+Например, если для некоторой задачи установлены параметры:
+
+`[problem]`  
+`# ...`  
+`max_vm_size = 256M`  
+`max_stack_size = 256M`
+
+При таких настройках программы на языках ruby или gccgo вообще не
+запустятся.
+
+Конфигурационная переменная
+[`run_max_stack_size`](Serve.cfg:language:run_max_stack_size "wikilink")
+имеет самый высокий приоритет по сравнению с переменными задачи
+[`lang_max_stack_size`](Serve.cfg:problem:lang_max_stack_size "wikilink")
+и [`max_stack_size`](Serve.cfg:problem:max_stack_size "wikilink").
+
+Конфигурационная переменная поддерживается, начиная с версии
+[3.7.4](изменения_в_версии_3.7.4 "wikilink").

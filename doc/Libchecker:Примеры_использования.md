@@ -1,0 +1,72 @@
+Навигация: [Главная страница](Main_Page "wikilink")/[Система
+ejudge](Система_ejudge "wikilink")/[Проверяющие
+программы](Проверяющие_программы "wikilink")/[libchecker](libchecker "wikilink")/[Примеры
+использования](libchecker:Примеры_использования "wikilink")
+
+### Сравнение двух целых чисел
+
+Приведённая ниже проверяющая программа предполагает, что файл с
+результатом работы программы должен содержать единственное целое число.
+Это число сравнивается с эталонным ответом.
+
+`1 `**`#define`**` NEED_CORR 1`  
+`2 `**`#define`**` NEED_INFO 0`  
+`3 `**`#define`**` NEED_TGZ 0`  
+`4 `**`#include`**` "checker.h"`  
+`5`  
+`6 `**`int`**` checker_main(`**`int`**` argc, `**`char`**` **argv)`  
+`7 ``{`  
+`8 `**`int`**` team_ans, corr_ans;`  
+`9`  
+`10 `*`// presentation error, если файл пуст или нельзя считать число`*  
+`11 ``checker_read_team_int("team_ans", 1, &team_ans);`  
+`12`  
+`13 `*`// checker failed, если файл пуст или нельзя считать число`*  
+`14 ``checker_read_corr_int("corr_ans", 1, &corr_ans);`  
+`15`  
+`16 `*`// presentation error, если после числа в файле идёт "мусор"`*  
+`17 ``checker_team_eof();`  
+`18`  
+`19 `*`// checker failed, если после числа в файле идёт "мусор"`*  
+`20 ``checker_corr_eof();`  
+`21`  
+`22 `**`if`**` (team_ans != corr_ans)`  
+`23 ``fatal_WA("Answers do not match: team = %d, corr = %d",`  
+`24 ``team_ans, corr_ans);`  
+`25 ``checker_OK();`  
+`26 ``}`
+
+### Сравнение двух текстовых файлов
+
+Приведённая ниже проверяющая программа сравнивает файл с результатом
+работы тестируемой программы с эталонным файлом. При сравнении
+игнорируются пробелы на концах строк и пустые строки в конце файлов.
+
+`1 `**`#define`**` NEED_CORR 1`  
+`2 `**`#define`**` NEED_INFO 0`  
+`3 `**`#define`**` NEED_TGZ 0`  
+`4 `**`#include`**` "checker.h"`  
+`5`  
+`6 `**`int`**` checker_main(`**`int`**` argc, `**`char`**` **argv)`  
+`7 ``{`  
+`8    `**`char`**` **team_lines, **corr_lines;`  
+`9    ``size_t team_lines_num, corr_lines_num, i;`  
+`10`  
+`11    `*`// считываем файл результата работы программы`*  
+`12    ``checker_read_file_by_line(1, &team_lines, &team_lines_num);`  
+`13    `*`// считываем эталонный файл`*  
+`14    ``checker_read_file_by_line(2, &corr_lines, &corr_lines_num);`  
+`15    `*`// отбрасываем пробелы в результате работы программы`*  
+`16    `*`// отбрасываем пробелы в эталонном файле`*  
+`18    ``checker_normalize_file(corr_lines, &corr_lines_num);`  
+`19`  
+`20    `**`if`**` (team_lines_num != corr_lines_num)`  
+`21       ``fatal_WA("Different number of lines: team = %zu, corr = %zu",`  
+`22                   ``team_lines_num, corr_lines_num);`  
+`23    `**`for`**` (i = 0; i < team_lines_num; i++)`  
+`24          `**`if`**` (strcmp(team_lines[i], corr_lines[i]) != 0)`  
+`25                  ``fatal_WA("Line %zu differs: team:\n>%s<\ncorr:\n>%s<",`  
+`26                            ``i + 1, team_lines[i], corr_lines[i]);`  
+`27`  
+`28    ``checker_OK();`  
+`29 ``}`

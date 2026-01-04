@@ -1,0 +1,18 @@
+Навигация: [Главная страница](Main_Page "wikilink")/[Система
+ejudge](Система_ejudge "wikilink")/[Использование](Использование "wikilink")/[Конфигурационные
+файлы](Конфигурационные_файлы "wikilink")/[serve.cfg](serve.cfg "wikilink")/[Конфигурационные
+параметры
+задач](serve.cfg:problem "wikilink")/[`max_core_size`](Serve.cfg:problem:max_core_size "wikilink")
+
+**Редактирование элемента:** страница *"Editing contest"*, вкладка
+*"Problems (serve.cfg)"*, блок *"Abstract problems"*, поле *"Maximum
+core file size"*, либо страница *"Editing contest"*, вкладка *"Problems
+(serve.cfg)"*, блок *"Concrete problems"*, поле *"Maximum core file
+size"*.
+
+Конфигурационная переменная поддерживается, начиная с версии 2.3.18.
+
+Данная конфигурационная переменная позволяет устанавливать максимальный
+размер core-файла для запускаемых процессов.
+
+Данная конфигурационная переменная наследуется из абстрактной задачи.
