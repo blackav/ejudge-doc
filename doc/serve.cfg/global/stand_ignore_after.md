@@ -1,8 +1,8 @@
-Навигация: [Главная страница](Main_Page.md)/[Система
-ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
-файлы](Конфигурационные_файлы.md)/[serve.cfg](serve.cfg.md)/[Глобальные
+Навигация: [Главная страница](../../main_Page.md)/[Система
+ejudge](../../система_ejudge.md)/[Использование](../../использование.md)/[Конфигурационные
+файлы](../../конфигурационные_файлы.md)/[serve.cfg](../../serve.cfg.md)/[Глобальные
 конфигурационные
-параметры](serve.cfg:global.md)/[stand_ignore_after](serve.cfg:global:stand_ignore_after.md)
+параметры](../global.md)/[stand_ignore_after](stand_ignore_after.md)
 
 **Редактирование элемента:** страница *"Editing contest"*, вкладка
 *"Global settings (serve.cfg)"*, блок *"Standings files and URLs"*, поле

@@ -1,13 +1,13 @@
-Навигация: [Главная страница](Main_Page.md)/[Система
-ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Виды
-задач](Виды_задач.md)/[Задача на написание
-тестов](Задача:tests.md)/[Подготовка
-задачи](Подготовка_задачи_tests.md)
+Навигация: [Главная страница](main_Page.md)/[Система
+ejudge](система_ejudge.md)/[Использование](использование.md)/[Виды
+задач](виды_задач.md)/[Задача на написание
+тестов](задача/tests.md)/[Подготовка
+задачи](подготовка_задачи_tests.md)
 
 Задачи этого типа являются самыми сложными для подготовки. При описании
 подготовки таких задач будет предполагаться, что турнир настраивается в
 [альтернативной раскладке
-файлов](Альтернативная_раскладка_файлов.md), то есть все файлы,
+файлов](альтернативная_раскладка_файлов.md), то есть все файлы,
 относящиеся к задаче, размещаются в одном каталоге.
 
 ### Настройка основных параметров задачи
@@ -18,30 +18,30 @@ ejudge](Система_ejudge.md)/[Использование](Использо�
 задач. Например:
 
 `# Идентификационные параметры задачи`  
-[`id`](Serve.cfg:problem:id.md)` = ...`  
-[`short_name`](Serve.cfg:problem:short_name.md)` = ...`  
-[`long_name`](Serve.cfg:problem:long_name.md)` = ...`  
+[`id`](serve.cfg/problem/id.md)` = ...`  
+[`short_name`](serve.cfg/problem/short_name.md)` = ...`  
+[`long_name`](serve.cfg/problem/long_name.md)` = ...`  
 `# Основные параметры задачи`  
-[`test_sfx`](Serve.cfg:problem:test_sfx.md)` = ".dat"            # Суффикс имен файлов с тестовыми данными`  
-[`use_corr`](Serve.cfg:problem:use_corr.md)`                     # Проверка использует файлы с правильными ответами`  
-[`corr_dir`](Serve.cfg:problem:corr_dir.md)` = "`[`%Ps`](Форматная_подстановка.md)`"             # Каталог с файлами с правильными ответами - значение не важно`  
-[`corr_sfx`](Serve.cfg:problem:corr_sfx.md)` = ".ans"            # Суффикс имен файлов с правильным ответом`  
-[`use_stdin`](Serve.cfg:problem:use_stdin.md)`                    # Программа считывает результат со стандартного потока ввода`  
-[`use_stdout`](Serve.cfg:problem:use_stdout.md)`                   # Программа выводит результат на стандартный поток вывода`  
-[`standard_checker`](Serve.cfg:problem:standard_checker.md)` = "`[`cmp_int`](cmp_int.md)`" # Проверка - сравнение двух целых чисел`  
-[`time_limit`](Serve.cfg:problem:time_limit.md)` = 1               # Ограничение времени ЦП - 1 секунда`  
-[`real_time_limit`](Serve.cfg:problem:real_time_limit.md)` = 5          # Ограничение реального времени - 5 секунд`  
-[`max_stack_size`](Serve.cfg:problem:max_stack_size.md)` = 8M          # Ограничение размера стека - 8 мегабайт`  
-[`max_vm_size`](Serve.cfg:problem:max_vm_size.md)` = 64M            # Ограничение общего размера вирт. памяти - 64 мегабайта`
+[`test_sfx`](serve.cfg/problem/test_sfx.md)` = ".dat"            # Суффикс имен файлов с тестовыми данными`  
+[`use_corr`](serve.cfg/problem/use_corr.md)`                     # Проверка использует файлы с правильными ответами`  
+[`corr_dir`](serve.cfg/problem/corr_dir.md)` = "`[`%Ps`](Форматная_подстановка.md)`"             # Каталог с файлами с правильными ответами - значение не важно`  
+[`corr_sfx`](serve.cfg/problem/corr_sfx.md)` = ".ans"            # Суффикс имен файлов с правильным ответом`  
+[`use_stdin`](serve.cfg/problem/use_stdin.md)`                    # Программа считывает результат со стандартного потока ввода`  
+[`use_stdout`](serve.cfg/problem/use_stdout.md)`                   # Программа выводит результат на стандартный поток вывода`  
+[`standard_checker`](serve.cfg/problem/standard_checker.md)` = "`[`cmp_int`](cmp_int.md)`" # Проверка - сравнение двух целых чисел`  
+[`time_limit`](serve.cfg/problem/time_limit.md)` = 1               # Ограничение времени ЦП - 1 секунда`  
+[`real_time_limit`](serve.cfg/problem/real_time_limit.md)` = 5          # Ограничение реального времени - 5 секунд`  
+[`max_stack_size`](serve.cfg/problem/max_stack_size.md)` = 8M          # Ограничение размера стека - 8 мегабайт`  
+[`max_vm_size`](serve.cfg/problem/max_vm_size.md)` = 64M            # Ограничение общего размера вирт. памяти - 64 мегабайта`
 
 Идентификационные параметры задачи — это идентификатор задачи
-[`id`](Serve.cfg:problem:id.md), короткое название
-[`short_name`](Serve.cfg:problem:short_name.md), полное название
-[`long_name`](Serve.cfg:problem:long_name.md) и, возможно,
+[`id`](serve.cfg/problem/id.md), короткое название
+[`short_name`](serve.cfg/problem/short_name.md), полное название
+[`long_name`](serve.cfg/problem/long_name.md) и, возможно,
 внутреннее название задачи
-[`internal_name`](Serve.cfg:problem:internal_name.md).
+[`internal_name`](serve.cfg/problem/internal_name.md).
 
-Значение параметра [`corr_dir`](Serve.cfg:problem:corr_dir.md)
+Значение параметра [`corr_dir`](serve.cfg/problem/corr_dir.md)
 несущественно, так как предполагается что турнир настраивается в
 альтернативной раскладке файлов. Тем не менее, параметр `corr_dir`
 должен быть установлен в некоторое непустое значение.
@@ -51,19 +51,19 @@ ejudge](Система_ejudge.md)/[Использование](Использо�
 Для задачи на написание тестов должны быть установлены следующие
 параметры задачи.
 
-[`type`](Serve.cfg:problem:type.md)` = "`[`tests`](Задача:tests.md)`"`  
-[`binary`](Serve.cfg:problem:binary.md)  
-[`enable_language`](Serve.cfg:problem:enable_language.md)` = "application/x-gzip"`  
-[`enable_language`](Serve.cfg:problem:enable_language.md)` = "application/x-compress"`  
-[`enable_language`](Serve.cfg:problem:enable_language.md)` = "application/x-bzip2"`  
-[`enable_language`](Serve.cfg:problem:enable_language.md)` = "application/x-tar"`  
-[`enable_language`](Serve.cfg:problem:enable_language.md)` = "application/zip"`
+[`type`](serve.cfg/problem/type.md)` = "`[`tests`](задача/tests.md)`"`  
+[`binary`](serve.cfg/problem/binary.md)  
+[`enable_language`](serve.cfg/problem/enable_language.md)` = "application/x-gzip"`  
+[`enable_language`](serve.cfg/problem/enable_language.md)` = "application/x-compress"`  
+[`enable_language`](serve.cfg/problem/enable_language.md)` = "application/x-bzip2"`  
+[`enable_language`](serve.cfg/problem/enable_language.md)` = "application/x-tar"`  
+[`enable_language`](serve.cfg/problem/enable_language.md)` = "application/zip"`
 
-Параметр [`type`](Serve.cfg:problem:type.md) задает тип задачи
+Параметр [`type`](serve.cfg/problem/type.md) задает тип задачи
 как задачу на разработку тестов. Параметр
-[`binary`](Serve.cfg:problem:binary.md) разрешает прием двоичных
+[`binary`](serve.cfg/problem/binary.md) разрешает прием двоичных
 файлов в качестве решений. Параметр
-[`enable_language`](Serve.cfg:problem:enable_language.md)
+[`enable_language`](serve.cfg/problem/enable_language.md)
 разрешает прием архивных файлов в качестве решений.
 
 ### Настройка проверки правильности сдаваемого архива
@@ -80,9 +80,9 @@ ejudge.
 
 Чтобы включить проверку сдаваемых архивов необходимо добавить в раздел
 описания задачи определение конфигурационной переменной
-[`style_checker_cmd`](Serve.cfg:problem:style_checker_cmd.md).
+[`style_checker_cmd`](serve.cfg/problem/style_checker_cmd.md).
 
-[`style_checker_cmd`](Serve.cfg:problem:style_checker_cmd.md)` = "`[`@prefix@`](Подстановка_параметров_configure.md)`/libexec/ejudge/checkers/style_archive"`
+[`style_checker_cmd`](serve.cfg/problem/style_checker_cmd.md)` = "`[`@prefix@`](подстановка_параметров_configure.md)`/libexec/ejudge/checkers/style_archive"`
 
 Здесь `@prefix@` будет автоматически заменен на каталог, в который
 проинсталлирована система ejudge. Параметры проверки архива на
@@ -94,18 +94,18 @@ ejudge.
 Чтобы включить режим проверки тестов необходимо задать переменную
 окружения `EJ_TESTS_MODE`.
 
-[`style_checker_env`](Serve.cfg:problem:style_checker_env.md)` = "EJ_TESTS_MODE=1"`
+[`style_checker_env`](serve.cfg/problem/style_checker_env.md)` = "EJ_TESTS_MODE=1"`
 
 Чтобы установить максимальный размер файла в архиве равным 1 килобайт
 необходимо задать переменную окружения `EJ_MAX_FILE_SIZE`.
 
-[`style_checker_env`](Serve.cfg:problem:style_checker_env.md)` = "EJ_MAX_FILE_SIZE=1K"`
+[`style_checker_env`](serve.cfg/problem/style_checker_env.md)` = "EJ_MAX_FILE_SIZE=1K"`
 
 Чтобы установить максимальное количество тестов (то есть пар файлов c
 входными данными и с правильным ответом) равным 10 необходимо задать
 переменую окружения `EJ_MAX_TEST_COUNT`.
 
-[`style_checker_env`](Serve.cfg:problem:style_checker_env.md)` = "EJ_MAX_TEST_COUNT=10"`
+[`style_checker_env`](serve.cfg/problem/style_checker_env.md)` = "EJ_MAX_TEST_COUNT=10"`
 
 Параметр `style_checker_env` может повторяться в разделе описания задачи
 несколько раз. Для полного описания поддерживаемых программой
@@ -116,19 +116,19 @@ ejudge.
 
 Файлы с тестовыми данными, сданные на проверку, должны быть
 предварительно проверены на корректность [проверяющей программой для
-тестов](Test_checkers.md). Провеяющая программа для тестов
+тестов](test_checkers.md). Провеяющая программа для тестов
 должна проверить входной и выходной форматы файлов, ограничения на
 входные данные. Кроме того, программа может проверить соответствие
 входных данных и ответа.
 
 Имя проверяющей программы для тестов задается с помощью конфигурационной
 переменной
-[`test_checker_cmd`](Serve.cfg:problem:test_checker_cmd.md). При
+[`test_checker_cmd`](serve.cfg/problem/test_checker_cmd.md). При
 необходимости дополнительные переменные окружения могут задаваться с
 помощью конфигурационной переменной
-[`test_checker_env`](Serve.cfg:problem:test_checker_env.md).
+[`test_checker_env`](serve.cfg/problem/test_checker_env.md).
 
-[`test_checker_cmd`](Serve.cfg:problem:test_checker_cmd.md)` = "testcheck"`
+[`test_checker_cmd`](serve.cfg/problem/test_checker_cmd.md)` = "testcheck"`
 
 В этом примере имя проверяющей программы — `testcheck`.
 
@@ -137,32 +137,32 @@ ejudge.
 С учетом всего вышесказанного, раздел конфигурации задачи может
 выглядеть следующим образом.
 
-[`id`](Serve.cfg:problem:id.md)` = ...`  
-[`short_name`](Serve.cfg:problem:short_name.md)` = ...`  
-[`long_name`](Serve.cfg:problem:long_name.md)` = ...`  
-[`type`](Serve.cfg:problem:type.md)` = "`[`tests`](Задача:tests.md)`"`  
-[`test_sfx`](Serve.cfg:problem:test_sfx.md)` = ".dat"`  
-[`use_corr`](Serve.cfg:problem:use_corr.md)  
-[`corr_dir`](Serve.cfg:problem:corr_dir.md)` = "`[`%Ps`](Форматная_подстановка.md)`"`  
-[`corr_sfx`](Serve.cfg:problem:corr_sfx.md)` = ".ans"`  
-[`use_stdin`](Serve.cfg:problem:use_stdin.md)  
-[`use_stdout`](Serve.cfg:problem:use_stdout.md)  
-[`standard_checker`](Serve.cfg:problem:standard_checker.md)` = "`[`cmp_int`](cmp_int.md)`"`  
-[`time_limit`](Serve.cfg:problem:time_limit.md)` = 1`  
-[`real_time_limit`](Serve.cfg:problem:real_time_limit.md)` = 5`  
-[`max_stack_size`](Serve.cfg:problem:max_stack_size.md)` = 8M`  
-[`max_vm_size`](Serve.cfg:problem:max_vm_size.md)` = 64M`  
-[`binary`](Serve.cfg:problem:binary.md)  
-[`enable_language`](Serve.cfg:problem:enable_language.md)` = "application/x-gzip"`  
-[`enable_language`](Serve.cfg:problem:enable_language.md)` = "application/x-compress"`  
-[`enable_language`](Serve.cfg:problem:enable_language.md)` = "application/x-bzip2"`  
-[`enable_language`](Serve.cfg:problem:enable_language.md)` = "application/x-tar"`  
-[`enable_language`](Serve.cfg:problem:enable_language.md)` = "application/zip"`  
-[`style_checker_cmd`](Serve.cfg:problem:style_checker_cmd.md)` = "`[`@prefix@`](Подстановка_параметров_configure.md)`/libexec/ejudge/checkers/style_archive"`  
-[`style_checker_env`](Serve.cfg:problem:style_checker_env.md)` = "EJ_TESTS_MODE=1"`  
-[`style_checker_env`](Serve.cfg:problem:style_checker_env.md)` = "EJ_MAX_FILE_SIZE=1K"`  
-[`style_checker_env`](Serve.cfg:problem:style_checker_env.md)` = "EJ_MAX_TEST_COUNT=10"`  
-[`test_checker_cmd`](Serve.cfg:problem:test_checker_cmd.md)` = "testcheck"`
+[`id`](serve.cfg/problem/id.md)` = ...`  
+[`short_name`](serve.cfg/problem/short_name.md)` = ...`  
+[`long_name`](serve.cfg/problem/long_name.md)` = ...`  
+[`type`](serve.cfg/problem/type.md)` = "`[`tests`](задача/tests.md)`"`  
+[`test_sfx`](serve.cfg/problem/test_sfx.md)` = ".dat"`  
+[`use_corr`](serve.cfg/problem/use_corr.md)  
+[`corr_dir`](serve.cfg/problem/corr_dir.md)` = "`[`%Ps`](Форматная_подстановка.md)`"`  
+[`corr_sfx`](serve.cfg/problem/corr_sfx.md)` = ".ans"`  
+[`use_stdin`](serve.cfg/problem/use_stdin.md)  
+[`use_stdout`](serve.cfg/problem/use_stdout.md)  
+[`standard_checker`](serve.cfg/problem/standard_checker.md)` = "`[`cmp_int`](cmp_int.md)`"`  
+[`time_limit`](serve.cfg/problem/time_limit.md)` = 1`  
+[`real_time_limit`](serve.cfg/problem/real_time_limit.md)` = 5`  
+[`max_stack_size`](serve.cfg/problem/max_stack_size.md)` = 8M`  
+[`max_vm_size`](serve.cfg/problem/max_vm_size.md)` = 64M`  
+[`binary`](serve.cfg/problem/binary.md)  
+[`enable_language`](serve.cfg/problem/enable_language.md)` = "application/x-gzip"`  
+[`enable_language`](serve.cfg/problem/enable_language.md)` = "application/x-compress"`  
+[`enable_language`](serve.cfg/problem/enable_language.md)` = "application/x-bzip2"`  
+[`enable_language`](serve.cfg/problem/enable_language.md)` = "application/x-tar"`  
+[`enable_language`](serve.cfg/problem/enable_language.md)` = "application/zip"`  
+[`style_checker_cmd`](serve.cfg/problem/style_checker_cmd.md)` = "`[`@prefix@`](подстановка_параметров_configure.md)`/libexec/ejudge/checkers/style_archive"`  
+[`style_checker_env`](serve.cfg/problem/style_checker_env.md)` = "EJ_TESTS_MODE=1"`  
+[`style_checker_env`](serve.cfg/problem/style_checker_env.md)` = "EJ_MAX_FILE_SIZE=1K"`  
+[`style_checker_env`](serve.cfg/problem/style_checker_env.md)` = "EJ_MAX_TEST_COUNT=10"`  
+[`test_checker_cmd`](serve.cfg/problem/test_checker_cmd.md)` = "testcheck"`
 
 Часть этих параметров можно перенести в раздел абстрактной задачи.
 
@@ -185,7 +185,7 @@ ejudge.
 языке Си с использованием библиотеки
 [libchecker](libchecker.md).
 
-`#include "`[`checkutils.h`](Libchecker:Заголовочные_файлы.md)`"`  
+`#include "`[`checkutils.h`](libchecker/Заголовочные_файлы.md)`"`  
   
 `#include <limits.h>`  
   
@@ -195,30 +195,30 @@ ejudge.
 `  int x, y, z;`  
   
 `  /* проверить, что передано правильное число аргументов командной строки */ `  
-`  if (argc != 3) `[`fatal_CF`](libchecker:fatal_CF.md)`("wrong number of arguments");`  
+`  if (argc != 3) `[`fatal_CF`](libchecker/fatal_CF.md)`("wrong number of arguments");`  
   
 `  /* открыть файл с тестовыми данными и прочитать два числа */`  
-`  `[`checker_in_open`](libchecker:checker_SRC_open.md)`(argv[1]);`  
-`  `[`checker_read_int_ex`](libchecker:checker_read_TYPE_ex.md)`(`[`f_arr`](libchecker:Глобальные_переменные.md)`[0], `[`fatal_PE`](libchecker:fatal_PE.md)`, "x", 1, &x);`  
-`  `[`checker_read_int_ex`](libchecker:checker_read_TYPE_ex.md)`(`[`f_arr[0`](libchecker:Глобальные_переменные.md)`], `[`fatal_PE`](libchecker:fatal_PE.md)`, "y", 1, &y);`  
-`  `[`checker_eof`](libchecker:checker_eof.md)`(`[`f_arr[0`](libchecker:Глобальные_переменные.md)`], `[`fatal_PE`](libchecker:fatal_PE.md)`, "test input");`  
-`  `[`checker_in_close`](libchecker:checker_SRC_close.md)`();`  
+`  `[`checker_in_open`](libchecker/checker_SRC_open.md)`(argv[1]);`  
+`  `[`checker_read_int_ex`](libchecker/checker_read_TYPE_ex.md)`(`[`f_arr`](libchecker/Глобальные_переменные.md)`[0], `[`fatal_PE`](libchecker/fatal_PE.md)`, "x", 1, &x);`  
+`  `[`checker_read_int_ex`](libchecker/checker_read_TYPE_ex.md)`(`[`f_arr[0`](libchecker/Глобальные_переменные.md)`], `[`fatal_PE`](libchecker/fatal_PE.md)`, "y", 1, &y);`  
+`  `[`checker_eof`](libchecker/checker_eof.md)`(`[`f_arr[0`](libchecker/Глобальные_переменные.md)`], `[`fatal_PE`](libchecker/fatal_PE.md)`, "test input");`  
+`  `[`checker_in_close`](libchecker/checker_SRC_close.md)`();`  
   
 `  /* проверить ограничения на входные данные */`  
 `  if (x < SHRT_MIN || x > SHRT_MAX)`  
-`    `[`fatal_PE`](libchecker:fatal_PE.md)`("first value is out of range");`  
+`    `[`fatal_PE`](libchecker/fatal_PE.md)`("first value is out of range");`  
 `  if (y < SHRT_MIN || y > SHRT_MAX)`  
-`    `[`fatal_PE`](libchecker:fatal_PE.md)`("second value is out of range");`  
+`    `[`fatal_PE`](libchecker/fatal_PE.md)`("second value is out of range");`  
   
 `  /* открыть файл с правильным ответом и прочитать число */ `  
-`  `[`checker_out_open`](libchecker:checker_SRC_open.md)`(argv[2]);`  
-`  `[`checker_read_int_ex`](libchecker:checker_read_TYPE_ex.md)`(`[`f_arr[1`](libchecker:Глобальные_переменные.md)`], `[`fatal_PE`](libchecker:fatal_PE.md)`, "z", 1, &z);`  
-`  `[`checker_eof`](libchecker:checker_eof.md)`(`[`f_arr[1`](libchecker:Глобальные_переменные.md)`], `[`fatal_PE`](libchecker:fatal_PE.md)`, "test answer");`  
-`  `[`checker_out_close`](libchecker:checker_SRC_close.md)`();`  
+`  `[`checker_out_open`](libchecker/checker_SRC_open.md)`(argv[2]);`  
+`  `[`checker_read_int_ex`](libchecker/checker_read_TYPE_ex.md)`(`[`f_arr[1`](libchecker/Глобальные_переменные.md)`], `[`fatal_PE`](libchecker/fatal_PE.md)`, "z", 1, &z);`  
+`  `[`checker_eof`](libchecker/checker_eof.md)`(`[`f_arr[1`](libchecker/Глобальные_переменные.md)`], `[`fatal_PE`](libchecker/fatal_PE.md)`, "test answer");`  
+`  `[`checker_out_close`](libchecker/checker_SRC_close.md)`();`  
   
 `  /* проверить правильность ответа */ `  
 `  if (z != x + y)`  
-`    `[`fatal_WA`](libchecker:fatal_WA.md)`("wrong answer");`  
+`    `[`fatal_WA`](libchecker/fatal_WA.md)`("wrong answer");`  
   
 `  return 0;`  
 `}`

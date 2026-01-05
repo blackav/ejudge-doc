@@ -1,8 +1,8 @@
-Навигация: [Главная страница](Main_Page.md)/[Система
-ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
-файлы](Конфигурационные_файлы.md)/[serve.cfg](serve.cfg.md)/[Конфигурационные
+Навигация: [Главная страница](../../main_Page.md)/[Система
+ejudge](../../система_ejudge.md)/[Использование](../../использование.md)/[Конфигурационные
+файлы](../../конфигурационные_файлы.md)/[serve.cfg](../../serve.cfg.md)/[Конфигурационные
 параметры
-задач](serve.cfg:problem.md)/[style_checker_env](Serve.cfg:problem:style_checker_env.md)
+задач](../problem.md)/[style_checker_env](style_checker_env.md)
 
 **Редактирование элемента:** страница *"Editing contest"*, вкладка
 *"Problems (serve.cfg)"*, блок *"Concrete problems"*, поле *"Style
@@ -10,12 +10,12 @@ checker environment"*.
 
 Данная конфигурационная переменная позволяет задавать переменные
 окружения, передаваемые [программе проверки
-стиля](style_checkers.md). Если для данной задачи указана
+стиля](../../style_checkers.md). Если для данной задачи указана
 переменная
-[style_checker_cmd](Serve.cfg:problem:style_checker_cmd.md), то
+[style_checker_cmd](style_checker_cmd.md), то
 переменные окружения будут передаваться этой программе, в противном
 случае если у соответствующего языка программирования указана переменная
-[style_checker_cmd](Serve.cfg:language:style_checker_cmd.md), то
+[style_checker_cmd](../language/style_checker_cmd.md), то
 переменные окружения будут переданы в эту программу.
 
 Данная конфигурационная переменная может быть указана в разделе описания

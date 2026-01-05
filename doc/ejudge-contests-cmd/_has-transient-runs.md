@@ -1,8 +1,8 @@
-Навигация: [Система ejudge](Система_ejudge.md) /
-[Использование](Использование.md) / [Использование из командной
-строки](Использование_из_командной_строки.md) /
-[ejudge-contests-cmd](ejudge-contests-cmd.md) /
-[Команды](ejudge-contests-cmd:_COMMAND.md)
+Навигация: [Система ejudge](../система_ejudge.md) /
+[Использование](../использование.md) / [Использование из командной
+строки](../использование_из_командной_строки.md) /
+[ejudge-contests-cmd](../ejudge-contests-cmd.md) /
+[Команды](_COMMAND.md)
 
 Команда has-transient-runs позволяет проверить, если в данный момент в
 турнире посылки в стадии компиляции и тестирования. Для выполнения
@@ -19,6 +19,6 @@
 `ejudge-contests-cmd CONTEST-ID has-transient-runs [OPTIONS] SESSION-FILE`
 
 Поддерживаются все [стандартные опции
-команд](ejudge-contests-cmd:_COMMAND-OPTIONS.md). В частности,
+команд](_COMMAND-OPTIONS.md). В частности,
 если указана опция `--session`, то аргумент `SESSION-FILE` — это не
 файл, в котором записан сессионный ключ, а сам сессионный ключ.

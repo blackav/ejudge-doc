@@ -1,8 +1,8 @@
-Навигация: [Главная страница](Main_Page.md)/[Система
-ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
-файлы](Конфигурационные_файлы.md)/[serve.cfg](serve.cfg.md)/[Глобальные
+Навигация: [Главная страница](../../main_Page.md)/[Система
+ejudge](../../система_ejudge.md)/[Использование](../../использование.md)/[Конфигурационные
+файлы](../../конфигурационные_файлы.md)/[serve.cfg](../../serve.cfg.md)/[Глобальные
 конфигурационные
-параметры](serve.cfg:global.md)/[`stand_fancy_style`](Serve.cfg:global:stand_fancy_style.md)
+параметры](../global.md)/[`stand_fancy_style`](stand_fancy_style.md)
 
 **Редактирование элемента:** страница *"Editing contest"*, вкладка
 *"Global settings (serve.cfg)"*, блок *"Standings table attributes"*,

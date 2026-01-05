@@ -1,16 +1,16 @@
-Навигация: [Главная страница](Main_Page.md)/[Система
-ejudge](Система_ejudge.md)/[Проверяющие
-программы](Проверяющие_программы.md)/[libchecker](libchecker.md)/[Функции](Libchecker:Функции.md)/[Чтение
+Навигация: [Главная страница](../main_Page.md)/[Система
+ejudge](../система_ejudge.md)/[Проверяющие
+программы](../проверяющие_программы.md)/[libchecker](../libchecker.md)/[Функции](../функции.md)/[Чтение
 файла как
-текста](Libchecker:Чтение_файла_как_текста.md)/[`checker_eoln`](Libchecker:checker_eoln.md)
+текста](Чтение_файла_как_текста.md)/[`checker_eoln`](checker_eoln.md)
 
 Функция `checker_eoln` — проверка достижения конца строки в [текстовом
-файле](текстовый_файл.md).
+файле](../текстовый_файл.md).
 
 `void`  
 `checker_eoln(`  
 `        FILE *f,`  
-`        `[`checker_error_func_t`](libchecker:checker_error_func_t.md)` error_func,`  
+`        `[`checker_error_func_t`](checker_error_func_t.md)` error_func,`  
 `        const char *name,`  
 `        int lineno);`
 
@@ -33,5 +33,5 @@ ejudge](Система_ejudge.md)/[Проверяющие
 
 Если при чтении произошла ошибка ввода, программа завершается, и
 диагностируется [внутренняя ошибка
-проверки](внутренняя_ошибка_проверки.md). Для этого используется
-функция [`fatal_CF`](libchecker:fatal_CF.md).
+проверки](../внутренняя_ошибка_проверки.md). Для этого используется
+функция [`fatal_CF`](fatal_CF.md).

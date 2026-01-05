@@ -1,6 +1,6 @@
-Навигация: [Система ejudge](Система_ejudge.md)/[Проверяющие
-программы](Проверяющие_программы.md)/[libchecker](libchecker.md)/[Функции](Libchecker:Функции.md)/[Завершение
-работы](Libchecker:Завершение_работы.md)/[fatal](Libchecker:fatal.md)
+Навигация: [Система ejudge](../система_ejudge.md)/[Проверяющие
+программы](../проверяющие_программы.md)/[libchecker](../libchecker.md)/[Функции](../функции.md)/[Завершение
+работы](Завершение_работы.md)/[fatal](fatal.md)
 
 `void fatal(int code, char const *format, ...);`
 
@@ -15,7 +15,7 @@ RUN_WRONG_ANSWER_ERR или RUN_CHECK_FAILED.
 
 Для завершения проверяющей программы с соответствующим кодом ошибки
 рекомендуется применять функции
-[fatal_CF](libchecker:fatal_CF.md),
-[fatal_PE](libchecker:fatal_PE.md),
-[fatal_WA](libchecker:fatal_WA.md),
-[fatal_read](libchecker:fatal_read.md).
+[fatal_CF](fatal_CF.md),
+[fatal_PE](fatal_PE.md),
+[fatal_WA](fatal_WA.md),
+[fatal_read](fatal_read.md).

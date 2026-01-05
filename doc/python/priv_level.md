@@ -22,4 +22,4 @@ MASTER_LOGIN. При входе проверяются ограничения IP
 \<master_access\>.
 
 Уровень привилегий не следует путать с ролью пользователя
-[priv_role](Python:priv_role.md).
+[priv_role](priv_role.md).

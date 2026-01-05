@@ -1,8 +1,8 @@
-Навигация: [Главная страница](Main_Page.md)/[Система
-ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
-файлы](Конфигурационные_файлы.md)/[serve.cfg](serve.cfg.md)/[Глобальные
+Навигация: [Главная страница](../../main_Page.md)/[Система
+ejudge](../../система_ejudge.md)/[Использование](../../использование.md)/[Конфигурационные
+файлы](../../конфигурационные_файлы.md)/[serve.cfg](../../serve.cfg.md)/[Глобальные
 конфигурационные
-параметры](serve.cfg:global.md)/[`enable_auto_print_protocol`](Serve.cfg:global:enable_auto_print_protocol.md)
+параметры](../global.md)/[`enable_auto_print_protocol`](enable_auto_print_protocol.md)
 
 Переменная действует только для турниров по системе *OLYMPIAD* (в том
 числе и виртуальных). Если значение переменной не равно 0, то сразу

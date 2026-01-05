@@ -1,2 +1,2 @@
 1.  REDIRECT [Ejudge-contests-cmd:
-    get-contest-type](Ejudge-contests-cmd:_get-contest-type.md)
+    get-contest-type](../ejudge-contests-cmd/_get-contest-type.md)

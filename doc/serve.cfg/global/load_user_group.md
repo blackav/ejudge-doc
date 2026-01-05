@@ -1,8 +1,8 @@
-Навигация: [Главная страница](Main_Page.md)/[Система
-ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
-файлы](Конфигурационные_файлы.md)/[serve.cfg](serve.cfg.md)/[Глобальные
+Навигация: [Главная страница](../../main_Page.md)/[Система
+ejudge](../../система_ejudge.md)/[Использование](../../использование.md)/[Конфигурационные
+файлы](../../конфигурационные_файлы.md)/[serve.cfg](../../serve.cfg.md)/[Глобальные
 конфигурационные
-параметры](serve.cfg:global.md)/[`load_user_group`](Serve.cfg:global:load_user_group.md)
+параметры](../global.md)/[`load_user_group`](load_user_group.md)
 
 **Редактирование элемента:** страница *"Editing contest"*, вкладка
 *"Global settings (serve.cfg)"*, блок *"Advanced settings"*, поле *"User
@@ -15,8 +15,8 @@ groups to load"*.
 фильтрации посылок или отображения таблицы текущих результатов, а также
 в групповых ограничениях времени на сдачу задач, задаваемых с помощью
 конфигурационных переменных
-[`group_start_date`](Serve.cfg:problem:group_start_date.md) и
-[`group_deadline`](Serve.cfg:problem:group_deadline.md).
+[`group_start_date`](../problem/group_start_date.md) и
+[`group_deadline`](../problem/group_deadline.md).
 
 Информация о группах загружается в момент загрузки турнира и не
 обновляется автоматически. Если, например, изменился состав группы

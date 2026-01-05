@@ -1,12 +1,12 @@
-Навигация: [Главная страница](Main_Page.md)/[Система
-ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
-файлы](Конфигурационные_файлы.md)/[serve.cfg](serve.cfg.md)/[Конфигурационные
+Навигация: [Главная страница](../../main_Page.md)/[Система
+ejudge](../../система_ejudge.md)/[Использование](../../использование.md)/[Конфигурационные
+файлы](../../конфигурационные_файлы.md)/[serve.cfg](../../serve.cfg.md)/[Конфигурационные
 параметры
-языков](serve.cfg:language.md)/[disable_auto_testing](Serve.cfg:language:disable_auto_testing.md)
+языков](../language.md)/[disable_auto_testing](disable_auto_testing.md)
 
 Переменная `disable_auto_testing` ведет себя точно так же, как
 одноименная переменная секции описания задачи
-[`disable_auto_testing`](serve.cfg:problem:disable_auto_testing.md),
+[`disable_auto_testing`](../problem/disable_auto_testing.md),
 т.е. предотвращает автоматическое тестирование посылки на заданном языке
 сразу после её получения. Такая посылка получает статус "Accepted for
 testing" и может быть протестирована с помощью явной команды

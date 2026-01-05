@@ -1,2 +1,2 @@
 1.  REDIRECT [Ejudge-contests-cmd:
-    set-judging-mode](Ejudge-contests-cmd:_set-judging-mode.md)
+    set-judging-mode](../ejudge-contests-cmd/_set-judging-mode.md)

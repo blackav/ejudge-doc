@@ -1,1 +1,1 @@
-1.  REDIRECT [Ejudge-edit-users](Ejudge-edit-users.md)
+1.  REDIRECT [Ejudge-edit-users](ejudge-edit-users.md)

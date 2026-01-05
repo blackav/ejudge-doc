@@ -1,2 +1,2 @@
 1.  REDIRECT [Ejudge-contests-cmd:
-    logout](Ejudge-contests-cmd:_logout.md)
+    logout](../ejudge-contests-cmd/_logout.md)

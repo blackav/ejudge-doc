@@ -1,59 +1,59 @@
-Навигация: [Главная страница](Main_Page.md)/[Система
-ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Примеры
+Навигация: [Главная страница](../../main_Page.md)/[Система
+ejudge](../../система_ejudge.md)/[Использование](../../использование.md)/[Примеры
 конфигурационных
-файлов](Примеры_конфигурационных_файлов.md)/[Заочка-2012](Examplse:zaoch-2012:serve.cfg.md)
+файлов](../../примеры_конфигурационных_файлов.md)/[Заочка-2012](serve.cfg.md)
 
 `contest_id = 25`  
   
-[`contest_time`](serve.cfg:global:contest_time.md)` = 0         # не ограниченный по времени турнир`  
-[`score_system`](serve.cfg:global:score_system.md)` = kirov`  
-[`board_fog_time`](serve.cfg:global:board_fog_time.md)` = 0       # без "заморозки" таблицы результатов`  
-[`board_unfog_time`](serve.cfg:global:board_unfog_time.md)` = 0`  
-[`standings_locale`](serve.cfg:global:standings_locale.md)` = "ru"  # таблица результатов на русском языке`  
+[`contest_time`](../../serve.cfg/global/contest_time.md)` = 0         # не ограниченный по времени турнир`  
+[`score_system`](../../serve.cfg/global/score_system.md)` = kirov`  
+[`board_fog_time`](../../serve.cfg/global/board_fog_time.md)` = 0       # без "заморозки" таблицы результатов`  
+[`board_unfog_time`](../../serve.cfg/global/board_unfog_time.md)` = 0`  
+[`standings_locale`](../../serve.cfg/global/standings_locale.md)` = "ru"  # таблица результатов на русском языке`  
   
 `compile_dir = "../../compile/var/compile"`  
   
-[`separate_user_score`](serve.cfg:global:separate_user_score.md)`      # хранить отдельные баллы для участников`  
-[`team_enable_src_view`](serve.cfg:global:team_enable_src_view.md)`     # разрешить участникам просмотр их исходного кода`  
-[`team_enable_rep_view`](serve.cfg:global:team_enable_rep_view.md)  
-[`team_enable_ce_view`](serve.cfg:global:team_enable_ce_view.md)  
-[`ignore_compile_errors`](serve.cfg:global:ignore_compile_errors.md)  
-[`prune_empty_users`](serve.cfg:global:prune_empty_users.md)  
-[`notify_clar_reply`](serve.cfg:global:notify_clar_reply.md)  
-[`enable_eoln_select`](serve.cfg:global:enable_eoln_select.md)`       # разрешить участникам выбор типа концов строк`  
+[`separate_user_score`](../../serve.cfg/global/separate_user_score.md)`      # хранить отдельные баллы для участников`  
+[`team_enable_src_view`](../../serve.cfg/global/team_enable_src_view.md)`     # разрешить участникам просмотр их исходного кода`  
+[`team_enable_rep_view`](../../serve.cfg/global/team_enable_rep_view.md)  
+[`team_enable_ce_view`](../../serve.cfg/global/team_enable_ce_view.md)  
+[`ignore_compile_errors`](../../serve.cfg/global/ignore_compile_errors.md)  
+[`prune_empty_users`](../../serve.cfg/global/prune_empty_users.md)  
+[`notify_clar_reply`](../../serve.cfg/global/notify_clar_reply.md)  
+[`enable_eoln_select`](../../serve.cfg/global/enable_eoln_select.md)`       # разрешить участникам выбор типа концов строк`  
   
-[`max_run_total`](serve.cfg:global:max_run_total.md)` = 10M`  
-[`max_run_num`](serve.cfg:global:max_run_num.md)` = 500`  
+[`max_run_total`](../../serve.cfg/global/max_run_total.md)` = 10M`  
+[`max_run_num`](../../serve.cfg/global/max_run_num.md)` = 500`  
   
-[`team_info_url`](serve.cfg:global:team_info_url.md)` = "`[`http://olympiads.ru/cgi-bin/users?contest_id=25&user_id=%Mi&locale_id=1`](http://olympiads.ru/cgi-bin/users?contest_id=25&user_id=%Mi&locale_id=1)`"`  
-[`standings_file_name`](serve.cfg:global:standings_file_name.md)` = "standings.shtml"`  
-[`users_on_page`](serve.cfg:global:users_on_page.md)` = 100`  
-[`stand_header_file`](serve.cfg:global:stand_header_file.md)` = "s_header.shtml"`  
-[`stand_footer_file`](serve.cfg:global:stand_footer_file.md)` = "s_footer.shtml"`  
-[`stand_symlink_dir`](serve.cfg:global:stand_symlink_dir.md)` = "olympiads.ru/html/zaoch/2012-13/standings/"`  
+[`team_info_url`](../../serve.cfg/global/team_info_url.md)` = "`[`http://olympiads.ru/cgi-bin/users?contest_id=25&user_id=%Mi&locale_id=1`](http://olympiads.ru/cgi-bin/users?contest_id=25&user_id=%Mi&locale_id=1)`"`  
+[`standings_file_name`](../../serve.cfg/global/standings_file_name.md)` = "standings.shtml"`  
+[`users_on_page`](../../serve.cfg/global/users_on_page.md)` = 100`  
+[`stand_header_file`](../../serve.cfg/global/stand_header_file.md)` = "s_header.shtml"`  
+[`stand_footer_file`](../../serve.cfg/global/stand_footer_file.md)` = "s_footer.shtml"`  
+[`stand_symlink_dir`](../../serve.cfg/global/stand_symlink_dir.md)` = "olympiads.ru/html/zaoch/2012-13/standings/"`  
   
-[`stand_show_att_num`](serve.cfg:global:stand_show_att_num.md)  
-[`stand_extra_format`](serve.cfg:global:stand_extra_format.md)` = "<b>%Mr</b>: %Mc, %Mt, %UMp1c"`  
-[`stand_extra_legend`](serve.cfg:global:stand_extra_legend.md)` = "Регион, город, школа, класс"`  
-[`stand_extra_attr`](serve.cfg:global:stand_extra_attr.md)` = " width=\"120\" class=\"st_extra\""`  
+[`stand_show_att_num`](../../serve.cfg/global/stand_show_att_num.md)  
+[`stand_extra_format`](../../serve.cfg/global/stand_extra_format.md)` = "<b>%Mr</b>: %Mc, %Mt, %UMp1c"`  
+[`stand_extra_legend`](../../serve.cfg/global/stand_extra_legend.md)` = "Регион, город, школа, класс"`  
+[`stand_extra_attr`](../../serve.cfg/global/stand_extra_attr.md)` = " width=\"120\" class=\"st_extra\""`  
   
-[`rounding_mode`](serve.cfg:global:rounding_mode.md)` = floor`  
-[`show_astr_time`](serve.cfg:global:show_astr_time.md)  
-[`enable_runlog_merge`](serve.cfg:global:enable_runlog_merge.md)  
-[`secure_run`](serve.cfg:global:secure_run.md)  
-[`detect_violations`](serve.cfg:global:detect_violations.md)  
-[`enable_memory_limit_error`](serve.cfg:global:enable_memory_limit_error.md)  
-[`advanced_layout`](serve.cfg:global:advanced_layout.md)  
-[`ignore_bom`](serve.cfg:global:ignore_bom.md)  
-[`enable_l10n`](serve.cfg:global:enable_l10n.md)  
-[`standings_charset`](serve.cfg:global:standings_charset.md)` = "koi8-r"`  
-[`cpu_bogomips`](serve.cfg:global:cpu_bogomips.md)` = 5885`  
+[`rounding_mode`](../../serve.cfg/global/rounding_mode.md)` = floor`  
+[`show_astr_time`](../../serve.cfg/global/show_astr_time.md)  
+[`enable_runlog_merge`](../../serve.cfg/global/enable_runlog_merge.md)  
+[`secure_run`](../../serve.cfg/global/secure_run.md)  
+[`detect_violations`](../../serve.cfg/global/detect_violations.md)  
+[`enable_memory_limit_error`](../../serve.cfg/global/enable_memory_limit_error.md)  
+[`advanced_layout`](../../serve.cfg/global/advanced_layout.md)  
+[`ignore_bom`](../../serve.cfg/global/ignore_bom.md)  
+[`enable_l10n`](../../serve.cfg/global/enable_l10n.md)  
+[`standings_charset`](../../serve.cfg/global/standings_charset.md)` = "koi8-r"`  
+[`cpu_bogomips`](../../serve.cfg/global/cpu_bogomips.md)` = 5885`  
   
 `[language]`  
-[`id`](serve.cfg:language:id.md)` = 1`  
-[`short_name`](serve.cfg:language:short_name.md)` = "fpc"`  
-[`long_name`](serve.cfg:language:long_name.md)` = "Free Pascal 2.6.0"`  
-[`src_sfx`](serve.cfg:language:src_sfx.md)` = ".pas"`  
+[`id`](../../serve.cfg/language/id.md)` = 1`  
+[`short_name`](../../serve.cfg/language/short_name.md)` = "fpc"`  
+[`long_name`](../../serve.cfg/language/long_name.md)` = "Free Pascal 2.6.0"`  
+[`src_sfx`](../../serve.cfg/language/src_sfx.md)` = ".pas"`  
   
 `[language]`  
 `id = 2`  
@@ -77,7 +77,7 @@ ejudge](Система_ejudge.md)/[Использование](Использо�
 `id = 8`  
 `short_name = "dcc"`  
 `long_name = "Borland Delphi 6 (Kylix) 14.5"`  
-[`arch`](serve.cfg:language:arch.md)` = "linux-shared-32"`  
+[`arch`](../../serve.cfg/language/arch.md)` = "linux-shared-32"`  
 `src_sfx = ".pas"`  
   
 `[language]`  
@@ -166,39 +166,39 @@ ejudge](Система_ejudge.md)/[Использование](Использо�
 `src_sfx = ".cpp"`  
   
 `[problem]`  
-[`abstract`](serve.cfg:problem:abstract.md)  
-[`short_name`](serve.cfg:problem:short_name.md)` = "Generic"`  
-[`use_stdin`](serve.cfg:problem:use_stdin.md)  
-[`input_file`](serve.cfg:problem:input_file.md)` = "input.txt"`  
-[`combined_stdin`](serve.cfg:problem:combined_stdin.md)  
-[`use_stdout`](serve.cfg:problem:use_stdout.md)  
-[`output_file`](serve.cfg:problem:output_file.md)` = "output.txt"`  
-[`combined_stdout`](serve.cfg:problem:combined_stdout.md)  
-[`score_latest`](serve.cfg:problem:score_latest.md)  
-[`test_pat`](serve.cfg:problem:test_pat.md)` = "%02d"`  
-[`use_corr`](serve.cfg:problem:use_corr.md)  
-[`corr_pat`](serve.cfg:problem:corr_pat.md)` = "%02d.a"`  
-[`time_limit`](serve.cfg:problem:time_limit.md)` = 1`  
-[`real_time_limit`](serve.cfg:problem:real_time_limit.md)` = 5`  
-[`max_vm_size`](serve.cfg:problem:max_vm_size.md)` = 256M`  
-[`full_score`](serve.cfg:problem:full_score.md)` = 100`  
-[`run_penalty`](serve.cfg:problem:run_penalty.md)` = 0`  
-[`check_cmd`](serve.cfg:problem:check_cmd.md)` = "check"`  
-[`interactive_valuer`](serve.cfg:problem:interactive_valuer.md)  
-[`valuer_cmd`](serve.cfg:problem:valuer_cmd.md)` = "../gvaluer"`  
+[`abstract`](../../serve.cfg/problem/abstract.md)  
+[`short_name`](../../serve.cfg/problem/short_name.md)` = "Generic"`  
+[`use_stdin`](../../serve.cfg/problem/use_stdin.md)  
+[`input_file`](../../serve.cfg/problem/input_file.md)` = "input.txt"`  
+[`combined_stdin`](../../serve.cfg/problem/combined_stdin.md)  
+[`use_stdout`](../../serve.cfg/problem/use_stdout.md)  
+[`output_file`](../../serve.cfg/problem/output_file.md)` = "output.txt"`  
+[`combined_stdout`](../../serve.cfg/problem/combined_stdout.md)  
+[`score_latest`](../../serve.cfg/problem/score_latest.md)  
+[`test_pat`](../../serve.cfg/problem/test_pat.md)` = "%02d"`  
+[`use_corr`](../../serve.cfg/problem/use_corr.md)  
+[`corr_pat`](../../serve.cfg/problem/corr_pat.md)` = "%02d.a"`  
+[`time_limit`](../../serve.cfg/problem/time_limit.md)` = 1`  
+[`real_time_limit`](../../serve.cfg/problem/real_time_limit.md)` = 5`  
+[`max_vm_size`](../../serve.cfg/problem/max_vm_size.md)` = 256M`  
+[`full_score`](../../serve.cfg/problem/full_score.md)` = 100`  
+[`run_penalty`](../../serve.cfg/problem/run_penalty.md)` = 0`  
+[`check_cmd`](../../serve.cfg/problem/check_cmd.md)` = "check"`  
+[`interactive_valuer`](../../serve.cfg/problem/interactive_valuer.md)  
+[`valuer_cmd`](../../serve.cfg/problem/valuer_cmd.md)` = "../gvaluer"`  
   
 `[problem]`  
-[`id`](serve.cfg:problem:id.md)` = 1`  
-[`super`](serve.cfg:problem:super.md)` = "Generic"`  
-[`short_name`](serve.cfg:problem:short_name.md)` = "A"`  
-[`long_name`](serve.cfg:problem:long_name.md)` = "Канарейки"`  
-[`internal_name`](serve.cfg:problem:internal_name.md)` = "rabbits"`  
-[`extid`](serve.cfg:problem:extid.md)` = "polygon:rabbits"`  
-[`max_vm_size`](serve.cfg:problem:max_vm_size.md)` = 256M`  
-[`max_stack_size`](serve.cfg:problem:max_stack_size.md)` = 128M`  
-[`full_user_score`](serve.cfg:problem:full_user_score.md)` = 100`  
-[`standard_checker`](serve.cfg:problem:standard_checker.md)` = "cmp_long_long_seq"`  
-[`solution_cmd`](serve.cfg:problem:solution_cmd.md)` = "zoo_ap"`  
+[`id`](../../serve.cfg/problem/id.md)` = 1`  
+[`super`](../../serve.cfg/problem/super.md)` = "Generic"`  
+[`short_name`](../../serve.cfg/problem/short_name.md)` = "A"`  
+[`long_name`](../../serve.cfg/problem/long_name.md)` = "Канарейки"`  
+[`internal_name`](../../serve.cfg/problem/internal_name.md)` = "rabbits"`  
+[`extid`](../../serve.cfg/problem/extid.md)` = "polygon:rabbits"`  
+[`max_vm_size`](../../serve.cfg/problem/max_vm_size.md)` = 256M`  
+[`max_stack_size`](../../serve.cfg/problem/max_stack_size.md)` = 128M`  
+[`full_user_score`](../../serve.cfg/problem/full_user_score.md)` = 100`  
+[`standard_checker`](../../serve.cfg/problem/standard_checker.md)` = "cmp_long_long_seq"`  
+[`solution_cmd`](../../serve.cfg/problem/solution_cmd.md)` = "zoo_ap"`  
   
 `[problem]`  
 `id = 2`  
@@ -210,8 +210,8 @@ ejudge](Система_ejudge.md)/[Использование](Использо�
 `max_vm_size = 256M`  
 `max_stack_size = 64M`  
 `full_user_score = 100`  
-[`open_tests`](serve.cfg:problem:open_tests.md)` = "1-35:brief, 36-55:brief"`  
-[`final_open_tests`](serve.cfg:problem:final_open_tests.md)` = "1-55"`  
+[`open_tests`](../../serve.cfg/problem/open_tests.md)` = "1-35:brief, 36-55:brief"`  
+[`final_open_tests`](../../serve.cfg/problem/final_open_tests.md)` = "1-55"`  
 `solution_cmd = "clev"`  
   
 `[problem]`  
@@ -373,7 +373,7 @@ ejudge](Система_ejudge.md)/[Использование](Использо�
 `max_stack_size = 256M`  
 `full_user_score = 40`  
 `open_tests = "1-13: full, 14-26:full, 27-39:hidden, 40-52:hidden, 53-65:hidden"`  
-[`interactor_cmd`](serve.cfg:problem:interactor_cmd.md)` = "interactor"`  
-[`interactor_time_limit`](serve.cfg:problem:interactor_time_limit.md)` = 10`  
+[`interactor_cmd`](../../serve.cfg/problem/interactor_cmd.md)` = "interactor"`  
+[`interactor_time_limit`](../../serve.cfg/problem/interactor_time_limit.md)` = 10`  
 `solution_cmd = "check"`  
 `team_enable_rep_view`

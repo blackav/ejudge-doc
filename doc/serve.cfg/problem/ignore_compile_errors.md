@@ -1,8 +1,8 @@
-Навигация: [Главная страница](Main_Page.md)/[Система
-ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
-файлы](Конфигурационные_файлы.md)/[serve.cfg](serve.cfg.md)/[Конфигурационные
+Навигация: [Главная страница](../../main_Page.md)/[Система
+ejudge](../../система_ejudge.md)/[Использование](../../использование.md)/[Конфигурационные
+файлы](../../конфигурационные_файлы.md)/[serve.cfg](../../serve.cfg.md)/[Конфигурационные
 параметры
-задач](serve.cfg:problem.md)/[ignore_compile_errors](serve.cfg:problem:ignore_compile_errors.md)
+задач](../problem.md)/[ignore_compile_errors](ignore_compile_errors.md)
 
 **Редактирование элемента:** страница *"Editing contest"*, вкладка
 *"Problems (serve.cfg)"*, блок *"Abstract problems"*, поле *"Ignore
@@ -12,7 +12,7 @@ compilation errors"*.
 
 Эта переменная позволяет переопределить действие глобальной
 конфигурационной переменной
-[`ignore_compile_errors`](serve.cfg:global:ignore_compile_errors.md)
+[`ignore_compile_errors`](../global/ignore_compile_errors.md)
 для одной задачи. Например, если глобальная переменная установлена (то
 есть ошибки компиляции игнорируются при подсчёте результатов), строка
 
@@ -22,4 +22,4 @@ compilation errors"*.
 только для данной задачи.
 
 Смотри также
-[`compile_error_penalty`](serve.cfg:problem:compile_error_penalty.md).
+[`compile_error_penalty`](compile_error_penalty.md).

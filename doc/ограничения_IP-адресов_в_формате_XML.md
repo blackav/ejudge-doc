@@ -1,39 +1,39 @@
-Навигация: [Главная страница](Main_Page.md)/[Система
-ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
-файлы](Конфигурационные_файлы.md)/[Ограничение доступа по
-IP-адресам](Ограничение_доступа_по_IP-адресам.md)/[Ограничения
+Навигация: [Главная страница](main_Page.md)/[Система
+ejudge](система_ejudge.md)/[Использование](использование.md)/[Конфигурационные
+файлы](конфигурационные_файлы.md)/[Ограничение доступа по
+IP-адресам](ограничение_доступа_по_IP-адресам.md)/[Ограничения
 IP-адресов в формате
-XML](Ограничения_IP-адресов_в_формате_XML.md)
+XML](ограничения_IP-адресов_в_формате_XML.md)
 
 Спецификация ограничений на IP-адрес представляет собой список
 спецификаций IP-адресов, для каждого из которых указано, допустимо ли
 использование CGI-программы клиентом с IP-адресом, удовлетворяющим
 спецификации, или нет. Кроме этого может задаваться флаг, определяющий,
 используется ли безопасное соединение по протоколу HTTPS. Элементы
-списка задаются элементом [`ip`](IP:ip.md) XML-файла. Описание
+списка задаются элементом [`ip`](IP/ip.md) XML-файла. Описание
 этого элемента дано ниже.
 
 Для конфигурационных файлов программ
 ([`register`](register.md)`,`[`users`](users.md)`, `[`serve-control`](serve-control.md)),
 элементы списка находятся в элементе `access` (см. описание элемента
-[`access`](register.xml:access.md) конфигурационного файла
+[`access`](register.xml/access.md) конфигурационного файла
 [`register.xml`](register.xml.md), описание элемента
-[`access`](users.xml:access.md) конфигурационного файла
+[`access`](users.xml/access.md) конфигурационного файла
 [`users.xml`](users.xml.md) и описание элемента access
 конфигурационного файла
 [`serve-control.xml`](serve-control.xml.md)). Для
 конфигурационного файла турнира [`contest.xml`](contest.xml.md)
 используются элементы
-[`register_access`](contest.xml:register_access.md),
-[`users_access`](contest.xml:users_access.md),
-[`master_access`](contest.xml:master_access.md),
-[`judge_access`](contest.xml:judge_access.md),
-[`team_access`](contest.xml:team_access.md),
-[`serve_control_access`](contest.xml:serve_control_access.md),
+[`register_access`](contest.xml/register_access.md),
+[`users_access`](contest.xml/users_access.md),
+[`master_access`](contest.xml/master_access.md),
+[`judge_access`](contest.xml/judge_access.md),
+[`team_access`](contest.xml/team_access.md),
+[`serve_control_access`](contest.xml/serve_control_access.md),
 задающие дополнительные ограничения на допустимые IP-адреса для программ
 [`register`](register.md)`, `[`users`](users.md)`, `[`master`](master.md)`, `[`judge`](judge.md)` и `[`team serve-control`](team_serve-control.md)
 соответственно. Далее даётся описание XML-элемента
-[`access`](IP:access.md), справедливое для всех
+[`access`](IP/access.md), справедливое для всех
 вышеперечисленных элементов.
 
 При работе CGI-программы список ограничений просматривается

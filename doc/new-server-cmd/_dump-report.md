@@ -1,2 +1,2 @@
 1.  REDIRECT [Ejudge-contests-cmd:
-    dump-report](Ejudge-contests-cmd:_dump-report.md)
+    dump-report](../ejudge-contests-cmd/_dump-report.md)

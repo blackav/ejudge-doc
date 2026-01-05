@@ -1,8 +1,8 @@
-Навигация: [Главная страница](Main_Page.md)/[Система
-ejudge](Система_ejudge.md)/[Проверяющие
-программы](Проверяющие_программы.md)/[libchecker](libchecker.md)/[Функции](Libchecker:Функции.md)/[Перекодирование
+Навигация: [Главная страница](../main_Page.md)/[Система
+ejudge](../система_ejudge.md)/[Проверяющие
+программы](../проверяющие_программы.md)/[libchecker](../libchecker.md)/[Функции](../функции.md)/[Перекодирование
 текстовых
-данных](Libchecker:Перекодирование_текстовых_данных.md)\|[checker_ucs4_tolower_str](Libchecker:checker_ucs4_tolower_str.md)
+данных](Перекодирование_текстовых_данных.md)\|[checker_ucs4_tolower_str](checker_ucs4_tolower_str.md)
 
 Функция перекодироует символы в заданной UCS-4 строке в нижний регистр.
 
@@ -15,5 +15,5 @@ ejudge](Система_ejudge.md)/[Проверяющие
 Функция возвращает значение параметра `str`.
 
 См. также:
-[`checker_ucs4_tolower`](libchecker:checker_ucs4_tolower.md),
-[`checker_ucs4_tolower_buf`](libchecker:checker_ucs4_tolower_buf.md).
+[`checker_ucs4_tolower`](checker_ucs4_tolower.md),
+[`checker_ucs4_tolower_buf`](checker_ucs4_tolower_buf.md).

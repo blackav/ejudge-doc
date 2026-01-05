@@ -1,3 +1,3 @@
-Навигация: [Главная страница](Main_Page.md)/[Система
-ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
-файлы](Конфигурационные_файлы.md)/[ejudge.xml](ejudge.xml.md)/[`oauth_user_map`](ejudge.xml:oauth_user_map.md)
+Навигация: [Главная страница](../main_Page.md)/[Система
+ejudge](../система_ejudge.md)/[Использование](../использование.md)/[Конфигурационные
+файлы](../конфигурационные_файлы.md)/[ejudge.xml](../ejudge.xml.md)/[`oauth_user_map`](oauth_user_map.md)

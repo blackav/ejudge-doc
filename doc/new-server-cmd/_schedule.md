@@ -1,2 +1,2 @@
 1.  REDIRECT [Ejudge-contests-cmd:
-    schedule](Ejudge-contests-cmd:_schedule.md)
+    schedule](../ejudge-contests-cmd/_schedule.md)

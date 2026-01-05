@@ -1,8 +1,8 @@
-Навигация: [Система ejudge](Система_ejudge.md) /
-[Использование](Использование.md) / [Использование из командной
-строки](Использование_из_командной_строки.md) /
-[ejudge-contests-cmd](ejudge-contests-cmd.md) /
-[Команды](ejudge-contests-cmd:_COMMAND.md)
+Навигация: [Система ejudge](../система_ejudge.md) /
+[Использование](../использование.md) / [Использование из командной
+строки](../использование_из_командной_строки.md) /
+[ejudge-contests-cmd](../ejudge-contests-cmd.md) /
+[Команды](_COMMAND.md)
 
 Команда full-import-xml-runs выполняет слияние базы посылок в
 XML-формате из указанного файла и базы посылок турнира. При слиянии
@@ -16,7 +16,7 @@ XML-формате из указанного файла и базы посыло
 турнира.
 
 В отличие от команды
-[import-xml-runs](ejudge-contests-cmd:_import-xml-runs.md)
+[import-xml-runs](_import-xml-runs.md)
 данная команда выполняет слияние баз посылок даже если в базе посылок
 турнира есть посылки в состоянии компиляции или тестирования. Для этого
 слияние выполняется в несколько шагов:
@@ -33,7 +33,7 @@ XML-формате из указанного файла и базы посыло
 `ejudge-contests-cmd CONTEST-ID full-import-xml-runs [OPTIONS] SESSION-FILE XML-FILE`
 
 Поддерживаются все [стандартные опции
-команд](ejudge-contests-cmd:_COMMAND-OPTIONS.md). В частности,
+команд](_COMMAND-OPTIONS.md). В частности,
 если указана опция `--session`, то аргумент `SESSION-FILE` — это не
 файл, в котором записан сессионный ключ, а сам сессионный ключ.
 
@@ -42,9 +42,9 @@ XML-формате из указанного файла и базы посыло
 стандартного потока ввода.
 
 См. также команды:
-[write-xml-runs](ejudge-contests-cmd:_write-xml-runs.md),
-[export-xml-runs](ejudge-contests-cmd:_export-xml-runs.md),
-[has-transient-runs](ejudge-contests-cmd:_has-transient-runs.md),
-[import-xml-runs](ejudge-contests-cmd:_import-xml-runs.md),
-[suspend-testing](ejudge-contests-cmd:_suspend-testing.md),
-[resume-testing](ejudge-contests-cmd:_resume-testing.md).
+[write-xml-runs](_write-xml-runs.md),
+[export-xml-runs](_export-xml-runs.md),
+[has-transient-runs](_has-transient-runs.md),
+[import-xml-runs](_import-xml-runs.md),
+[suspend-testing](_suspend-testing.md),
+[resume-testing](_resume-testing.md).

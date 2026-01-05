@@ -1,11 +1,11 @@
-Навигация: [Главная страница](Main_Page.md)/[Система
-ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
-файлы](Конфигурационные_файлы.md)/[serve-control.xml](serve-control.xml.md)/[`serve_control_access`](serve-control.xml:serve_control_access.md)/[`default`](serve-control.xml:serve_control_access:default.md)
+Навигация: [Главная страница](../../main_Page.md)/[Система
+ejudge](../../система_ejudge.md)/[Использование](../../использование.md)/[Конфигурационные
+файлы](../../конфигурационные_файлы.md)/[serve-control.xml](../../serve-control.xml.md)/[`serve_control_access`](../serve_control_access.md)/[`default`](default.md)
 
 |                            |                                                                             |
 |----------------------------|-----------------------------------------------------------------------------|
 | **Имя атрибута**:          | **`default`**                                                               |
-| **Содержится в:**          | [`serve_control_access`](serve-control.xml:serve_control_access.md) |
+| **Содержится в:**          | [`serve_control_access`](../serve_control_access.md) |
 |                            |                                                                             |
 | **Тип значения:**          | *allow* или *deny*                                                          |
 | **Значение по умолчанию:** | *deny*                                                                      |
@@ -16,4 +16,4 @@ IP-адрес клиента не перечислен в списке IP-адр
 установлен в *allow*, такие IP-адреса считаются допустимыми, а если
 атрибут установлен в *deny*, доступ с таких IP-адресов запрещается. См.
 подробное описание ограничений IP-адреса в разделе [Ограничение доступа
-по IP-адресам](Ограничение_доступа_по_IP-адресам.md).
+по IP-адресам](../../ограничение_доступа_по_IP-адресам.md).

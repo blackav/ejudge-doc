@@ -1,8 +1,8 @@
-Навигация: [Главная страница](Main_Page.md)/[Система
-ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
-файлы](Конфигурационные_файлы.md)/[serve.cfg](serve.cfg.md)/[Конфигурационные
+Навигация: [Главная страница](../../main_Page.md)/[Система
+ejudge](../../система_ejudge.md)/[Использование](../../использование.md)/[Конфигурационные
+файлы](../../конфигурационные_файлы.md)/[serve.cfg](../../serve.cfg.md)/[Конфигурационные
 параметры
-языков](serve.cfg:language.md)/[content_type](Serve.cfg:language:content_type.md)
+языков](../language.md)/[content_type](content_type.md)
 
 Если эта переменная установлена, то по команде "Download source"
 CGI-программ `master` или `judge` или по команде "View source" будет

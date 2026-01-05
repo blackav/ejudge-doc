@@ -1,12 +1,12 @@
-Навигация: [Главная страница](Main_Page.md)/[Система
-ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
-файлы](Конфигурационные_файлы.md)/[register.xml](register.xml.md)/[`register_config`](register.xml:register_config.md)/
-[`charset`](register.xml:register_config:charset.md)
+Навигация: [Главная страница](../../main_Page.md)/[Система
+ejudge](../../система_ejudge.md)/[Использование](../../использование.md)/[Конфигурационные
+файлы](../../конфигурационные_файлы.md)/[register.xml](../../register.xml.md)/[`register_config`](../register_config.md)/
+[`charset`](charset.md)
 
 |                            |                                                              |
 |----------------------------|--------------------------------------------------------------|
 | **Имя атрибута**:          | **`charset`**                                                |
-| **Содержится в:**          | [`register_config`](register.xml:register_config.md) |
+| **Содержится в:**          | [`register_config`](../register_config.md) |
 |                            |                                                              |
 | **Тип значения:**          | *string*                                                     |
 | **Значение по умолчанию:** | устанавливается [`configure`](configure.md)          |

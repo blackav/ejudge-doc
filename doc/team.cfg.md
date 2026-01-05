@@ -1,12 +1,12 @@
-Навигация: [Главная страница](Main_Page.md)/[Система
-ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
-файлы](Конфигурационные_файлы.md)/[team.cfg](team.cfg.md)
+Навигация: [Главная страница](main_Page.md)/[Система
+ejudge](система_ejudge.md)/[Использование](использование.md)/[Конфигурационные
+файлы](конфигурационные_файлы.md)/[team.cfg](team.cfg.md)
 
 Данный конфигурационный файл используется CGI-программой
 [`team`](team.md). Содержимое файла прочитывается один раз при
 старте CGI-программы, то есть каждый раз, когда кто-либо посылает
 HTTP/HTTPS-запрос к серверу, приводящий к запуску программы `team`.
-[Подробнее...](team.cfg:info.md)
+[Подробнее...](team.cfg/info.md)
 
 Конфигурационный файл `team.cfg` имеет текстовый формат, напоминающий
 формат `.ini`-файлов. Каждый конфигурационный параметр задаётся в виде
@@ -24,12 +24,12 @@ HTTP/HTTPS-запрос к серверу, приводящий к запуск�
 
 Параметры конфигурационного файла:
 
-- [allow_deny](team.cfg:allow_deny.md)
-- [allow_from](team.cfg:allow_from.md)
-- [deny_from](team.cfg:deny_from.md)
-- [charset](team.cfg:charset.md)
-- [enable_l10n](team.cfg:enable_l10n.md)
-- [l10n_dir](team.cfg:l10n_dir.md)
-- [socket_path](team.cfg:socket_path.md)
-- [contests_dir](team.cfg:contests_dir.md)
-- [show_generation_time](team.cfg:show_generation_time.md)
+- [allow_deny](team.cfg/allow_deny.md)
+- [allow_from](team.cfg/allow_from.md)
+- [deny_from](team.cfg/deny_from.md)
+- [charset](team.cfg/charset.md)
+- [enable_l10n](team.cfg/enable_l10n.md)
+- [l10n_dir](team.cfg/l10n_dir.md)
+- [socket_path](team.cfg/socket_path.md)
+- [contests_dir](team.cfg/contests_dir.md)
+- [show_generation_time](team.cfg/show_generation_time.md)

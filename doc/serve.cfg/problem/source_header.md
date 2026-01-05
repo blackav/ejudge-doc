@@ -1,8 +1,8 @@
-Навигация: [Главная страница](Main_Page.md)/[Система
-ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
-файлы](Конфигурационные_файлы.md)/[serve.cfg](serve.cfg.md)/[Конфигурационные
+Навигация: [Главная страница](../../main_Page.md)/[Система
+ejudge](../../система_ejudge.md)/[Использование](../../использование.md)/[Конфигурационные
+файлы](../../конфигурационные_файлы.md)/[serve.cfg](../../serve.cfg.md)/[Конфигурационные
 параметры
-задач](serve.cfg:problem.md)/[source_header](serve.cfg:problem:source_header.md)
+задач](../problem.md)/[source_header](source_header.md)
 
 **Редактирование элемента:** страница *"Editing contest"*, вкладка
 *"Problems (serve.cfg)"*, блок *"Abstract problems"*, поле *"Source
@@ -10,7 +10,7 @@ header file"*, либо страница *"Editing contest"*, вкладка *"P
 (serve.cfg)"*, блок *"Concrete problems"*, поле *"Source header file"*.
 
 Данная переменная вместе с переменной
-[`source_footer`](serve.cfg:problem:source_footer.md) позволяет
+[`source_footer`](source_footer.md) позволяет
 задавать имя файла с текстом, который будет использоваться в начале и
 конце сданных решений при компиляции программы. Например, условие задачи
 может требовать написания одной функции или класса, а не целой

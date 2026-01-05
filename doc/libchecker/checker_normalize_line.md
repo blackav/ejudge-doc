@@ -1,8 +1,8 @@
-Навигация: [Главная страница](Main_Page.md)/[Система
-ejudge](Система_ejudge.md)/[Проверяющие
-программы](Проверяющие_программы.md)/[libchecker](libchecker.md)/[Функции](Libchecker:Функции.md)/[Чтение
+Навигация: [Главная страница](../main_Page.md)/[Система
+ejudge](../система_ejudge.md)/[Проверяющие
+программы](../проверяющие_программы.md)/[libchecker](../libchecker.md)/[Функции](../функции.md)/[Чтение
 файла как
-текста](Libchecker:Чтение_файла_как_текста.md)/[checker_normalize_line](Libchecker:checker_normalize_line.md)
+текста](Чтение_файла_как_текста.md)/[checker_normalize_line](checker_normalize_line.md)
 
 Функция `checker_normalize_line` — удалить пробельные символы из конца
 строки.

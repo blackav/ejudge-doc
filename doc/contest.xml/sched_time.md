@@ -1,6 +1,6 @@
-Навигация: [Главная страница](Main_Page.md)/[Система
-ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
-файлы](Конфигурационные_файлы.md)/[contest.xml](contest.xml.md)/[sched_time](contest.xml:sched_time.md)
+Навигация: [Главная страница](../main_Page.md)/[Система
+ejudge](../система_ejudge.md)/[Использование](../использование.md)/[Конфигурационные
+файлы](../конфигурационные_файлы.md)/[contest.xml](../contest.xml.md)/[sched_time](sched_time.md)
 
 **Редактирование элемента:** страница *"Editing contest"*, вкладка
 *"General settings (contest.xml)"*, блок *"Registration settings"*, поле

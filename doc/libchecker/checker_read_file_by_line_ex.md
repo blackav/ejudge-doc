@@ -1,16 +1,16 @@
-Навигация: [Главная страница](Main_Page.md)/[Система
-ejudge](Система_ejudge.md)/[Проверяющие
-программы](Проверяющие_программы.md)/[libchecker](libchecker.md)/[Функции](Libchecker:Функции.md)/[Чтение
+Навигация: [Главная страница](../main_Page.md)/[Система
+ejudge](../система_ejudge.md)/[Проверяющие
+программы](../проверяющие_программы.md)/[libchecker](../libchecker.md)/[Функции](../функции.md)/[Чтение
 файла как
-текста](Libchecker:Чтение_файла_как_текста.md)/[checker_read_file_by_line_ex](Libchecker:checker_read_file_by_line_ex.md)
+текста](Чтение_файла_как_текста.md)/[checker_read_file_by_line_ex](checker_read_file_by_line_ex.md)
 
 Функция `checker_read_file_by_line_ex` — построчное чтение [текстового
-файла](текстовый_файл.md) в память.
+файла](../текстовый_файл.md) в память.
 
 `void`  
 `checker_read_file_by_line_ex(`  
 `        FILE *f,`  
-`        `[`checker_error_func_t`](libchecker:checker_error_func_t.md)` error_func,`  
+`        `[`checker_error_func_t`](checker_error_func_t.md)` error_func,`  
 `        const char *name,`  
 `        char ***out_lines,`  
 `        size_t *out_lines_num);`
@@ -32,11 +32,11 @@ ejudge](Система_ejudge.md)/[Проверяющие
 используется в тексте сообщения об ошибке.
 
 Память для содержимого файла выделяется на куче с помощью функций
-[`xmalloc`](libchecker:xmalloc.md),
+[`xmalloc`](xmalloc.md),
 [`xcalloc`](libchecker:xcalloc.md) и
 [`xrealloc`](libchecker:xrealloc.md).
 
 Функция не возвращает никакого значения. Если при чтении произошла
 ошибка ввода, программа завершается, и диагностируется [внутренняя
-ошибка проверки](внутренняя_ошибка_проверки.md). Для этого
-используется функция [`fatal_CF`](libchecker:fatal_CF.md).
+ошибка проверки](../внутренняя_ошибка_проверки.md). Для этого
+используется функция [`fatal_CF`](fatal_CF.md).

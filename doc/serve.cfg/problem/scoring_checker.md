@@ -1,8 +1,8 @@
-Навигация: [Главная страница](Main_Page.md)/[Система
-ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
-файлы](Конфигурационные_файлы.md)/[serve.cfg](serve.cfg.md)/[Конфигурационные
+Навигация: [Главная страница](../../main_Page.md)/[Система
+ejudge](../../система_ejudge.md)/[Использование](../../использование.md)/[Конфигурационные
+файлы](../../конфигурационные_файлы.md)/[serve.cfg](../../serve.cfg.md)/[Конфигурационные
 параметры
-задач](serve.cfg:problem.md)/[scoring_checker](serve.cfg:problem:scoring_checker.md)
+задач](../problem.md)/[scoring_checker](scoring_checker.md)
 
 **Редактирование элемента:** страница *"Editing contest"*, вкладка
 *"Problems (serve.cfg)"*, блок *"Abstract problems"*, поле *"Checker
@@ -27,13 +27,13 @@ calculates score"*.
 Оценивающий чекер должен работать следующим образом. Код завершения
 чекера, как обычно, обозначает результат проверки:
 
-`0       `[`OK`](OK.md)  
-`1       `[`WA`](WA.md)  
-`2       `[`PE`](PE.md)  
-`4       `[`PE`](PE.md)  
-`5       `[`WA`](WA.md)
+`0       `[`OK`](../../OK.md)  
+`1       `[`WA`](../../WA.md)  
+`2       `[`PE`](../../PE.md)  
+`4       `[`PE`](../../PE.md)  
+`5       `[`WA`](../../WA.md)
 
-все остальные коды интерпретируются как [Check failed](CF.md).
+все остальные коды интерпретируются как [Check failed](../../CF.md).
 
 Если чекер вернул `OK`, то тест/задача всегда получает полный балл. Если
 чекер вернул `PE`, то тест/задача получает 0. Если чекер вернул `WA`, то
@@ -49,22 +49,22 @@ calculates score"*.
 - `EJUDGE_SCORING_CHECKER` всегда устанавливается в `1`.
 - `EJUDGE_MAX_SCORE` устанавливается в максимальный балл за тест
 
-([3.10.0](изменения_в_версии_3.10.0.md)).
+([3.10.0](../../изменения_в_версии_3.10.0.md)).
 
 В режиме
-[`enable_checker_token`](serve.cfg:problem:enable_checker_token.md)
+[`enable_checker_token`](enable_checker_token.md)
 передаётся переменная окружения `EJUDGE_CHECKER_TOKEN`, равная 1.
 
 Если установлена
-[`checker_locale`](serve.cfg:global:checker_locale.md), её
+[`checker_locale`](../global/checker_locale.md), её
 значение передается в переменной окружения `EJUDGE_LOCALE`.
 
 В режиме
-[`separate_user_score`](serve.cfg:global:separate_user_score.md)
+[`separate_user_score`](../global/separate_user_score.md)
 передается переменная окружения `EJUDGE_USER_SCORE`, равная 1.
 
 В режиме
-[`enable_extended_info`](serve.cfg:problem:enable_extended_info.md)
+[`enable_extended_info`](enable_extended_info.md)
 передаются следующие переменные окружения:
 
 - `EJUDGE_USER_ID` — идентификатор пользователя,
@@ -76,7 +76,7 @@ calculates score"*.
 - `EJUDGE_TEST_NUM` — номер теста.
 - `EJUDGE_TEST_COUNT` — количество тестов в задаче
 
-([3.10.0](изменения_в_версии_3.10.0.md)).
+([3.10.0](../../изменения_в_версии_3.10.0.md)).
 
 - `EJUDGE_USER_LOGIN` — логин пользователя,
 

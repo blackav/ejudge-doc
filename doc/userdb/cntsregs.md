@@ -1,7 +1,7 @@
-Навигация: [Главная страница](Main_Page.md)/[Система
-ejudge](Система_ejudge.md)/[Разработка](Разработка.md)/[Схема
-БД пользователей](Схема_БД_пользователей.md)/[Таблица
-cntsregs](userdb:cntsregs.md)
+Навигация: [Главная страница](../main_Page.md)/[Система
+ejudge](../система_ejudge.md)/[Разработка](../разработка.md)/[Схема
+БД пользователей](../схема_БД_пользователей.md)/[Таблица
+cntsregs](cntsregs.md)
 
 `CREATE TABLE cntsregs`  
 `       (user_id INT UNSIGNED NOT NULL,                 // идентификатор пользователя`  
@@ -15,5 +15,5 @@ cntsregs](userdb:cntsregs.md)
 `       createtime TIMESTAMP DEFAULT CURRENT_TIMESTAMP, // дата создания`  
 `       changetime TIMESTAMP DEFAULT 0,                 // дата изменения`  
 `       PRIMARY KEY (user_id, contest_id),`  
-`       FOREIGN KEY (user_id) REFERENCES `[`logins`](userdb:logins.md)` (user_id)`  
+`       FOREIGN KEY (user_id) REFERENCES `[`logins`](logins.md)` (user_id)`  
 `       );`

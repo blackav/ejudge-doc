@@ -1,2 +1,2 @@
 1.  REDIRECT [Libchecker:Функция checker
-    main](Libchecker:Функция_checker_main.md)
+    main](libchecker/Функция_checker_main.md)

@@ -1,8 +1,8 @@
-Навигация: [Главная страница](Main_Page.md)/[Система
-ejudge](Система_ejudge.md)/[Проверяющие
-программы](Проверяющие_программы.md)/[libchecker](libchecker.md)/[Функции](Libchecker:Функции.md)/[Перекодирование
+Навигация: [Главная страница](../main_Page.md)/[Система
+ejudge](../система_ejudge.md)/[Проверяющие
+программы](../проверяющие_программы.md)/[libchecker](../libchecker.md)/[Функции](../функции.md)/[Перекодирование
 текстовых
-данных](Libchecker:Перекодирование_текстовых_данных.md)/[`checker_strcmp_ucs4_nocase`](Libchecker:checker_strcmp_ucs4_nocase.md)
+данных](Перекодирование_текстовых_данных.md)/[`checker_strcmp_ucs4_nocase`](checker_strcmp_ucs4_nocase.md)
 
 Функция сравнивает две UCS-4 строки без учета регистра букв.
 
@@ -21,5 +21,5 @@ ejudge](Система_ejudge.md)/[Проверяющие
   второй.
 
 См. также:
-[`checker_strcmp_ucs4`](libchecker:checker_strcmp_ucs4.md),
-[`checker_ucs4_tolower`](libchecker:checker_ucs4_tolower.md).
+[`checker_strcmp_ucs4`](checker_strcmp_ucs4.md),
+[`checker_ucs4_tolower`](checker_ucs4_tolower.md).

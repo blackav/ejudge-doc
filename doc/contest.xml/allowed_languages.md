@@ -1,11 +1,11 @@
-Навигация: [Главная страница](Main_Page.md)/[Система
-ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
-файлы](Конфигурационные_файлы.md)/[contest.xml](contest.xml.md)/[allowed_languages](contest.xml:allowed_languages.md)
+Навигация: [Главная страница](../main_Page.md)/[Система
+ejudge](../система_ejudge.md)/[Использование](../использование.md)/[Конфигурационные
+файлы](../конфигурационные_файлы.md)/[contest.xml](../contest.xml.md)/[allowed_languages](allowed_languages.md)
 
 |                          |                                              |     |
 |--------------------------|----------------------------------------------|-----|
 | **Имя элемента**:        | **`allowed_languages`**                      |     |
-| **Содержится в:**        | [`contest`](contest.xml:contest.md)  |     |
+| **Содержится в:**        | [`contest`](contest.md)  |     |
 | **Может содержать:**     | *нет*                                        |     |
 | **Атрибуты:**            | *нет*                                        |     |
 | **Тип содержимого:**     | Список поддерживаемых языков/сред разработки |     |
@@ -21,7 +21,7 @@ CGI-programs"*, поле *"Allowed programming languages"*.
 на турнир. Элемент `allowed_languages` используется, только если поле
 [`languages`](contest.xml:languages.md) указано среди
 разрешенных полей глобальной информации об участнике, задаваемых
-элементом [`field`](contest.xml:field.md).
+элементом [`field`](field.md).
 
 Если элемент `allowed_languages` не задан, поле ‘Programming languages’
 регистрационной формы по будет обычной строкой ввода, в которой

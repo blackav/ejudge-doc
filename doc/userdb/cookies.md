@@ -1,7 +1,7 @@
-Навигация: [Главная страница](Main_Page.md)/[Система
-ejudge](Система_ejudge.md)/[Разработка](Разработка.md)/[Схема
-БД пользователей](Схема_БД_пользователей.md)/[Таблица
-cookies](userdb:cookies.md)
+Навигация: [Главная страница](../main_Page.md)/[Система
+ejudge](../система_ejudge.md)/[Разработка](../разработка.md)/[Схема
+БД пользователей](../схема_БД_пользователей.md)/[Таблица
+cookies](cookies.md)
 
 `CREATE TABLE cookies`  
 `       (cookie VARCHAR(32) NOT NULL PRIMARY KEY,     // случайное 64-битное число (кроме 0), хранится в 16-ричном виде (16 цифр)`  
@@ -16,5 +16,5 @@ cookies](userdb:cookies.md)
 `       ip VARCHAR(64) NOT NULL,                      // IP-адрес`  
 `       ssl_flag TINYINT NOT NULL DEFAULT 0,          // флаг доступа по SSL`  
 `       expire DATETIME NOT NULL,                     // дата истечения ключа`  
-`       FOREIGN KEY (user_id) REFERENCES `[`logins`](userdb:logins.md)` (user_id)`  
+`       FOREIGN KEY (user_id) REFERENCES `[`logins`](logins.md)` (user_id)`  
 `       );`

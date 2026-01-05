@@ -14,4 +14,4 @@ priv_role - это роль, выполняемая пользователем. 
 OBSERVER - JUDGE соответствует уровню привилегий JUDGE. Роли ADMIN
 соответствует уровень привилегий ADMIN.
 
-См. также [priv_level](Python:priv_level.md).
+См. также [priv_level](priv_level.md).

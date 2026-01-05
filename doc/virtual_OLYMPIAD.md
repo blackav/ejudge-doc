@@ -1,4 +1,4 @@
-Навигация: [Главная страница](Main_Page.md)/[Система
-ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Виды
-турниров](Виды_турниров.md)/[Virtual
-OLYMPIAD](Virtual_OLYMPIAD.md)
+Навигация: [Главная страница](main_Page.md)/[Система
+ejudge](система_ejudge.md)/[Использование](использование.md)/[Виды
+турниров](виды_турниров.md)/[Virtual
+OLYMPIAD](virtual_OLYMPIAD.md)

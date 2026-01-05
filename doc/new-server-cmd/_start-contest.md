@@ -1,2 +1,2 @@
 1.  REDIRECT [Ejudge-contests-cmd:
-    start-contest](Ejudge-contests-cmd:_start-contest.md)
+    start-contest](../ejudge-contests-cmd/_start-contest.md)

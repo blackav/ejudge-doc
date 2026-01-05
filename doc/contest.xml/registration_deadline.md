@@ -1,11 +1,11 @@
-Навигация: [Главная страница](Main_Page.md)/[Система
-ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
-файлы](Конфигурационные_файлы.md)/[contest.xml](contest.xml.md)/[registration_deadline](contest.xml:registration_deadline.md)
+Навигация: [Главная страница](../main_Page.md)/[Система
+ejudge](../система_ejudge.md)/[Использование](../использование.md)/[Конфигурационные
+файлы](../конфигурационные_файлы.md)/[contest.xml](../contest.xml.md)/[registration_deadline](registration_deadline.md)
 
 |                          |                                             |
 |--------------------------|---------------------------------------------|
 | **Имя элемента**:        | **`registration_deadline`**                 |
-| **Содержится в:**        | [`contest`](contest.xml:contest.md) |
+| **Содержится в:**        | [`contest`](contest.md) |
 | **Может содержать:**     | *нет*                                       |
 | **Атрибуты:**            | *нет*                                       |
 | **Тип содержимого:**     | *астрономическое время*                     |

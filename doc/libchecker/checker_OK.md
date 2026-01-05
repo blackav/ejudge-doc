@@ -1,6 +1,6 @@
-Навигация: [Система ejudge](Система_ejudge.md)/[Проверяющие
-программы](Проверяющие_программы.md)/[libchecker](libchecker.md)/[Функции](Libchecker:Функции.md)/[Завершение
-работы](Libchecker:Завершение_работы.md)/[checker_OK](Libchecker:checker_OK.md)
+Навигация: [Система ejudge](../система_ejudge.md)/[Проверяющие
+программы](../проверяющие_программы.md)/[libchecker](../libchecker.md)/[Функции](../функции.md)/[Завершение
+работы](Завершение_работы.md)/[checker_OK](checker_OK.md)
 
 `void checker_OK(void);`
 

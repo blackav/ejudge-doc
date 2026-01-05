@@ -1,2 +1,2 @@
 1.  REDIRECT [Ejudge-contests-cmd:
-    COMMAND-OPTIONS](Ejudge-contests-cmd:_COMMAND-OPTIONS.md)
+    COMMAND-OPTIONS](../ejudge-contests-cmd/_COMMAND-OPTIONS.md)

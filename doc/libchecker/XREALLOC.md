@@ -1,8 +1,8 @@
-Навигация: [Главная страница](Main_Page.md)/[Система
-ejudge](Система_ejudge.md)/[Проверяющие
-программы](Проверяющие_программы.md)/[libchecker](libchecker.md)/[Функции](Libchecker:Функции.md)/[Работа
+Навигация: [Главная страница](../main_Page.md)/[Система
+ejudge](../система_ejudge.md)/[Проверяющие
+программы](../проверяющие_программы.md)/[libchecker](../libchecker.md)/[Функции](../функции.md)/[Работа
 с
-памятью](Libchecker:Работа_с_памятью.md)/[XREALLOC](Libchecker:XREALLOC.md)
+памятью](Работа_с_памятью.md)/[XREALLOC](XREALLOC.md)
 
 Данный макрос — это обертка над функцией выделения памяти
 [xrealloc](Libchecker:xrealloc.md). Например, если необходимо

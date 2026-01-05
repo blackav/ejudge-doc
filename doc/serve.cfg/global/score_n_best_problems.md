@@ -1,12 +1,12 @@
-Навигация: [Главная страница](Main_Page.md)/[Система
-ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
-файлы](Конфигурационные_файлы.md)/[serve.cfg](serve.cfg.md)/[Глобальные
+Навигация: [Главная страница](../../main_Page.md)/[Система
+ejudge](../../система_ejudge.md)/[Использование](../../использование.md)/[Конфигурационные
+файлы](../../конфигурационные_файлы.md)/[serve.cfg](../../serve.cfg.md)/[Глобальные
 конфигурационные
-параметры](serve.cfg:global.md)/[`score_n_best_problems`](serve.cfg:global:score_n_best_problems.md)
+параметры](../global.md)/[`score_n_best_problems`](score_n_best_problems.md)
 
 Данная конфигурационная переменная модифицирует правила вычисления
-суммарного балла в турнирах [OLYMPIAD](OLYMPIAD.md) или
-[KIROV](KIROV.md).
+суммарного балла в турнирах [OLYMPIAD](../../OLYMPIAD.md) или
+[KIROV](../../KIROV.md).
 
 Например,
 

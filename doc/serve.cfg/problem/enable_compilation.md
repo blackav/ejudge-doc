@@ -1,12 +1,12 @@
-Навигация: [Главная страница](Main_Page.md)/[Система
-ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
-файлы](Конфигурационные_файлы.md)/[serve.cfg](serve.cfg.md)/[Конфигурационные
+Навигация: [Главная страница](../../main_Page.md)/[Система
+ejudge](../../система_ejudge.md)/[Использование](../../использование.md)/[Конфигурационные
+файлы](../../конфигурационные_файлы.md)/[serve.cfg](../../serve.cfg.md)/[Конфигурационные
 параметры
-задач](serve.cfg:problem.md)/[enable_compilation](serve.cfg:problem:enable_compilation.md)
+задач](../problem.md)/[enable_compilation](enable_compilation.md)
 
 Переменная действует только тогда, когда для задачи установлена
 переменная
-[`disable_testing`](serve.cfg:problem:disable_testing.md). Если
+[`disable_testing`](disable_testing.md). Если
 в этом случае переменная `enable_compilation` установлена в 1, то
 присланные решения по этой задаче компилируются. Если компиляция
 завершилась успешно, то для посылки устанавливается статус "Accepted for

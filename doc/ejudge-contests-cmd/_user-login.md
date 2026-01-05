@@ -1,8 +1,8 @@
-Навигация: [Система ejudge](Система_ejudge.md) /
-[Использование](Использование.md) / [Использование из командной
-строки](Использование_из_командной_строки.md) /
-[ejudge-contests-cmd](ejudge-contests-cmd.md) /
-[Команды](ejudge-contests-cmd:_COMMAND.md)
+Навигация: [Система ejudge](../система_ejudge.md) /
+[Использование](../использование.md) / [Использование из командной
+строки](../использование_из_командной_строки.md) /
+[ejudge-contests-cmd](../ejudge-contests-cmd.md) /
+[Команды](_COMMAND.md)
 
 Команда user-login (можно использовать также имена команду team-login)
 создаёт сессионный ключ для доступа к турниру с правами обычного
@@ -13,7 +13,7 @@
 `ejudge-contests-cmd CONTEST-ID user-login [OPTIONS] SESSION-FILE LOGIN [PASSWORD]`
 
 В добавление к [стандартным опциям
-команд](ejudge-contests-cmd:_COMMAND-OPTIONS.md) поддерживаются
+команд](_COMMAND-OPTIONS.md) поддерживаются
 следующие опции:
 
 |     |                                                                                                             |

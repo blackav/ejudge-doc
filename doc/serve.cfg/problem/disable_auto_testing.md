@@ -1,13 +1,13 @@
-Навигация: [Главная страница](Main_Page.md)/[Система
-ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
-файлы](Конфигурационные_файлы.md)/[serve.cfg](serve.cfg.md)/[Конфигурационные
+Навигация: [Главная страница](../../main_Page.md)/[Система
+ejudge](../../система_ejudge.md)/[Использование](../../использование.md)/[Конфигурационные
+файлы](../../конфигурационные_файлы.md)/[serve.cfg](../../serve.cfg.md)/[Конфигурационные
 параметры
-задач](serve.cfg:problem.md)/[disable_auto_testing](serve.cfg:problem:disable_auto_testing.md)
+задач](../problem.md)/[disable_auto_testing](disable_auto_testing.md)
 
 |                          |                                           |
 |--------------------------|-------------------------------------------|
 | **Имя переменной**:      | **`disable_auto_testing`**                |
-| **Содержится в:**        | [`problem`](serve.cfg:problem.md) |
+| **Содержится в:**        | [`problem`](../problem.md) |
 | **Используется:**        | `serve`                                   |
 | **Тип содержимого:**     | *boolean*                                 |
 | **Может отсутствовать:** | *да*                                      |
@@ -33,7 +33,7 @@ automatic testing of submissions"*, либо страница *"Editing contest"
 из описания абстрактной задачи. Если после этого значение данной
 переменной всё равно не определено, используется значение глобальной
 конфигурационной переменной
-[`disable_auto_testing`](serve.cfg:global:disable_auto_testing.md).
+[`disable_auto_testing`](../global/disable_auto_testing.md).
 
 **Пример.**
 

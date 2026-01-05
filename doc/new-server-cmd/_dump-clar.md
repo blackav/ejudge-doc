@@ -1,2 +1,2 @@
 1.  REDIRECT [Ejudge-contests-cmd:
-    dump-clar](Ejudge-contests-cmd:_dump-clar.md)
+    dump-clar](../ejudge-contests-cmd/_dump-clar.md)

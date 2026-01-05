@@ -1,12 +1,12 @@
-Навигация: [Главная страница](Main_Page.md)/[Система
-ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
-файлы](Конфигурационные_файлы.md)/[register.xml](register.xml.md)/[`register_config`](register.xml:register_config.md)/
-[`show_generation_time`](register.xml:register_config:show_generation_time.md)
+Навигация: [Главная страница](../../main_Page.md)/[Система
+ejudge](../../система_ejudge.md)/[Использование](../../использование.md)/[Конфигурационные
+файлы](../../конфигурационные_файлы.md)/[register.xml](../../register.xml.md)/[`register_config`](../register_config.md)/
+[`show_generation_time`](show_generation_time.md)
 
 |                            |                                                              |
 |----------------------------|--------------------------------------------------------------|
 | **Имя атрибута**:          | **`show_generation_time`**                                   |
-| **Содержится в:**          | [`register_config`](register.xml:register_config.md) |
+| **Содержится в:**          | [`register_config`](../register_config.md) |
 |                            |                                                              |
 | **Тип значения:**          | *boolean*                                                    |
 | **Значение по умолчанию:** | `false`                                                      |

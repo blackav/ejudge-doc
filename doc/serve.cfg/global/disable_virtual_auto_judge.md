@@ -1,8 +1,8 @@
-Навигация: [Главная страница](Main_Page.md)/[Система
-ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
-файлы](Конфигурационные_файлы.md)/[serve.cfg](serve.cfg.md)/[Глобальные
+Навигация: [Главная страница](../../main_Page.md)/[Система
+ejudge](../../система_ejudge.md)/[Использование](../../использование.md)/[Конфигурационные
+файлы](../../конфигурационные_файлы.md)/[serve.cfg](../../serve.cfg.md)/[Глобальные
 конфигурационные
-параметры](serve.cfg:global.md)/[`disable_virtual_auto_judge`](Serve.cfg:global:disable_virtual_auto_judge.md)
+параметры](../global.md)/[`disable_virtual_auto_judge`](disable_virtual_auto_judge.md)
 
 Переменная действует только для виртуальных турниров по системе
 *OLYMPIAD*. Если значение переменной не равно 0, то сразу после

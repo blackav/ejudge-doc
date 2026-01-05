@@ -1,1 +1,1 @@
-1.  REDIRECT [Cmp file nospace](Cmp_file_nospace.md)
+1.  REDIRECT [Cmp file nospace](cmp_file_nospace.md)

@@ -1,7 +1,7 @@
-Навигация: [Главная страница](Main_Page.md)/[Система
-ejudge](Система_ejudge.md)/[Разработка](Разработка.md)/[Схема
-БД пользователей](Схема_БД_пользователей.md)/[Таблица
-participants](userdb:participants.md)
+Навигация: [Главная страница](../main_Page.md)/[Система
+ejudge](../система_ejudge.md)/[Разработка](../разработка.md)/[Схема
+БД пользователей](../схема_БД_пользователей.md)/[Таблица
+participants](participants.md)
 
 `CREATE TABLE participants`  
 `       (serial INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY, // идентификатор члена команды, больше 0`  

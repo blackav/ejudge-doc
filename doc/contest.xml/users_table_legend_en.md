@@ -1,11 +1,11 @@
-Навигация: [Главная страница](Main_Page.md)/[Система
-ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
-файлы](Конфигурационные_файлы.md)/[contest.xml](contest.xml.md)/[users_table_legend_en](contest.xml:users_table_legend_en.md)
+Навигация: [Главная страница](../main_Page.md)/[Система
+ejudge](../система_ejudge.md)/[Использование](../использование.md)/[Конфигурационные
+файлы](../конфигурационные_файлы.md)/[contest.xml](../contest.xml.md)/[users_table_legend_en](users_table_legend_en.md)
 
 |                          |                                                    |     |
 |--------------------------|----------------------------------------------------|-----|
 | **Имя элемента**:        | **`users_table_legend_en`**                        |     |
-| **Содержится в:**        | [`contest`](contest.xml:contest.md)        |     |
+| **Содержится в:**        | [`contest`](contest.md)        |     |
 | **Может содержать:**     | *нет*                                              |     |
 | **Атрибуты:**            | *нет*                                              |     |
 | **Тип содержимого:**     | заголовок таблицы зарегистрированных пользователей |     |
@@ -34,5 +34,5 @@ CGI-programs"*, поле *"Legend specification for users table (En)"*.
 
 Если значение данного элемента задано, обязательно должно быть задано
 значение элемента
-[`users_table_format_en`](contest.xml:users_table_format_en.md),
+[`users_table_format_en`](users_table_format_en.md),
 при этом оба элемента должны определять равное число стобцов.

@@ -1,1 +1,1 @@
-1.  REDIRECT [Ej-super-server](Ej-super-server.md)
+1.  REDIRECT [Ej-super-server](ej-super-server.md)

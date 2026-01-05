@@ -1,8 +1,8 @@
-Навигация: [Главная страница](Main_Page.md)/[Система
-ejudge](Система_ejudge.md)/[Проверяющие
-программы](Проверяющие_программы.md)/[libchecker](libchecker.md)/[Функции](Libchecker:Функции.md)/[Перекодирование
+Навигация: [Главная страница](../main_Page.md)/[Система
+ejudge](../система_ejudge.md)/[Проверяющие
+программы](../проверяющие_программы.md)/[libchecker](../libchecker.md)/[Функции](../функции.md)/[Перекодирование
 текстовых
-данных](Libchecker:Перекодирование_текстовых_данных.md)/[checker_eq_str_rus_ucs4](Libchecker:checker_eq_str_rus_ucs4.md)
+данных](Перекодирование_текстовых_данных.md)/[checker_eq_str_rus_ucs4](checker_eq_str_rus_ucs4.md)
 
 Функция сравнивает заданную строку в кодировке UCS-4 со строкой в
 некоторой поддерживаемой однобайтовой кириллической кодировке.
@@ -34,4 +34,4 @@ ejudge](Система_ejudge.md)/[Проверяющие
 правильный ответ, известна при подготовке задачи.
 
 См. также:
-[checker_eq_str_rus_ucs4_nocase](libchecker:checker_eq_str_rus_ucs4_nocase.md).
+[checker_eq_str_rus_ucs4_nocase](checker_eq_str_rus_ucs4_nocase.md).

@@ -1,8 +1,8 @@
-Навигация: [Главная страница](Main_Page.md)/[Система
-ejudge](Система_ejudge.md)/[Использование](Использование.md)/[Конфигурационные
-файлы](Конфигурационные_файлы.md)/[serve.cfg](serve.cfg.md)/[Конфигурационные
+Навигация: [Главная страница](../../main_Page.md)/[Система
+ejudge](../../система_ejudge.md)/[Использование](../../использование.md)/[Конфигурационные
+файлы](../../конфигурационные_файлы.md)/[serve.cfg](../../serve.cfg.md)/[Конфигурационные
 параметры
-задач](serve.cfg:problem.md)/[`test_pat`](serve.cfg:problem:test_pat.md)
+задач](../problem.md)/[`test_pat`](test_pat.md)
 
 **Редактирование элемента:** страница *"Editing contest"*, вкладка
 *"Problems (serve.cfg)"*, блок *"Abstract problems"*, поле *"Pattern for
@@ -29,12 +29,12 @@ contest"*, вкладка *"Problems (serve.cfg)"*, блок *"Concrete problems
 ...
 
 Значение конфигурационной переменной
-[`test_pat`](serve.cfg:problem:test_pat.md) может определяться в
+[`test_pat`](test_pat.md) может определяться в
 абстрактной задаче, в этом случае все конкретные задачи, относящиеся к
 этой абстрактной задаче, унаследуют значение.
 
 Если в конфигурации задачи определены и конфигурационная переменная
-[`test_pat`](serve.cfg:problem:test_pat.md), и конфигурационная
-переменная [`test_sfx`](serve.cfg:problem:test_sfx.md),
+[`test_pat`](test_pat.md), и конфигурационная
+переменная [`test_sfx`](test_sfx.md),
 используется значение переменной
-[`test_pat`](serve.cfg:problem:test_pat.md).
+[`test_pat`](test_pat.md).
