@@ -1,6 +1,4 @@
-Навигация: [Главная страница](../../main_Page.md)/[Система
-ejudge](../../система_ejudge.md)/[Использование](../../использование.md)/[API](API.md)/[submit-run-input
-(привилегированный)](API:priv:submit-run-input.md)
+Навигация: [Главная страница](../../main_Page.md)/[Система ejudge](../../система_ejudge.md)/[Использование](../../использование.md)/[API](../API.md)/[submit-run-input (привилегированный)](submit-run-input.md)
 
 Запрос отправляет на проверку файл с исходным кодом и тестовые данные,
 на которых файл должен запускаться.
@@ -44,25 +42,29 @@ Response content type: application/json
 
 В случае ошибки возвращается JSON:
 
-`{`  
-`  "ok": false,`  
-`  "server_time": UNIX-TIMESTAMP,`  
-`  "action": "submit-run-input",`  
-`  "error": {`  
-`    "num": ERROR-CODE,`  
-`    "symbol": ERROR-SYMBOL,`  
-`    "message": ERROR-MESSAGE`  
-`  }`  
-`}`
+```jsonc
+{
+  "ok": false,
+  "server_time": 0,             // UNIX-TIMESTAMP
+  "action": "submit-run-input",
+  "error": {
+    "num": 1,                   // ERROR-CODE
+    "symbol": "ERROR-SYMBOL",
+    "message": "ERROR-MESSAGE"
+  }
+}
+```
 
 В случае успеха возвращается JSON:
 
-`{`  
-`  "ok": true,`  
-`  "result": {`  
-`    "submit_id": ID`  
-`  }`  
-`}`
+```jsonc
+{
+  "ok": true,
+  "result": {
+    "submit_id": 0, // ID
+  }
+}
+```
 
 Возвращается ID (int64), который следует использовать для запроса
 статуса посылки.

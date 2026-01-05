@@ -1,11 +1,8 @@
-Навигация: [Главная страница](../../main_Page.md)/[Система
-ejudge](../../система_ejudge.md)/[Использование](../../использование.md)/[API](API.md)/[submit-run
-(привилегированный)](API:priv:submit-run.md)
+Навигация: [Главная страница](../../main_Page.md)/[Система ejudge](../../система_ejudge.md)/[Использование](../../использование.md)/[API](../API.md)/[submit-run (привилегированный)](submit-run.md)
 
 Запрос отправляет на проверку файл с исходным кодом.
 
-Уровень доступа: администратор в контесте (аутентификация с помощью API
-key или EJSID/session_id).
+Уровень доступа: администратор в контесте (аутентификация с помощью API key или EJSID/session_id).
 
 Method: `POST`
 
@@ -64,23 +61,27 @@ Response content type: `application/json`
 
 В случае ошибки возвращается JSON:
 
-`{`  
-`  "ok": false,`  
-`  "server_time": UNIX-TIMESTAMP,`  
-`  "action": "submit-run",`  
-`  "error": {`  
-`    "num": ERROR-CODE,`  
-`    "symbol": ERROR-SYMBOL,`  
-`    "message": ERROR-MESSAGE`  
-`  }`  
-`}`
+```jsonc
+{
+  "ok": false,
+  "server_time": 1,            // UNIX-TIMESTAMP
+  "action": "submit-run",
+  "error": {
+    "num": 1,                  // ERROR-CODE
+    "symbol": "ERROR-SYMBOL",
+    "message": "ERROR-MESSAGE"
+  }
+}
+```
 
 В случае успеха возвращается JSON:
 
-`{`  
-`  "ok": true,`  
-`  "result": {`  
-`    "run_id": ID,`  
-`    "run_uuid": UUID`  
-`  }`  
-`}`
+```jsonc
+{
+  "ok": true,
+  "result": {
+    "run_id": 0,       // ID
+    "run_uuid": "UUID"
+  }
+}
+```
