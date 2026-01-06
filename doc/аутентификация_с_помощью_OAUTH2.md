@@ -1,6 +1,4 @@
-Навигация: [Главная страница](main_Page.md)/[Система
-ejudge](система_ejudge.md)/[Использование](использование.md)/[Аутентификация
-с помощью OAUTH2](аутентификация_с_помощью_OAUTH2.md)
+Навигация: [Главная страница](main_Page.md)/[Система ejudge](система_ejudge.md)/[Использование](использование.md)/[Аутентификация с помощью OAUTH2](аутентификация_с_помощью_OAUTH2.md)
 
 Поддерживается с версии [3.9.0](изменения_в_версии_3.9.0.md).
 
@@ -62,8 +60,8 @@ APP".
 попасть в раздел VK Developers. В меню сверху выберите пункт "Мои
 приложения". Появится список созданных приложений. Нажмите кнопку
 "Создать". Введите название, например, "Test Site". В опциях "Платформа"
-выберите "Сайт". Введите адрес сайта, например, "<https://testsite.io>".
-Введите базовый домен, например, "testsite.io". Нажмите кнопку
+выберите "Сайт". Введите адрес сайта, например, "`https://testsite.io`".
+Введите базовый домен, например, "`testsite.io`". Нажмите кнопку
 "Создать".
 
 В случае успешного создания вы перейдете на вкладку "Информация" нового
@@ -76,8 +74,8 @@ APP".
 Самое важное. В поле "Доверенный редирект URI" впишите URI, по которому
 будет выполняться переход в случае успешной авторизации. Для примера
 сайта выше это может быть
-"<https://testsite.io/ej/client/oauth-login-2/S2>". Часть до /S2, то
-есть "<https://testsite.io/ej/client/oauth-login-2>" обозначим как
+"`https://testsite.io/ej/client/oauth-login-2/S2`". Часть до /S2, то
+есть "`https://testsite.io/ej/client/oauth-login-2`" обозначим как
 vk_callback. Сохраните измененные настройки приложения.
 
 #### Регистрация приложения в Yandex ([3.10.0](изменения_в_версии_3.10.0.md))
@@ -86,13 +84,13 @@ vk_callback. Сохраните измененные настройки прил
 на кнопку "Создать приложение". Заполните поле "Название сервиса",
 например, "testsite-io". Установите галочку "Веб-сервисы". В появившемся
 поле "Callback URL" впишите URL вида
-"<https://testsite.io/ej/client/oauth-login-2/S3>". В разделе "Какие
+"`https://testsite.io/ej/client/oauth-login-2/S3`". В разделе "Какие
 данные вам нужны" выберите "API Yandex ID" и отметьте "Доступ к адресу
 электронной почты" и "Доступ к логину, имени и фамилии, полу".
 Дополнительно можно вписать "Описание сервиса", "Ссылка на сайт" и
 "Контактные данные". После заполнения формы нажмите кнопку "Создать
-приложение". Часть до /S3, то есть
-"<https://testsite.io/ej/client/oauth-login-2>" обозначим как
+приложение". Часть до `/S3`, то есть
+"`https://testsite.io/ej/client/oauth-login-2`" обозначим как
 yandex_callback.
 
 После создания приложения ему автоматически будет назначен ClientID и
@@ -107,11 +105,15 @@ apache.
 В секции конфигурации соответствующего виртуального хоста, либо в
 глобальной секции найдите директиву вида:
 
-`ScriptAlias /cgi-bin/   "PATH/cgi-bin/"`
+```
+ScriptAlias /cgi-bin/   "PATH/cgi-bin/"
+```
 
 Где `PATH` какой-то путь в файловой системе. Добавьте ниже директиву:
 
-`ScriptAliasMatch ^/ej/.+ PATH/cgi-bin/new-client`
+```
+ScriptAliasMatch ^/ej/.+ PATH/cgi-bin/new-client
+```
 
 Где `PATH` — тот же самый путь.
 
@@ -120,27 +122,29 @@ apache.
 В глобальном конфигурационном файле [ejudge.xml](ejudge.xml.md)
 в раздел плагинов добавьте конфигурацию плагинов для google и VK:
 
+```xml
 <plugin type="auth" name="google" load="yes">  
-`  `<config>  
-`    `<client_id>`${google_app_id}`</client_id>  
-`    `<client_secret>`${google_app_secret}`</client_secret>  
-`    `<redirect_uri>`${google_callback}`</redirect_uri>  
-`  `</config>  
+  <config>  
+    <client_id>${google_app_id}</client_id>  
+    <client_secret>${google_app_secret}</client_secret>  
+    <redirect_uri>${google_callback}</redirect_uri>  
+  </config>  
 </plugin>  
 <plugin type="auth" name="vk" load="yes">  
-`  `<config>  
-`    `<client_id>`${vk_app_id}`</client_id>  
-`    `<client_secret>`${vk_app_secret}`</client_secret>  
-`    `<redirect_uri>`${vk_callback}`</redirect_uri>  
-`  `</config>  
+  <config>  
+    <client_id>${vk_app_id}</client_id>  
+    <client_secret>${vk_app_secret}</client_secret>  
+    <redirect_uri>${vk_callback}</redirect_uri>  
+  </config>  
 </plugin>  
 <plugin type="auth" name="yandex" load="yes">  
-`  `<config>  
-`    `<client_id>`${yandex_client_id}`</client_id>  
-`    `<client_secret>`${yandex_client_secret}`</client_secret>  
-`    `<redirect_uri>`${yandex_callback}`</redirect_uri>  
-`  `</config>  
+  <config>  
+    <client_id>${yandex_client_id}</client_id>  
+    <client_secret>${yandex_client_secret}</client_secret>  
+    <redirect_uri>${yandex_callback}</redirect_uri>  
+  </config>  
 </plugin>
+```
 
 Здесь через \${VAR} обозначена подстановка параметра VAR, определенного
 при настройке приложения у провайдера аутентификации.
@@ -153,16 +157,20 @@ apache.
 Добавить атрибут `enable_oauth` в элемент `config` в конфигурационный
 файл [ejudge.xml](ejudge.xml.md) примерно следующим образом:
 
-`<config enable_oauth="yes" ...>`
+```xml
+<config enable_oauth="yes" ...>
+```
 
 В конфигурационный файл `capabilities.xml`, который находится в том же
 каталоге, что `ejudge.xml`, добавить таблицу отображений внешних OAUTH2
 идентификаторов пользователей во внутренние:
 
+```xml
 <oauth_user_map>  
-`  `<oauth_entry oauth_user="EXT-ID-1" local_user="LOCAL-LOGIN-1" />  
-`  `<oauth_entry oauth_user="EXT-ID-2" local_user="LOCAL-LOGIN-2" />  
+  <oauth_entry oauth_user="EXT-ID-1" local_user="LOCAL-LOGIN-1" />  
+  <oauth_entry oauth_user="EXT-ID-2" local_user="LOCAL-LOGIN-2" />  
 </oauth_user_map>
+```
 
 `EXT-ID` — это идентификатор пользователя у провайдера аутентификации. В
 случае google — это email, например, `user@gmail.com`. В случае VK — это
@@ -177,12 +185,14 @@ apache.
 отдельности. Для этого нужно установить атрибут
 [`enable_oauth`](contest.xml/enable_oauth.md) элемента
 [`contest`](contest.xml/contest.md) в файле
-[contest.xml](contest.xml.md). Конфигурационный файл будет
+[`contest.xml`](contest.xml.md). Конфигурационный файл будет
 выглядеть примерно так:
 
-`<contest id="auto"`  
-`         enable_oauth="yes"`  
-`         ...`
+```
+<contest id="auto"  
+         enable_oauth="yes"  
+         ...
+```
 
 Если доступ к программе register разрешен с помощью правила
 [`register_access`](contest.xml/register_access.md), на турнир
@@ -193,10 +203,12 @@ apache.
 помощью элемента [`oauth_rules`](contest.xml/oauth_rules.md).
 Например,
 
+```xml
 <oauth_rules>  
-`  `<oauth_rule domain="school.ru" allow="yes" strip_domain="yes" />  
-`  `<oauth_rule domain="" deny="yes" />  
+  <oauth_rule domain="school.ru" allow="yes" strip_domain="yes" />  
+  <oauth_rule domain="" deny="yes" />  
 </oauth_rules>
+```
 
 в турнир с помощью OAUTH2 смогут заходить только пользователи с почтовым
 адресом вида `USER@school.ru`, при этом в системе ejudge им будет
@@ -226,12 +238,14 @@ ejudge сможет входить только с помощью OAUTH2.
 
 Конфигурация плагина задаётся следующим образом:
 
+```xml
 <plugin type="auth" name="oidc" load="yes">  
-`  `<config>  
-`    `<client_id>`CLIENT-ID`</client_id>  
-`    `<client_secret>`CLIENT-SECRET`</client_secret>  
-`    `<redirect_uri>`OIDC-CALLBACK`</redirect_uri>  
-`    `<configuration_endpoint>`OIDC-CONFIGURATION-ENDPOINT`</configuration_endpoint>  
-`    `<scope>`SCOPE`</scope>  
-`  `</config>  
+  <config>  
+    <client_id>CLIENT-ID</client_id>  
+    <client_secret>CLIENT-SECRET</client_secret>  
+    <redirect_uri>OIDC-CALLBACK</redirect_uri>  
+    <configuration_endpoint>OIDC-CONFIGURATION-ENDPOINT</configuration_endpoint>  
+    <scope>`SCOPE`</scope>  
+  </config>  
 </plugin>
+```
