@@ -1,7 +1,4 @@
-Навигация: [Главная страница](../main_Page.md)/[Система
-ejudge](../система_ejudge.md)/[Использование](../использование.md)/[Конфигурационные
-файлы](../конфигурационные_файлы.md)/[serve.cfg](../serve.cfg.md)/[Конфигурационные
-параметры задач](problem.md)
+Навигация: [Главная страница](../main_Page.md)/[Система ejudge](../система_ejudge.md)/[Использование](../использование.md)/[Конфигурационные файлы](../конфигурационные_файлы.md)/[serve.cfg](../serve.cfg.md)/[Конфигурационные параметры задач](problem.md)
 
 - [`abstract`](problem/abstract.md)
 - [`accept_partial`](problem/accept_partial.md)
@@ -73,6 +70,7 @@ ejudge](../система_ejudge.md)/[Использование](../испол�
 - [`extra_src_dir`](problem/extra_src_dir.md)
 - [`final_open_tests`](problem/final_open_tests.md)
 - [`footer_pat`](problem/footer_pat.md)
+- [`forced_test_count`](problem/forced_test_count.md) ([3.14.0](../изменения_в_версии_3.14.0.md))
 - [`full_score`](problem/full_score.md)
 - [`full_user_score`](problem/full_user_score.md)
 - [`group_deadline`](problem/group_deadline.md)
@@ -88,6 +86,7 @@ ejudge](../система_ejudge.md)/[Использование](../испол�
 - [`ignore_exit_code`](problem/ignore_exit_code.md)
 - [`ignore_penalty`](problem/ignore_penalty.md)
 - [`ignore_prev_ac`](problem/ignore_prev_ac.md)
+- [`ignore_sigpipe`](problem/ignore_sigpipe.md) ([3.14.0](../изменения_в_версии_3.14.0.md))
 - [`ignore_term_signal`](problem/ignore_term_signal.md)
 - [`ignore_unmarked`](problem/ignore_unmarked.md)
 - [`init_cmd`](problem/init_cmd.md)
@@ -120,6 +119,7 @@ ejudge](../система_ejudge.md)/[Использование](../испол�
 - [`max_stack_size`](problem/max_stack_size.md)
 - [`max_user_run_count`](problem/max_user_run_count.md)
 - [`max_vm_size`](problem/max_vm_size.md)
+- [`md_file`](problem/md_file.md) ([3.14.0](../изменения_в_версии_3.14.0.md))
 - [`min_score_1`](problem/min_score_1.md)
 - [`min_score_2`](problem/min_score_2.md)
 - [`min_tests_to_accept`](problem/min_tests_to_accept.md)
@@ -158,6 +158,7 @@ ejudge](../система_ejudge.md)/[Использование](../испол�
 - [`source_footer`](problem/source_footer.md)
 - [`source_header`](problem/source_header.md)
 - [`spelling`](serve.cfg:problem:spelling.md)
+- [`src_normalization`](problem/src_normalization.md) ([3.14.0](../изменения_в_версии_3.14.0.md))
 - [`standard_checker`](problem/standard_checker.md)
 - [`standard_valuer`](problem/standard_valuer.md)
 - [`stand_attr`](serve.cfg:problem:stand_attr.md)

@@ -51,3 +51,16 @@ API ключ создается в веб-интерфейсе мастера т
 
 - [get-submit](unpriv/get-submit.md)
 - [submit-run-input](unpriv/submit-run-input.md)
+
+## API конфигурации (serve-control)
+
+- [`cnts-list-session-json`](serve-control/cnts-list-session-json.md)
+- [`cnts-get-value-json`](serve-control/cnts-get-value-json.md)
+- [`cnts-start-edit-json`](serve-control/cnts-start-edit-json.md)
+- [`cnts-forget-json`](serve-control/cnts-forget-json.md)
+- [`cnts-commit-json`](serve-control/cnts-commit-json.md)
+- [`cnts-dry-commit-json`](serve-control/cnts-dry-commit-json.md)
+- [`cnts-check-tests-json`](serve-control/cnts-check-tests-json.md)
+- [`cnts-delete-value-json`](serve-control/cnts-delete-value-json.md)
+- [`cnts-set-value-json`](serve-control/cnts-set-value-json.md)
+- [`cnts-minimize-problem-json`](serve-control/cnts-minimize-problem-json.md)
