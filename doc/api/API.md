@@ -52,7 +52,7 @@ API ключ создается в веб-интерфейсе мастера т
 - [get-submit](unpriv/get-submit.md)
 - [submit-run-input](unpriv/submit-run-input.md)
 
-## API конфигурации (serve-control)
+## API конфигурации (serve-control) ([3.14.0](../изменения_в_версии_3.14.0.md))
 
 - [`cnts-list-session-json`](serve-control/cnts-list-session-json.md)
 - [`cnts-get-value-json`](serve-control/cnts-get-value-json.md)
