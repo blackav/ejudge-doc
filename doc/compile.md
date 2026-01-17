@@ -1,1 +1,1 @@
-1.  REDIRECT [Ej-compile](ej-compile.md)
+1.  REDIRECT [Ej-compile](tool/ej-compile.md)

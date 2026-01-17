@@ -1,7 +1,7 @@
 Навигация: [Главная страница](../main_Page.md)/[Система
 ejudge](../система_ejudge.md)/[Разработка](../разработка.md)/[Схема
 БД пользователей](../схема_БД_пользователей.md)/[Таблица
-users](users.md)
+users](../users.md)
 
 `CREATE TABLE users`  
 `       (user_id INT UNSIGNED NOT NULL,                 // идентификатор пользователя`  

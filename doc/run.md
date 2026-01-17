@@ -1,1 +1,1 @@
-1.  REDIRECT [Ej-run](ej-run.md)
+1.  REDIRECT [Ej-run](tool/ej-run.md)

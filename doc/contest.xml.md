@@ -67,10 +67,10 @@ ejudge](система_ejudge.md)/[Использование](использо�
 - [`open_time`](contest.xml/open_time.md)
 - [`priv_footer_file`](contest.xml/priv_footer_file.md)
   (<i>Игнорируется начиная с [версии
-  3.0](изменения_в_версии_3.0.md)</i>)
+  3.0](change/изменения_в_версии_3.0.md)</i>)
 - [`priv_header_file`](contest.xml/priv_header_file.md)
   (<i>Игнорируется начиная с [версии
-  3.0](изменения_в_версии_3.0.md)</i>)
+  3.0](change/изменения_в_версии_3.0.md)</i>)
 - [`problem_count`](contest.xml:problem_count.md)
 - [`problems_url`](contest.xml/problems_url.md)
 - [`sched_time`](contest.xml/sched_time.md)
@@ -85,21 +85,21 @@ ejudge](система_ejudge.md)/[Использование](использо�
 - [`register_email_file`](contest.xml/register_email_file.md)
 - [`register_footer_file`](contest.xml:register_footer_file.md)
   (<i>Игнорируется начиная с [версии
-  3.0](изменения_в_версии_3.0.md)</i>)
+  3.0](change/изменения_в_версии_3.0.md)</i>)
 - [`register_header_file`](contest.xml/register_header_file.md)
   (<i>Игнорируется начиная с [версии
-  3.0](изменения_в_версии_3.0.md)</i>)
+  3.0](change/изменения_в_версии_3.0.md)</i>)
 - [`register_head_style`](contest.xml/register_head_style.md)
   (<i>Игнорируется начиная с [версии
-  3.0](изменения_в_версии_3.0.md)</i>)
+  3.0](change/изменения_в_версии_3.0.md)</i>)
 - [`register_par_style`](contest.xml/register_par_style.md)
   (<i>Игнорируется начиная с [версии
-  3.0](изменения_в_версии_3.0.md)</i>)
+  3.0](change/изменения_в_версии_3.0.md)</i>)
 - [`register_subject`](contest.xml/register_subject.md)
 - [`register_subject_en`](contest.xml/register_subject_en.md)
 - [`register_table_style`](contest.xml/register_table_style.md)
   (<i>Игнорируется начиная с [версии
-  3.0](изменения_в_версии_3.0.md)</i>)
+  3.0](change/изменения_в_версии_3.0.md)</i>)
 - [`register_url`](contest.xml/register_url.md)
 - [`registration_deadline`](contest.xml/registration_deadline.md)
 - [`reg_welcome_file`](contest.xml/reg_welcome_file.md)
@@ -111,28 +111,28 @@ ejudge](система_ejudge.md)/[Использование](использо�
 - [`team_access`](contest.xml/team_access.md)
 - [`team_footer_file`](contest.xml/team_footer_file.md)
   (<i>Игнорируется начиная с [версии
-  3.0](изменения_в_версии_3.0.md)</i>)
+  3.0](change/изменения_в_версии_3.0.md)</i>)
 - [`team_header_file`](contest.xml/team_header_file.md)
   (<i>Игнорируется начиная с [версии
-  3.0](изменения_в_версии_3.0.md)</i>)
+  3.0](change/изменения_в_версии_3.0.md)</i>)
 - [`team_head_style`](contest.xml/team_head_style.md)
   (<i>Игнорируется начиная с [версии
-  3.0](изменения_в_версии_3.0.md)</i>)
+  3.0](change/изменения_в_версии_3.0.md)</i>)
 - [`team_menu_1_file`](contest.xml/team_menu_1_file.md)
   (<i>Игнорируется начиная с [версии
-  3.0](изменения_в_версии_3.0.md)</i>)
+  3.0](change/изменения_в_версии_3.0.md)</i>)
 - [`team_menu_2_file`](contest.xml/team_menu_2_file.md)
   (<i>Игнорируется начиная с [версии
-  3.0](изменения_в_версии_3.0.md)</i>)
+  3.0](change/изменения_в_версии_3.0.md)</i>)
 - [`team_menu_3_file`](contest.xml/team_menu_3_file.md)
   (<i>Игнорируется начиная с [версии
-  3.0](изменения_в_версии_3.0.md)</i>)
+  3.0](change/изменения_в_версии_3.0.md)</i>)
 - [`team_par_style`](contest.xml/team_par_style.md)
   (<i>Игнорируется начиная с [версии
-  3.0](изменения_в_версии_3.0.md)</i>)
+  3.0](change/изменения_в_версии_3.0.md)</i>)
 - [`team_separator_file`](contest.xml/team_separator_file.md)
   (<i>Игнорируется начиная с [версии
-  3.0](изменения_в_версии_3.0.md)</i>)
+  3.0](change/изменения_в_версии_3.0.md)</i>)
 - [`team_url`](contest.xml/team_url.md)
 - [`telegram_admin_chat_id`](contest.xml:telegram_admin_chat_id.md)
 - [`telegram_bot_id`](contest.xml:telegram_bot_id.md)

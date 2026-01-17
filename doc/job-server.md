@@ -1,1 +1,1 @@
-1.  REDIRECT [Ej-jobs](ej-jobs.md)
+1.  REDIRECT [Ej-jobs](tool/ej-jobs.md)

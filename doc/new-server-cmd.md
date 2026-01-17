@@ -1,1 +1,1 @@
-1.  REDIRECT [Ejudge-contests-cmd](ejudge-contests-cmd.md)
+1.  REDIRECT [Ejudge-contests-cmd](tool/ejudge-contests-cmd.md)

@@ -1,1 +1,1 @@
-1.  REDIRECT [Ej-users](ej-users.md)
+1.  REDIRECT [Ej-users](tool/ej-users.md)

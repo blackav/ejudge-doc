@@ -1,1 +1,1 @@
-1.  REDIRECT [Ejudge-jobs-cmd](ejudge-jobs-cmd.md)
+1.  REDIRECT [Ejudge-jobs-cmd](tool/ejudge-jobs-cmd.md)
