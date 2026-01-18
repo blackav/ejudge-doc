@@ -11,4 +11,4 @@ status instead of OK"*.
 статус [Accepted for Testing](../../verdict/accepted_for_testing.md).
 
 Начиная с версии [2.3.25](../../change/изменения_в_версии_2.3.25.md)
-используется статус [Pending Review](../../pending_Review.md).
+используется статус [Pending Review](../../pending_review.md).
