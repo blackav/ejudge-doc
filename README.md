@@ -17,5 +17,5 @@ ejudge - это система для проведения различных м
 
 ### Текущая версия (25 декабря 2024 г)
 
-- Система ejudge: [3.13.0](http://www.ejudge.ru/download/ejudge-3.13.0.tgz), [Изменения в версии 3.13.0](doc/изменения_в_версии_3.13.0.md)
+- Система ejudge: [3.13.0](http://www.ejudge.ru/download/ejudge-3.13.0.tgz), [Изменения в версии 3.13.0](doc/change/изменения_в_версии_3.13.0.md)
 - [Исходный код](https://github.com/blackav/ejudge)
