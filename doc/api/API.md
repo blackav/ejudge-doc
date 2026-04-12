@@ -32,7 +32,9 @@ API ключ создается в веб-интерфейсе мастера т
 Чтобы использовать токен для аутентификации в запросах, в http заголовок
 нужно добавить строку:
 
-`Authorization: Bearer AQAA`<TOKEN>
+```text
+Authorization: Bearer AQAA<TOKEN>
+```
 
 То есть перед значением токена приписывается `AQAA`.
 
@@ -52,7 +54,7 @@ API ключ создается в веб-интерфейсе мастера т
 - [get-submit](unpriv/get-submit.md)
 - [submit-run-input](unpriv/submit-run-input.md)
 
-## API конфигурации (serve-control) ([3.14.0](../изменения_в_версии_3.14.0.md))
+## API конфигурации (serve-control) ([3.14.0](../change/изменения_в_версии_3.14.0.md))
 
 - [`cnts-list-session-json`](serve-control/cnts-list-session-json.md)
 - [`cnts-get-value-json`](serve-control/cnts-get-value-json.md)
