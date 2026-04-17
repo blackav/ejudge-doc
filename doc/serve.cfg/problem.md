@@ -1,12 +1,14 @@
-Навигация: [Главная страница](../main_Page.md)/[Система ejudge](../система_ejudge.md)/[Использование](../использование.md)/[Конфигурационные файлы](../конфигурационные_файлы.md)/[serve.cfg](../serve.cfg.md)/[Конфигурационные параметры задач](problem.md)
+# Problem configuration
+
+Навигация: [Система ejudge](../система_ejudge.md)/[Использование](../использование.md)/[Конфигурационные файлы](../конфигурационные_файлы.md)/[serve.cfg](../serve.cfg.md)/[Конфигурационные параметры задач](problem.md)
 
 - [`abstract`](problem/abstract.md)
 - [`accept_partial`](problem/accept_partial.md)
 - [`acm_run_penalty`](problem/acm_run_penalty.md)
 - [`advance_to_next`](problem/advance_to_next.md)
 - [`allow_ip`](problem/allow_ip.md)
-- [`alternative`](serve.cfg:problem:alternative.md)
-- [`alternatives_file`](serve.cfg:problem:alternatives_file.md)
+- [`alternative`](serve.cfg:problem:alternative.md) **устарел**
+- [`alternatives_file`](serve.cfg:problem:alternatives_file.md) **устарел**
 - [`autoassign_variants`](problem/autoassign_variants.md)
 - [`binary`](problem/binary.md)
 - [`binary_input`](problem/binary_input.md)
@@ -36,7 +38,7 @@
 - [`disable_ctrl_chars`](problem/disable_ctrl_chars.md)
 - [`disable_language`](problem/disable_language.md)
 - [`disable_pe`](problem/disable_pe.md)
-- [`disable_security`](problem/disable_security.md)
+- [`disable_security`](problem/disable_security.md) **устарел**
 - [`disable_stderr`](problem/disable_stderr.md)
 - [`disable_submit_after_ok`](problem/disable_submit_after_ok.md)
 - [`disable_tab`](problem/disable_tab.md)
@@ -53,19 +55,19 @@
 - [`enable_extended_info`](problem/enable_extended_info.md)
 - [`enable_group_merge`](problem/enable_group_merge.md)
 - [`enable_iframe_statement`](problem/enable_iframe_statement.md)
-- [`enable_kill_all`](problem/enable_kill_all.md)
+- [`enable_kill_all`](problem/enable_kill_all.md) **устарел**
 - [`enable_language`](problem/enable_language.md)
 - [`enable_multi_header`](problem/enable_multi_header.md)
-- [`enable_process_group`](problem/enable_process_group.md)
+- [`enable_process_group`](problem/enable_process_group.md) **устарел**
 - [`enable_src_for_testing`](problem/enable_src_for_testing.md)
 - [`enable_submit_after_reject`](problem/enable_submit_after_reject.md)
-- [`enable_suid_run`](problem/enable_suid_run.md)
+- [`enable_suid_run`](problem/enable_suid_run.md) **устарел**
 - [`enable_testlib_mode`](problem/enable_testlib_mode.md)
 - [`enable_text_form`](problem/enable_text_form.md)
 - [`enable_tokens`](problem/enable_tokens.md)
 - [`enable_user_input`](problem/enable_user_input.md)
 - [`enable_vcs`](problem/enable_vcs.md)
-- [`examinator_num`](serve.cfg:problem:examinator_num.md)
+- [`examinator_num`](serve.cfg:problem:examinator_num.md) **устарел**
 - [`extid`](problem/extid.md)
 - [`extra_src_dir`](problem/extra_src_dir.md)
 - [`final_open_tests`](problem/final_open_tests.md)

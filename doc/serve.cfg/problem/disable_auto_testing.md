@@ -1,8 +1,6 @@
-Навигация: [Главная страница](../../main_Page.md)/[Система
-ejudge](../../система_ejudge.md)/[Использование](../../использование.md)/[Конфигурационные
-файлы](../../конфигурационные_файлы.md)/[serve.cfg](../../serve.cfg.md)/[Конфигурационные
-параметры
-задач](../problem.md)/[disable_auto_testing](disable_auto_testing.md)
+# disable_auto_testing
+
+Навигация: [Система ejudge](../../система_ejudge.md)/[Использование](../../использование.md)/[Конфигурационные файлы](../../конфигурационные_файлы.md)/[serve.cfg](../../serve.cfg.md)/[Конфигурационные параметры задач](../problem.md)/[disable_auto_testing](disable_auto_testing.md)
 
 |                          |                                           |
 |--------------------------|-------------------------------------------|
@@ -37,4 +35,6 @@ automatic testing of submissions"*, либо страница *"Editing contest"
 
 **Пример.**
 
-`disable_auto_testing`
+```text
+disable_auto_testing
+```

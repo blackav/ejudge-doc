@@ -1,10 +1,8 @@
-Навигация: [Главная страница](main_Page.md)/[Система
-ejudge](система_ejudge.md)/[Использование](использование.md)/[Бот
-для telegram](бот_для_telegram.md)/[Создание бота для
-telegram](создание_бота_для_telegram.md)
+# Создание бота для telegram
 
-Для создания бота для telegram можно следовать [инструкциям на сайте
-telegram](https://core.telegram.org/bots).
+Навигация: [Система ejudge](система_ejudge.md)/[Использование](использование.md)/[Бот для telegram](бот_для_telegram.md)/[Создание бота для telegram](создание_бота_для_telegram.md)
+
+Для создания бота для telegram можно следовать [инструкциям на сайте telegram](https://core.telegram.org/bots).
 
 Откройте приватный чат с ботом Botfather в клиенте Telegram.
 

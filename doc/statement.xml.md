@@ -1,79 +1,54 @@
-Навигация: [Главная страница](main_Page.md)/[Система
-ejudge](система_ejudge.md)/[Использование](использование.md)/[Конфигурационные
-файлы](конфигурационные_файлы.md)/[statement.xml](statement.xml.md)
+# statement.xml
+
+Навигация: [Система ejudge](система_ejudge.md)/[Использование](использование.md)/[Конфигурационные файлы](конфигурационные_файлы.md)/[statement.xml](statement.xml.md)
 
 Пример файла с условием задачи:
 
+```xml
 <?xml version="1.0" encoding="utf-8" ?>
-
 <problem
     package = "ru.ejudge.sample_contest"
     id = "A"
-    type = "standard">  
-`  `<keywords>`A+B`</keywords>  
-`  `<statement language="ru_RU">  
-`    `
-
-<title>
-
-Задача A+B
-
-</title>
-
-`    `<description>  
-`<p>На стандартном потоке ввода задаются два целых числа.`  
-`На стандартный поток вывода напечатайте сумму этих чисел.</p>`  
-`    `</description>  
-`    `<input_format>  
-`<p>Числа задаются по одному в строке в десятичном виде.`  
-`Числа по модулю не превышают 32000.      `  
-`Пробельные символы перед числом и после него отсутствуют.`  
-`Пустые строки в вводе отсутствуют.>/p>`  
-`    `</input_format>  
-`    `<output_format>  
-`<p>На стандартный поток вывода напечатайте результат в десятичном виде.</p>`  
-`    `</output_format>  
-`    `<notes>  
-`<p>Обратите внимание на диапазон представимых чисел.</p>`  
-`    `</notes>  
-`  `</statement>  
-`  `<examples>  
-`    `
-
-<example>
-
-`      `<input>`1`  
-`2`</input>  
-`      `
-
-<output>
-
-3
-
-</output>
-</example>
-<example>
-
-`      `<input>`-1`  
-`1`</input>  
-`      `
-
-<output>
-
-0
-
-</output>
-</example>
-
-`  `</examples>  
-`  `<review_notes>  
-`<p>Обращайте внимание на стиль оформления программ!</p>`  
-`  `</review_notes>  
-`  `<review_comments>  
-`    `<comment>`Инициализируйте локальные переменные.`</comment>  
-`    `<comment>`Проверяйте возвращаемое значение scanf.`</comment>  
-`  `</review_comments>  
+    type = "standard">
+    <keywords>`A+B`</keywords>
+    <statement language="ru_RU">
+    <title>Задача A+B</title>
+    <description>
+    <p>На стандартном потоке ввода задаются два целых числа. На стандартный поток вывода напечатайте сумму этих чисел.</p>
+    </description>
+    <input_format>
+<p>Числа задаются по одному в строке в десятичном виде. Числа по модулю не превышают 32000.      `  
+Пробельные символы перед числом и после него отсутствуют.
+Пустые строки в вводе отсутствуют.</p>
+    </input_format>
+    <output_format>
+<p>На стандартный поток вывода напечатайте результат в десятичном виде.</p>
+    </output_format>
+    <notes>
+<p>Обратите внимание на диапазон представимых чисел.</p>
+    </notes>
+    </statement>
+    <examples>
+        <example>
+            <input>1
+2</input>
+            <output>3</output>
+        </example>
+        <example>
+            <input>-1
+1</input>
+            <output>0</output>
+        </example>
+    </examples>
+    <review_notes>
+        <p>Обращайте внимание на стиль оформления программ!</p>
+    </review_notes>
+    <review_comments>
+        <comment>Инициализируйте локальные переменные.</comment>
+        <comment>Проверяйте возвращаемое значение scanf.</comment>
+    </review_comments>
 </problem>
+```
 
 Атрибуты `package`, `id`, `type` в настоящее время не используются.
 
