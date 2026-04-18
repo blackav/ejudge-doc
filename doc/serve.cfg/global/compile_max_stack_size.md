@@ -1,8 +1,6 @@
-Навигация: [Главная страница](../../main_Page.md)/[Система
-ejudge](../../система_ejudge.md)/[Использование](../../использование.md)/[Конфигурационные
-файлы](../../конфигурационные_файлы.md)/[serve.cfg](../../serve.cfg.md)/[Глобальные
-конфигурационные
-параметры](../global.md)/[`compile_max_stack_size`](compile_max_stack_size.md)
+# `compile_max_stack_size`
+
+Навигация: [Система ejudge](../../система_ejudge.md)/[Использование](../../использование.md)/[Конфигурационные файлы](../../конфигурационные_файлы.md)/[serve.cfg](../../serve.cfg.md)/[Глобальные конфигурационные параметры](../global.md)/[`compile_max_stack_size`](compile_max_stack_size.md)
 
 **Редактирование элемента:** страница *"Editing contest"*, вкладка
 *"Language settings (serve.cfg)"*, поле *"Maximum stack size for
@@ -11,7 +9,9 @@ compilers"*.
 Конфигурационная переменная `compile_max_stack_size` задает максимальный
 размер системного стека для всех языковых процессоров. Например,
 
-`compile_max_stack_size=16M`
+```text
+compile_max_stack_size=16M
+```
 
 ограничивает размер системного стека 16 мегабайтами (точнее,
 16\*1024\*1024 байт).

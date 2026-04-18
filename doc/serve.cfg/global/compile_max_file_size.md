@@ -1,8 +1,6 @@
-Навигация: [Главная страница](../../main_Page.md)/[Система
-ejudge](../../система_ejudge.md)/[Использование](../../использование.md)/[Конфигурационные
-файлы](../../конфигурационные_файлы.md)/[serve.cfg](../../serve.cfg.md)/[Глобальные
-конфигурационные
-параметры](../global.md)/[`compile_max_file_size`](compile_max_file_size.md)
+# `compile_max_file_size`
+
+Навигация: [Система ejudge](../../система_ejudge.md)/[Использование](../../использование.md)/[Конфигурационные файлы](../../конфигурационные_файлы.md)/[serve.cfg](../../serve.cfg.md)/[Глобальные конфигурационные параметры](../global.md)/[`compile_max_file_size`](compile_max_file_size.md)
 
 **Редактирование элемента:** страница *"Editing contest"*, вкладка
 *"Language settings (serve.cfg)"*, поле *"Maximum file size for
@@ -11,7 +9,9 @@ compilers"*.
 Конфигурационная переменная `compile_max_file_size` задает максимальный
 размер файла для всех языковых процессоров. Например,
 
-`compile_max_file_size=64M`
+```text
+compile_max_file_size=64M
+```
 
 ограничивает размер файла 64 мегабайтами (точнее, 64\*1024\*1024 байт).
 
