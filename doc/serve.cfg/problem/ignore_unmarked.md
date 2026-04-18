@@ -1,8 +1,6 @@
-Навигация: [Главная страница](../../main_Page.md)/[Система
-ejudge](../../система_ejudge.md)/[Использование](../../использование.md)/[Конфигурационные
-файлы](../../конфигурационные_файлы.md)/[serve.cfg](../../serve.cfg.md)/[Конфигурационные
-параметры
-задач](../problem.md)/[ignore_unmarked](ignore_unmarked.md)
+# `ignore_unmarked`
+
+Навигация: [Система ejudge](../../система_ejudge.md)/[Использование](../../использование.md)/[Конфигурационные файлы](../../конфигурационные_файлы.md)/[serve.cfg](../../serve.cfg.md)/[Конфигурационные параметры задач](../problem.md)/[`ignore_unmarked`](ignore_unmarked.md)
 
 **Редактирование элемента:** страница *"Editing contest"*, вкладка
 *"Problems (serve.cfg)"*, блок *"Abstract problems"*, поле *"Ignore

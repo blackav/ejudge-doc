@@ -1,8 +1,6 @@
-Навигация: [Главная страница](../../main_Page.md)/[Система
-ejudge](../../система_ejudge.md)/[Использование](../../использование.md)/[Конфигурационные
-файлы](../../конфигурационные_файлы.md)/[serve.cfg](../../serve.cfg.md)/[Конфигурационные
-параметры
-задач](../problem.md)/[`ignore_prev_ac`](ignore_prev_ac.md)
+# `ignore_prev_ac`
+
+Навигация: [Система ejudge](../../система_ejudge.md)/[Использование](../../использование.md)/[Конфигурационные файлы](../../конфигурационные_файлы.md)/[serve.cfg](../../serve.cfg.md)/[Конфигурационные параметры задач](../problem.md)/[`ignore_prev_ac`](ignore_prev_ac.md)
 
 Данная конфигурационная переменная включает режим игнорирования
 предыдущих посылок со статусом "Accepted for testing". Переменная
@@ -28,15 +26,17 @@ Ignored.
 абстрактной задаче переменная была установлена, чтобы сбросить ее в
 конкретной задаче нужно явно установить ее значение в 0. Например,
 
-`[problem]`  
-`short_name = "Generic"`  
-`abstract`  
-`ignore_prev_ac`  
-  
-`[problem]`  
-`short_name = "A"`  
-`super = "Generic"`  
-`ignore_prev_ac = 0`
+```text
+[problem]
+short_name = "Generic"
+abstract
+ignore_prev_ac
+
+[problem]
+short_name = "A"
+super = "Generic"
+ignore_prev_ac = 0
+```
 
 Данная конфигурационная переменная поддерживается, начиная с версии
 2.3.20 системы ejudge.

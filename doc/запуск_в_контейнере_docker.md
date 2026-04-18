@@ -1,30 +1,38 @@
-Навигация: [Главная страница](main_Page.md)/[Система
-ejudge](система_ejudge.md)/[Инсталляция](инсталляция.md)/[Запуск
-в контейнере docker](запуск_в_контейнере_docker.md)
+# Запуск в контейнере docker
+
+Навигация: [Система ejudge](система_ejudge.md)/[Инсталляция](инсталляция.md)/[Запуск в контейнере docker](запуск_в_контейнере_docker.md)
 
 Поддерживается с версии [3.10.1](change/изменения_в_версии_3.10.1.md).
 
 Потребуется сам docker и утилита docker-compose.
 
-### Запуск
+## Запуск
 
 Для запуска ejudge в контейнере docker выполните следущее.
 
 Скачайте исходные коды ejudge с git:
 
-`git clone `[`https://github.com/blackav/ejudge.git`](https://github.com/blackav/ejudge.git)
+```bash
+git clone https://github.com/blackav/ejudge.git
+```
 
 Перейдите в каталог ejudge
 
-`cd ejudge`
+```bash
+cd ejudge
+```
 
 Соберите образ
 
-`docker-compose build`
+```bash
+docker-compose build
+```
 
 Запустите
 
-`docker-compose up -d`
+```
+docker-compose up -d
+```
 
 ejudge будет доступен по адресу <http://127.0.0.1:90>
 

@@ -1,8 +1,6 @@
-Навигация: [Главная страница](../../main_Page.md)/[Система
-ejudge](../../система_ejudge.md)/[Использование](../../использование.md)/[Конфигурационные
-файлы](../../конфигурационные_файлы.md)/[serve.cfg](../../serve.cfg.md)/[Конфигурационные
-параметры
-задач](../problem.md)/[disable_language](disable_language.md)
+# `disable_language`
+
+Навигация: [Система ejudge](../../система_ejudge.md)/[Использование](../../использование.md)/[Конфигурационные файлы](../../конфигурационные_файлы.md)/[serve.cfg](../../serve.cfg.md)/[Конфигурационные параметры задач](../problem.md)/[`disable_language`](disable_language.md)
 
 |                            |                                           |
 |----------------------------|-------------------------------------------|
@@ -29,8 +27,10 @@ languages"*.
 
 **Пример.**
 
-`disable_language = "gcc"`  
-`disable_language = "g++"`
+```text
+disable_language = "gcc"
+disable_language = "g++"
+```
 
 Запрещает для некоторой задачи использование языков с коротким именем
 ([`short_name`](short_name.md)) `gcc` и `g++`.

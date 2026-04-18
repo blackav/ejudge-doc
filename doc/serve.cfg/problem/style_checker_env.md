@@ -1,16 +1,14 @@
-Навигация: [Главная страница](../../main_Page.md)/[Система
-ejudge](../../система_ejudge.md)/[Использование](../../использование.md)/[Конфигурационные
-файлы](../../конфигурационные_файлы.md)/[serve.cfg](../../serve.cfg.md)/[Конфигурационные
-параметры
-задач](../problem.md)/[style_checker_env](style_checker_env.md)
+# `style_checker_env`
+
+Навигация: [Система ejudge](../../система_ejudge.md)/[Использование](../../использование.md)/[Конфигурационные файлы](../../конфигурационные_файлы.md)/[serve.cfg](../../serve.cfg.md)/[Конфигурационные параметры задач](../problem.md)/[style_checker_env](style_checker_env.md)
 
 **Редактирование элемента:** страница *"Editing contest"*, вкладка
 *"Problems (serve.cfg)"*, блок *"Concrete problems"*, поле *"Style
 checker environment"*.
 
 Данная конфигурационная переменная позволяет задавать переменные
-окружения, передаваемые [программе проверки
-стиля](../../style_checkers.md). Если для данной задачи указана
+окружения, передаваемые
+[программе проверки стиля](../../style_checkers.md). Если для данной задачи указана
 переменная
 [style_checker_cmd](style_checker_cmd.md), то
 переменные окружения будут передаваться этой программе, в противном
@@ -32,6 +30,8 @@ checker environment"*.
 
 Пример определения переменной:
 
-`style_checker_env = "EJ_TESTS_MODE=1"`  
-`style_checker_env = "EJ_MAX_FILE_SIZE=1K"`  
-`style_checker_env = "EJ_MAX_TEST_COUNT=10"`
+```text
+style_checker_env = "EJ_TESTS_MODE=1"
+style_checker_env = "EJ_MAX_FILE_SIZE=1K"
+style_checker_env = "EJ_MAX_TEST_COUNT=10"
+```

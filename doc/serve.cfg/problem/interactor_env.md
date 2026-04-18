@@ -1,8 +1,6 @@
-Навигация: [Главная страница](../../main_Page.md)/[Система
-ejudge](../../система_ejudge.md)/[Использование](../../использование.md)/[Конфигурационные
-файлы](../../конфигурационные_файлы.md)/[serve.cfg](../../serve.cfg.md)/[Конфигурационные
-параметры
-задач](../problem.md)/[interactor_env](interactor_env.md)
+# `interactor_env`
+
+Навигация: [Система ejudge](../../система_ejudge.md)/[Использование](../../использование.md)/[Конфигурационные файлы](../../конфигурационные_файлы.md)/[serve.cfg](../../serve.cfg.md)/[Конфигурационные параметры задач](../problem.md)/[`interactor_env`](interactor_env.md)
 
 **Редактирование элемента:** страница *"Editing contest"*, вкладка
 *"Problems (serve.cfg)"*, блок *"Concrete problems"*, поле *"Interactor

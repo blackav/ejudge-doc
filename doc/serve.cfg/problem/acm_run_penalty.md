@@ -1,8 +1,6 @@
-Навигация: [Главная страница](../../main_Page.md)/[Система
-ejudge](../../система_ejudge.md)/[Использование](../../использование.md)/[Конфигурационные
-файлы](../../конфигурационные_файлы.md)/[serve.cfg](../../serve.cfg.md)/[Конфигурационные
-параметры
-задач](../problem.md)/[`acm_run_penalty`](acm_run_penalty.md)
+# `acm_run_penalty`
+
+Навигация: [Система ejudge](../../система_ejudge.md)/[Использование](../../использование.md)/[Конфигурационные файлы](../../конфигурационные_файлы.md)/[serve.cfg](../../serve.cfg.md)/[Конфигурационные параметры задач](../problem.md)/[`acm_run_penalty`](acm_run_penalty.md)
 
 **Редактирование элемента:** страница *"Editing contest"*, вкладка
 *"Problems (serve.cfg)"*, блок *"Abstract problems"*, поле *"Penalty for

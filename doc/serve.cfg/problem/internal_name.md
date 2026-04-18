@@ -1,8 +1,6 @@
-Навигация: [Главная страница](../../main_Page.md)/[Система
-ejudge](../../система_ejudge.md)/[Использование](../../использование.md)/[Конфигурационные
-файлы](../../конфигурационные_файлы.md)/[serve.cfg](../../serve.cfg.md)/[Конфигурационные
-параметры
-задач](../problem.md)/[internal_name](internal_name.md)
+# `internal_name`
+
+Навигация: [Система ejudge](../../система_ejudge.md)/[Использование](../../использование.md)/[Конфигурационные файлы](../../конфигурационные_файлы.md)/[serve.cfg](../../serve.cfg.md)/[Конфигурационные параметры задач](../problem.md)/[`internal_name`](internal_name.md)
 
 **Редактирование элемента:** страница *"Editing contest"*, вкладка
 *"Problems (serve.cfg)"*, блок *"Concrete problems"*, поле *"Internal
@@ -12,11 +10,13 @@ name"*.
 пути к тестам или проверяющим программам. Этой переменной соответствует
 форматная подстановка `%PL`. Пример использования:
 
-`[problem]`  
-`short_name = "A"`  
-`internal_name = "abc"`  
-`long_name = "An Abc problem"`  
-`test_dir = "%PL"`
+```text
+[problem]
+short_name = "A"
+internal_name = "abc"
+long_name = "An Abc problem"
+test_dir = "%PL"
+```
 
 В этом случае файлы с тестами будут размещаться не в каталоге `tests/A`,
 а в каталоге `tests/abc`.

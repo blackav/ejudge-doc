@@ -1,8 +1,6 @@
-Навигация: [Главная страница](../../main_Page.md)/[Система
-ejudge](../../система_ejudge.md)/[Использование](../../использование.md)/[Конфигурационные
-файлы](../../конфигурационные_файлы.md)/[serve.cfg](../../serve.cfg.md)/[Конфигурационные
-параметры
-задач](../problem.md)/[source_header](source_header.md)
+# `source_header`
+
+Навигация: [Система ejudge](../../система_ejudge.md)/[Использование](../../использование.md)/[Конфигурационные файлы](../../конфигурационные_файлы.md)/[serve.cfg](../../serve.cfg.md)/[Конфигурационные параметры задач](../problem.md)/[`source_header`](source_header.md)
 
 **Редактирование элемента:** страница *"Editing contest"*, вкладка
 *"Problems (serve.cfg)"*, блок *"Abstract problems"*, поле *"Source
@@ -40,7 +38,7 @@ source_header'а номера строк изменяются. Чтобы уча
 
 Пример source_header'а.
 
-
+```c
     #include <stdio.h>
     #include <string.h>
 
@@ -59,6 +57,7 @@ source_header'а номера строк изменяются. Чтобы уча
     }
 
     #line 1000
+```
 
 В данной задаче участник должен реализовать функцию cmp_int. Логика
 проверки (фактически, чекер) встроена в source_header. Аргументы,
@@ -69,22 +68,24 @@ source_header'а номера строк изменяются. Чтобы уча
 В описании задачи в конфигурационном файле serve.cfg можно указать, что
 в разных вариантах header'ы будут разными. Например:
 
-    [problem]
-    id = 87
-    super = "Generic"
-    short_name = "elong_07"
-    long_name = "is equal"
-    max_open_file_count = 32
-    max_process_count = 64
-    full_score = 80
-    test_score = 1
-    score_bonus = "16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1"
-    open_tests = "1:full"
-    standard_checker = "cmp_file"
-    enable_language = "gcc-vg"
-    enable_language = "g++-vg"
-    variant_num = 2
-    source_header = "elong_07_begin-%Vv.c"
+```text
+[problem]
+id = 87
+super = "Generic"
+short_name = "elong_07"
+long_name = "is equal"
+max_open_file_count = 32
+max_process_count = 64
+full_score = 80
+test_score = 1
+score_bonus = "16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1"
+open_tests = "1:full"
+standard_checker = "cmp_file"
+enable_language = "gcc-vg"
+enable_language = "g++-vg"
+variant_num = 2
+source_header = "elong_07_begin-%Vv.c"
+```
 
 В данном примере в зависимости от варианта перед кодом участника будет
 либо elong_07_begin-1.c, либо elong_07_begin-2.c. Если делаете эти файлы

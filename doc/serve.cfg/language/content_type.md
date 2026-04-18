@@ -1,8 +1,6 @@
-Навигация: [Главная страница](../../main_Page.md)/[Система
-ejudge](../../система_ejudge.md)/[Использование](../../использование.md)/[Конфигурационные
-файлы](../../конфигурационные_файлы.md)/[serve.cfg](../../serve.cfg.md)/[Конфигурационные
-параметры
-языков](../language.md)/[content_type](content_type.md)
+# `content_type`
+
+Навигация: [Система ejudge](../../система_ejudge.md)/[Использование](../../использование.md)/[Конфигурационные файлы](../../конфигурационные_файлы.md)/[serve.cfg](../../serve.cfg.md)/[Конфигурационные параметры языков](../language.md)/[`content_type`](content_type.md)
 
 Если эта переменная установлена, то по команде "Download source"
 CGI-программ `master` или `judge` или по команде "View source" будет
@@ -11,4 +9,6 @@ CGI-программ `master` или `judge` или по команде "View so
 системе есть язык "Microsoft Word", то для него можно установить поле
 `content_type` так:
 
-`content_type = "application/msword"`
+```text
+content_type = "application/msword"
+```

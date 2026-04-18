@@ -1,8 +1,6 @@
-Навигация: [Главная страница](../../main_Page.md)/[Система
-ejudge](../../система_ejudge.md)/[Использование](../../использование.md)/[Конфигурационные
-файлы](../../конфигурационные_файлы.md)/[serve.cfg](../../serve.cfg.md)/[Конфигурационные
-параметры
-задач](../problem.md)/[`solution_src`](solution_src.md)
+# `solution_src`
+
+Навигация: [Система ejudge](../../система_ejudge.md)/[Использование](../../использование.md)/[Конфигурационные файлы](../../конфигурационные_файлы.md)/[serve.cfg](../../serve.cfg.md)/[Конфигурационные параметры задач](../problem.md)/[`solution_src`](solution_src.md)
 
 **Редактирование элемента:** страница *"Editing contest"*, вкладка
 *"Problems (serve.cfg)"*, блок *"Abstract problems"*, поле *"Solution
@@ -15,11 +13,13 @@ name"*.
 использовать, если для задачи определен файл заголовка (header) или
 футер. Например,
 
-`[problem]`  
-`...`  
-`source_header = "header.c"`  
-`source_footer = "footer.c"`  
-`solution_src = "root.c"`
+```text
+[problem]
+...
+source_header = "header.c"
+source_footer = "footer.c"
+solution_src = "root.c"
+```
 
 При таких настройках полный исходный файл эталонного решения получается
 объединением файлов header.c, root.c, footer.c в этом порядке. Правило
