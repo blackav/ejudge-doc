@@ -1,6 +1,6 @@
-# separate_user_score
+# `separate_user_score`
 
-Навигация: [Главная страница](../../main_Page.md)/[Система ejudge](../../система_ejudge.md)/[Использование](../../использование.md)/[Конфигурационные файлы](../../конфигурационные_файлы.md)/[serve.cfg](../../serve.cfg.md)/[Глобальные конфигурационные параметры](../global.md)/[`separate_user_score`](separate_user_score.md)
+Навигация: [Система ejudge](../../система_ejudge.md)/[Использование](../../использование.md)/[Конфигурационные файлы](../../конфигурационные_файлы.md)/[serve.cfg](../../serve.cfg.md)/[Глобальные конфигурационные параметры](../global.md)/[`separate_user_score`](separate_user_score.md)
 
 **Редактирование элемента:** страница *"Editing contest"*, вкладка
 *"Global settings (serve.cfg)"*, поле *"Calculate and store user-visible

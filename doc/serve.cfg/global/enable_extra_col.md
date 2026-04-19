@@ -1,3 +1,5 @@
+# `enable_extra_col`
+
 **Редактирование элемента:** страница *"Editing contest"*, вкладка
 *"Global settings (serve.cfg)"*, блок *"Standings table attributes"*,
 поле *"Show "Extra information" column"*.

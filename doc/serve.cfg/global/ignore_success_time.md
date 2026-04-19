@@ -1,8 +1,6 @@
-Навигация: [Главная страница](../../main_Page.md)/[Система
-ejudge](../../система_ejudge.md)/[Использование](../../использование.md)/[Конфигурационные
-файлы](../../конфигурационные_файлы.md)/[serve.cfg](../../serve.cfg.md)/[Глобальные
-конфигурационные
-параметры](../global.md)/[ignore_success_time](ignore_success_time.md)
+# `ignore_success_time`
+
+Навигация: [Система ejudge](../../система_ejudge.md)/[Использование](../../использование.md)/[Конфигурационные файлы](../../конфигурационные_файлы.md)/[serve.cfg](../../serve.cfg.md)/[Глобальные конфигурационные параметры](../global.md)/[`ignore_success_time`](ignore_success_time.md)
 
 **Редактирование элемента:** страница *"Editing contest"*, вкладка
 *"Global settings (serve.cfg)"*, блок *"Standings table attributes"*,

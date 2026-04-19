@@ -1,8 +1,6 @@
-Навигация: [Главная страница](../../main_Page.md)/[Система
-ejudge](../../система_ejudge.md)/[Использование](../../использование.md)/[Конфигурационные
-файлы](../../конфигурационные_файлы.md)/[serve.cfg](../../serve.cfg.md)/[Глобальные
-конфигурационные
-параметры](../global.md)/[notify_status_change](notify_status_change.md)
+# `notify_status_change`
+
+Навигация: [Система ejudge](../../система_ejudge.md)/[Использование](../../использование.md)/[Конфигурационные файлы](../../конфигурационные_файлы.md)/[serve.cfg](../../serve.cfg.md)/[Глобальные конфигурационные параметры](../global.md)/[`notify_status_change`](notify_status_change.md)
 
 (Global settings/Contestant's capabilities/Enable e-mail status change
 notifications).

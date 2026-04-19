@@ -1,8 +1,6 @@
-Навигация: [Главная страница](../../main_Page.md)/[Система
-ejudge](../../система_ejudge.md)/[Использование](../../использование.md)/[Конфигурационные
-файлы](../../конфигурационные_файлы.md)/[serve.cfg](../../serve.cfg.md)/[Глобальные
-конфигурационные
-параметры](../global.md)/[`disable_submit_after_ok`](disable_submit_after_ok.md)
+# `disable_submit_after_ok`
+
+Навигация: [Система ejudge](../../система_ejudge.md)/[Использование](../../использование.md)/[Конфигурационные файлы](../../конфигурационные_файлы.md)/[serve.cfg](../../serve.cfg.md)/[Глобальные конфигурационные параметры](../global.md)/[`disable_submit_after_ok`](disable_submit_after_ok.md)
 
 **Редактирование элемента:** страница *"Editing contest"*, вкладка
 *"Global settings (serve.cfg)"*, блок *"Contestant's capabilities"*,

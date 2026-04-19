@@ -1,8 +1,6 @@
-Навигация: [Главная страница](../../main_Page.md)/[Система
-ejudge](../../система_ejudge.md)/[Использование](../../использование.md)/[Конфигурационные
-файлы](../../конфигурационные_файлы.md)/[serve.cfg](../../serve.cfg.md)/[Глобальные
-конфигурационные
-параметры](../global.md)/[enable_memory_limit_error](enable_memory_limit_error.md)
+# `enable_memory_limit_error`
+
+Навигация: [Система ejudge](../../система_ejudge.md)/[Использование](../../использование.md)/[Конфигурационные файлы](../../конфигурационные_файлы.md)/[serve.cfg](../../serve.cfg.md)/[Глобальные конфигурационные параметры](../global.md)/[`enable_memory_limit_error`](enable_memory_limit_error.md)
 
 **Редактирование элемента:** страница *"Editing contest"*, вкладка
 *"Global settings (serve.cfg)"*, поле *"Enable support for MemoryLimit

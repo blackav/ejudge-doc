@@ -1,19 +1,15 @@
-Навигация: [Главная страница](../../main_Page.md)/[Система
-ejudge](../../система_ejudge.md)/[Использование](../../использование.md)/[Конфигурационные
-файлы](../../конфигурационные_файлы.md)/[serve.cfg](../../serve.cfg.md)/[Глобальные
-конфигурационные
-параметры](../global.md)/[`stand_contestant_status_attr`](stand_contestant_status_attr.md)
+# `stand_contestant_status_attr`
+
+Навигация: [Система ejudge](../../система_ejudge.md)/[Использование](../../использование.md)/[Конфигурационные файлы](../../конфигурационные_файлы.md)/[serve.cfg](../../serve.cfg.md)/[Глобальные конфигурационные параметры](../global.md)/[`stand_contestant_status_attr`](stand_contestant_status_attr.md)
 
 С помощью глобальной конфигурационной переменной
 `stand_contestant_status_attr` можно задать дополнительные атрибуты
 этого столбца, например:
 
-`stand_show_contestant_status`  
-`stand_contestant_status_attr = ' width = "10%"'`
+```text
+stand_show_contestant_status
+stand_contestant_status_attr = ' width = "10%"'
+```
 
 Обратите внимание на пробел в начале значения атрибута. Он необходим для
-разделения тега <tt>
-
-<td>
-
-</tt> и значения атрибута.
+разделения тега `<td>` и значения атрибута.

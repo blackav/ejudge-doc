@@ -1,16 +1,16 @@
-Навигация: [Главная страница](../../main_Page.md)/[Система
-ejudge](../../система_ejudge.md)/[Использование](../../использование.md)/[Конфигурационные
-файлы](../../конфигурационные_файлы.md)/[serve.cfg](../../serve.cfg.md)/[Глобальные
-конфигурационные
-параметры](../global.md)/[`extra_compile_dirs`](extra_compile_dirs.md)
+# `extra_compile_dirs`
+
+Навигация: [Система ejudge](../../система_ejudge.md)/[Использование](../../использование.md)/[Конфигурационные файлы](../../конфигурационные_файлы.md)/[serve.cfg](../../serve.cfg.md)/[Глобальные конфигурационные параметры](../global.md)/[`extra_compile_dirs`](extra_compile_dirs.md)
 
 С помощью данной переменной указываются каталоги обмена для серверов
 компиляции.
 
 Например,
 
-`extra_compile_dirs = "win32_compile"`  
-`extra_compile_dirs = "compile2"`
+```text
+extra_compile_dirs = "win32_compile"
+extra_compile_dirs = "compile2"
+```
 
 указывает, что каталог обмена с сервером компиляции с номером 1
 называется `CONTESTS_HOME_DIR/win32_compile/var/compile`, а каталог
