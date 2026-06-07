@@ -68,6 +68,7 @@
 - [`enable_user_input`](problem/enable_user_input.md)
 - [`enable_vcs`](problem/enable_vcs.md)
 - [`examinator_num`](serve.cfg:problem:examinator_num.md) **устарел**
+- [`exchange_dir`](problem/exchange_dir.md) ([3.14.0](../изменения_в_версии_3.14.0.md))
 - [`extid`](problem/extid.md)
 - [`extra_src_dir`](problem/extra_src_dir.md)
 - [`final_open_tests`](problem/final_open_tests.md)
